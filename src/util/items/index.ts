@@ -11,9 +11,9 @@ import gemLv1Icon from '@/assets/icons/gems/gem_lv1.png';
 import gemLv2Icon from '@/assets/icons/gems/gem_lv2.png';
 import gemLv3Icon from '@/assets/icons/gems/gem_lv3.png';
 import gemLv4Icon from '@/assets/icons/gems/gem_lv4.png';
-import { categorizedItems } from '@/assets/game-data';
+import { armorTable, categorizedItems, decorationTable } from '@/assets/game-data';
 import { ArmorSkill, ArmorType, WeaponElement, WeaponType } from '@/assets/game-data/types';
-import { RankOption } from '@/contexts/build/types';
+import { ArmorChoice, RankOption, TalismanChoice } from '@/contexts/build/types';
 
 export const WEAPON_TYPES = [
   'GREAT_SWORD',
@@ -32,7 +32,7 @@ export const WEAPON_TYPES = [
   'LIGHT_BOWGUN',
 ];
 
-export function getWeaponsByTypeAndRank(type: string | null, rank: RankOption) {
+export function getWeaponsByTypeAndRank(type: string | null, rank: RankOption): string[] {
   let items: string[] = [];
   if (!type || !WEAPON_TYPES.includes(type)) {
     return items;
@@ -53,7 +53,7 @@ export function getWeaponsByTypeAndRank(type: string | null, rank: RankOption) {
   return items;
 }
 
-export function getArmorByTypeAndRank(type: ArmorType, rank: RankOption) {
+export function getArmorByTypeAndRank(type: ArmorType, rank: RankOption): string[] {
   switch (rank) {
     case 'master':
       return categorizedItems.armor[type].masterRank;
@@ -64,7 +64,7 @@ export function getArmorByTypeAndRank(type: ArmorType, rank: RankOption) {
   }
 }
 
-export function getElementIcon(element: string) {
+export function getElementIcon(element: string): string {
   switch (element) {
     case 'fire':
       return fireIcon;
@@ -89,7 +89,7 @@ export function getElementIcon(element: string) {
   }
 }
 
-export function getDecorationSlotIcon(slotSize: number) {
+export function getDecorationSlotIcon(slotSize: number): string {
   switch (slotSize) {
     case 1:
       return gemLv1Icon;
@@ -104,7 +104,7 @@ export function getDecorationSlotIcon(slotSize: number) {
   }
 }
 
-export function stringifyRank(rank: RankOption) {
+export function stringifyRank(rank: RankOption): string {
   switch (rank) {
     case 'master':
       return 'Master Rank';
@@ -117,11 +117,11 @@ export function stringifyRank(rank: RankOption) {
   }
 }
 
-export function stringifySkill(skill: ArmorSkill) {
+export function stringifySkill(skill: ArmorSkill): string {
   return `${skill.name} ${skill.level}`;
 }
 
-export function stringifySkillList(skills: ArmorSkill[]) {
+export function stringifySkillList(skills: ArmorSkill[]): string {
   return skills.map((skill) => stringifySkill(skill)).join(', ');
 }
 
@@ -146,4 +146,36 @@ export function compareElements(a: WeaponElement, b: WeaponElement): -1 | 0 | 1 
   if (a!.power > b!.power) return 1;
   if (a!.power < b!.power) return -1;
   return 0;
+}
+
+export function getDecorationSkills(decorations: Array<string | null>): ArmorSkill[] {
+  const skills: ArmorSkill[] = [];
+  decorations.forEach((decoration) => {
+    if (decoration) {
+      const decoInfo = decorationTable[decoration];
+      skills.push(decoInfo.skill);
+    }
+  });
+  return skills;
+}
+
+export function getArmorSkills(item: ArmorChoice): ArmorSkill[] {
+  const itemData = armorTable[item.name];
+  return [
+    ...itemData.skills,
+    ...getDecorationSkills(item.decorations),
+  ];
+}
+
+export function getTalismanSkills(item: TalismanChoice): ArmorSkill[] {
+  const skills: ArmorSkill[] = [];
+  if (item.skill1) {
+    skills.push(item.skill1);
+  }
+  if (item.skill2) {
+    skills.push(item.skill2);
+  }
+  const decorations = [item.slot1, item.slot2, item.slot3].map((slot) => slot?.name ?? null);
+  skills.push(...getDecorationSkills(decorations));
+  return skills;
 }

@@ -43,3 +43,15 @@ export type BuildState = {
   targetRank: RankOption,
   prioritySkills: string[],
 };
+
+export type CalculatedSkills = {
+  [key: string]: {
+    level: number,
+    maxLevel: number,
+    effectiveLevel: number,
+  },
+};
+
+export type CalculatedStats = {
+
+};

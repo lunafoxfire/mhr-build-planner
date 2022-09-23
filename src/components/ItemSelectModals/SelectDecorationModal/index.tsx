@@ -141,7 +141,7 @@ const SelectDecorationModal = ({ rampage, slotSize, onSelectItem, ...modalProps 
           value={search}
           onChange={(e) => { setSearch(e.currentTarget.value); }}
           icon={<Search size={14} />}
-          style={{ width: '400px' }}
+          style={{ width: '350px' }}
         />
       </Group>
       <Space h="md" />

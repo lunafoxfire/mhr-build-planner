@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Modal } from '@mantine/core';
+import { Modal, ModalProps } from '@mantine/core';
 import { WeaponElement } from '@/assets/game-data/types';
 import { getElementIcon, getDecorationSlotIcon } from '@/util/items';
 import GameIcon from '../GameIcon';
 
-export const StyledModal = styled(Modal)`
+export const StyledModal = styled<(props: ModalProps & { maxWidth?: string }) => JSX.Element>(Modal)`
   .mantine-Modal-modal {
     margin-left: 200px;
     margin-right: 200px;
     width: 100%;
-    max-width: 1200px;
+    max-width: ${({ maxWidth }) => maxWidth || '1200px'};
     min-width: 800px;
+
+    border: 3px solid ${({ theme }) => theme.colors.dark[4]};
   }
 `;
 

@@ -153,7 +153,7 @@ const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmo
           value={search}
           onChange={(e) => { setSearch(e.currentTarget.value); }}
           icon={<Search size={14} />}
-          style={{ width: '400px' }}
+          style={{ width: '350px' }}
         />
         <TextInput
           value={capitalize(armorType.toLowerCase())}

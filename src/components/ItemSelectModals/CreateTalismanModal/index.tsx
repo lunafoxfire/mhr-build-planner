@@ -50,6 +50,7 @@ const CreateTalismanModal = ({ onCreate, ...modalProps }: CreateTalismanModalPro
     <StyledModal
       title="Create Talisman"
       centered
+      maxWidth="900px"
       {...modalProps}
     >
       <Divider my="sm" />

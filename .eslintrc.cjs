@@ -32,6 +32,7 @@ module.exports = {
     'no-multiple-empty-lines': OFF,
     'no-empty-pattern': OFF,
     'operator-linebreak': [ERROR, 'before'],
+    'multiline-ternary': OFF,
     'react/no-unknown-property': OFF, // handled by typescript
     'react/prop-types': OFF, // handled by typescript
     '@typescript-eslint/semi': [ERROR, 'always'],
@@ -49,5 +50,6 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': OFF,
     '@typescript-eslint/restrict-template-expressions': OFF,
     '@typescript-eslint/no-non-null-assertion': OFF,
+    '@typescript-eslint/dot-notation': OFF,
   },
 };

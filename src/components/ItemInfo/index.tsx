@@ -34,6 +34,6 @@ const GridLayout = styled.div`
   grid-template-areas:
     "icon name name stats"
     "icon skills slots stats";
-  grid-template-columns: 58px 1fr 1fr 120px;
+  grid-template-columns: 58px 5fr 5fr 1fr;
   grid-template-rows: 30px auto;
 `;

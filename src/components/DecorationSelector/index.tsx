@@ -18,14 +18,14 @@ const DecorationSelector = ({ slotSize, value, onChange, rampage }: DecorationSe
 
   const decoName = useMemo(() => {
     if (!value) {
-      return rampage ? 'Rampage decoration' : 'Decoration slot';
+      return rampage ? 'Select rampage decoration' : 'Select decoration';
     }
     return value;
   }, [rampage, value]);
 
   const skillName = useMemo(() => {
     if (!value) {
-      return 'No skill';
+      return '---';
     }
     return rampage ? rampageDecorationTable[value].skill : stringifySkill(decorationTable[value].skill);
   }, [rampage, value]);
@@ -58,13 +58,13 @@ const DecorationSelector = ({ slotSize, value, onChange, rampage }: DecorationSe
       {renderModal()}
       <OuterContainer>
         <SelectorContainer onActivate={() => { setModalOpen(true); }}>
-          <GameIcon src={icon} size={24} style={{ marginRight: '10px' }} />
+          <GameIcon src={icon} size={24} style={{ marginRight: '10px', marginTop: '1px' }} />
           <TextWrapper>
             <DecoNameWrapper>
-              <DecoName>{decoName}</DecoName>
+              <DecoName filled={!!value}>{decoName}</DecoName>
               <TextIconWrapper>▼</TextIconWrapper>
             </DecoNameWrapper>
-            <SkillName>{skillName}</SkillName>
+            <SkillName filled={!!value}>{skillName}</SkillName>
           </TextWrapper>
         </SelectorContainer>
         {value && <ClearButton onActivate={handleClearItem}><X size={16} /></ClearButton>}
@@ -87,8 +87,7 @@ const DecoNameWrapper = styled.div`
 
 const SelectorContainer = styled(ClickableDiv)`
   display: flex;
-  align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   width: fit-content;
 
   :hover {
@@ -96,12 +95,16 @@ const SelectorContainer = styled(ClickableDiv)`
   }
 `;
 
-const DecoName = styled.div`
+const DecoName = styled.div<{ filled: boolean }>`
   font-size: 14px;
+  font-weight: ${({ filled }) => filled ? '800' : '350'};
+  font-style: ${({ filled }) => filled ? 'normal' : 'italic'};
 `;
 
-const SkillName = styled.div`
+const SkillName = styled.div<{ filled: boolean }>`
   font-size: 12px;
+  font-weight: ${({ filled }) => filled ? '600' : '350'};
+  font-style: ${({ filled }) => filled ? 'normal' : 'italic'};
 `;
 
 const TextIconWrapper = styled.div`
@@ -111,7 +114,6 @@ const TextIconWrapper = styled.div`
 
 const OuterContainer = styled.div`
   display: flex;
-  align-items: center;
 `;
 
 const ClearButton = styled(ClickableDiv)`
