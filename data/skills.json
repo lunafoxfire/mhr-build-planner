@@ -1,0 +1,2754 @@
+[
+  {
+    "id": 0,
+    "name": "Attack Boost",
+    "href": "https://mhrise.kiranico.com/data/skills/366824395",
+    "description": "Increases attack power.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +3"
+      },
+      {
+        "level": 2,
+        "description": "Attack +6"
+      },
+      {
+        "level": 3,
+        "description": "Attack +9"
+      },
+      {
+        "level": 4,
+        "description": "Attack +5% Bonus: +7"
+      },
+      {
+        "level": 5,
+        "description": "Attack +6% Bonus: +8"
+      },
+      {
+        "level": 6,
+        "description": "Attack +8% Bonus: +9"
+      },
+      {
+        "level": 7,
+        "description": "Attack +10% Bonus: +10"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Agitator",
+    "href": "https://mhrise.kiranico.com/data/skills/381074408",
+    "description": "Increases attack power and affinity when large monsters become enraged.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +4 and affinity +3% while active."
+      },
+      {
+        "level": 2,
+        "description": "Attack +8 and affinity +5% while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +12 and affinity +7% while active."
+      },
+      {
+        "level": 4,
+        "description": "Attack +16 and affinity +10% while active."
+      },
+      {
+        "level": 5,
+        "description": "Attack +20 and affinity +15% while active."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Peak Performance",
+    "href": "https://mhrise.kiranico.com/data/skills/395307913",
+    "description": "Increases attack when your health is full.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +5 while active."
+      },
+      {
+        "level": 2,
+        "description": "Attack +10 while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +20 while active."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Resentment",
+    "href": "https://mhrise.kiranico.com/data/skills/274815918",
+    "description": "Increases attack when you have recoverable damage (the red portion of your health gauge).",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +5 while active."
+      },
+      {
+        "level": 2,
+        "description": "Attack +10 while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +15 while active."
+      },
+      {
+        "level": 4,
+        "description": "Attack +20 while active."
+      },
+      {
+        "level": 5,
+        "description": "Attack +25 while active."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Resuscitate",
+    "href": "https://mhrise.kiranico.com/data/skills/289049423",
+    "description": "Increases attack power when you are suffering from an abnormal status.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +5 while active."
+      },
+      {
+        "level": 2,
+        "description": "Attack +10 while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +20 while active."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Critical Eye",
+    "href": "https://mhrise.kiranico.com/data/skills/303299436",
+    "description": "Increases affinity.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Affinity +5%"
+      },
+      {
+        "level": 2,
+        "description": "Affinity +10%"
+      },
+      {
+        "level": 3,
+        "description": "Affinity +15%"
+      },
+      {
+        "level": 4,
+        "description": "Affinity +20%"
+      },
+      {
+        "level": 5,
+        "description": "Affinity +25%"
+      },
+      {
+        "level": 6,
+        "description": "Affinity +30%"
+      },
+      {
+        "level": 7,
+        "description": "Affinity +40%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Critical Boost",
+    "href": "https://mhrise.kiranico.com/data/skills/485829389",
+    "description": "Increases the damage of critical hits.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases damage dealt by critical hits to 30%."
+      },
+      {
+        "level": 2,
+        "description": "Increases damage dealt by critical hits to 35%."
+      },
+      {
+        "level": 3,
+        "description": "Increases damage dealt by critical hits to 40%."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Weakness Exploit",
+    "href": "https://mhrise.kiranico.com/data/skills/500079394",
+    "description": "Increases the affinity of attacks that exploit a monster weak spot.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attacks that hit weak spots have 15% increased affinity."
+      },
+      {
+        "level": 2,
+        "description": "Attacks that hit weak spots have 30% increased affinity."
+      },
+      {
+        "level": 3,
+        "description": "Attacks that hit weak spots have 50% increased affinity."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Latent Power",
+    "href": "https://mhrise.kiranico.com/data/skills/514312899",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, increases affinity by 10% and reduces stamina depletion by 30%."
+      },
+      {
+        "level": 2,
+        "description": "While active, increases affinity by 20% and reduces stamina depletion by 30%."
+      },
+      {
+        "level": 3,
+        "description": "While active, increases affinity by 30% and reduces stamina depletion by 50%."
+      },
+      {
+        "level": 4,
+        "description": "While active, increases affinity by 40% and reduces stamina depletion by 50%."
+      },
+      {
+        "level": 5,
+        "description": "While active, increases affinity by 50% and reduces stamina depletion by 50%."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Maximum Might",
+    "href": "https://mhrise.kiranico.com/data/skills/528038624",
+    "description": "Increases affinity if stamina is kept full for a period of time.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, increases affinity by 10%."
+      },
+      {
+        "level": 2,
+        "description": "While active, increases affinity by 20%."
+      },
+      {
+        "level": 3,
+        "description": "While active, increases affinity by 30%."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Critical Element",
+    "href": "https://mhrise.kiranico.com/data/skills/408054401",
+    "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Grants elemental damage +5% while active."
+      },
+      {
+        "level": 2,
+        "description": "Grants elemental damage +10% while active."
+      },
+      {
+        "level": 3,
+        "description": "Grants elemental damage +15% while active."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Master's Touch",
+    "href": "https://mhrise.kiranico.com/data/skills/422304422",
+    "description": "Prevents your weapon from losing sharpness during critical hits.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Grants a 20% chance of no sharpness loss while active."
+      },
+      {
+        "level": 2,
+        "description": "Grants a 40% chance of no sharpness loss while active."
+      },
+      {
+        "level": 3,
+        "description": "Grants an 80% chance of no sharpness loss while active."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fire Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/437062215",
+    "description": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Fire attack +2"
+      },
+      {
+        "level": 2,
+        "description": "Fire attack +3"
+      },
+      {
+        "level": 3,
+        "description": "Fire attack +5% Bonus: +4"
+      },
+      {
+        "level": 4,
+        "description": "Fire attack +10% Bonus: +4"
+      },
+      {
+        "level": 5,
+        "description": "Fire attack +20% Bonus: +4"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Water Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/82213476",
+    "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Water attack +2"
+      },
+      {
+        "level": 2,
+        "description": "Water attack +3"
+      },
+      {
+        "level": 3,
+        "description": "Water attack +5% Bonus: +4"
+      },
+      {
+        "level": 4,
+        "description": "Water attack +10% Bonus: +4"
+      },
+      {
+        "level": 5,
+        "description": "Water attack +20% Bonus: +4"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ice Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/96446981",
+    "description": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Ice attack +2"
+      },
+      {
+        "level": 2,
+        "description": "Ice attack +3"
+      },
+      {
+        "level": 3,
+        "description": "Ice attack +5% Bonus: +4"
+      },
+      {
+        "level": 4,
+        "description": "Ice attack +10% Bonus: +4"
+      },
+      {
+        "level": 5,
+        "description": "Ice attack +20% Bonus: +4"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Thunder Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/110172730",
+    "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Thunder attack +2"
+      },
+      {
+        "level": 2,
+        "description": "Thunder attack +3"
+      },
+      {
+        "level": 3,
+        "description": "Thunder attack +5% Bonus: +4"
+      },
+      {
+        "level": 4,
+        "description": "Thunder attack +10% Bonus: +4"
+      },
+      {
+        "level": 5,
+        "description": "Thunder attack +20% Bonus: +4"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dragon Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/124406235",
+    "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Dragon attack +2"
+      },
+      {
+        "level": 2,
+        "description": "Dragon attack +3"
+      },
+      {
+        "level": 3,
+        "description": "Dragon attack +5% Bonus: +4"
+      },
+      {
+        "level": 4,
+        "description": "Dragon attack +10% Bonus: +4"
+      },
+      {
+        "level": 5,
+        "description": "Dragon attack +20% Bonus: +4"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Poison Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/4438520",
+    "description": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Poison buildup +5% Bonus: +1"
+      },
+      {
+        "level": 2,
+        "description": "Poison buildup +10% Bonus: +2"
+      },
+      {
+        "level": 3,
+        "description": "Poison buildup +20% Bonus: +5"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Paralysis Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/19196313",
+    "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Paralysis buildup +5% Bonus: +1"
+      },
+      {
+        "level": 2,
+        "description": "Paralysis buildup +10% Bonus: +2"
+      },
+      {
+        "level": 3,
+        "description": "Paralysis buildup +20% Bonus: +5"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Sleep Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/67000766",
+    "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Sleep buildup +5% Bonus: +1"
+      },
+      {
+        "level": 2,
+        "description": "Sleep buildup +10% Bonus: +2"
+      },
+      {
+        "level": 3,
+        "description": "Sleep buildup +20% Bonus: +5"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Blast Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/215451999",
+    "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Blast buildup +5% Bonus: +1"
+      },
+      {
+        "level": 2,
+        "description": "Blast buildup +10% Bonus: +2"
+      },
+      {
+        "level": 3,
+        "description": "Blast buildup +20% Bonus: +5"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Handicraft",
+    "href": "https://mhrise.kiranico.com/data/skills/229177724",
+    "description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Weapon sharpness +10"
+      },
+      {
+        "level": 2,
+        "description": "Weapon sharpness +20"
+      },
+      {
+        "level": 3,
+        "description": "Weapon sharpness +30"
+      },
+      {
+        "level": 4,
+        "description": "Weapon sharpness +40"
+      },
+      {
+        "level": 5,
+        "description": "Weapon sharpness +50"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Razor Sharp",
+    "href": "https://mhrise.kiranico.com/data/skills/243411229",
+    "description": "Prevents your weapon from losing sharpness.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates 10% of the time."
+      },
+      {
+        "level": 2,
+        "description": "Activates 25% of the time."
+      },
+      {
+        "level": 3,
+        "description": "Activates 50% of the time."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Spare Shot",
+    "href": "https://mhrise.kiranico.com/data/skills/257661234",
+    "description": "Bow and bowgun shots have a chance not to expend coatings or ammo.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates 3% of the time."
+      },
+      {
+        "level": 2,
+        "description": "Activates 10% of the time."
+      },
+      {
+        "level": 3,
+        "description": "Activates 20% of the time."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Protective Polish",
+    "href": "https://mhrise.kiranico.com/data/skills/138201299",
+    "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Effect lasts 30 seconds."
+      },
+      {
+        "level": 2,
+        "description": "Effect lasts 60 seconds."
+      },
+      {
+        "level": 3,
+        "description": "Effect lasts 90 seconds."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Mind's Eye",
+    "href": "https://mhrise.kiranico.com/data/skills/152451312",
+    "description": "Your attacks are deflected less and deal more damage to hard targets.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "50% chance of your attacks not being deflected. (+10% damage to hard targets when activated)."
+      },
+      {
+        "level": 2,
+        "description": "100% chance of your attacks not being deflected. (+15% damage to hard targets when activated)."
+      },
+      {
+        "level": 3,
+        "description": "100% chance of your attacks not being deflected. (+30% damage to hard targets when activated)."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Ballistics",
+    "href": "https://mhrise.kiranico.com/data/skills/200239249",
+    "description": "Extends the range in which ammo and arrows have maximum power.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly extends range."
+      },
+      {
+        "level": 2,
+        "description": "Extends range."
+      },
+      {
+        "level": 3,
+        "description": "Greatly extends range."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Bludgeoner",
+    "href": "https://mhrise.kiranico.com/data/skills/885053622",
+    "description": "Increases attack power when your weapon sharpness is low.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "+5% attack power when your weapon sharpness gauge is yellow or lower."
+      },
+      {
+        "level": 2,
+        "description": "+10% attack power when your sharpness gauge is yellow or lower."
+      },
+      {
+        "level": 3,
+        "description": "+10% attack power when your sharpness gauge is green or lower."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Bow Charge Plus",
+    "href": "https://mhrise.kiranico.com/data/skills/899287127",
+    "description": "Increases max bow charge level by one.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Focus",
+    "href": "https://mhrise.kiranico.com/data/skills/913537140",
+    "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "5% faster gauge fill rate and 5% faster charge times."
+      },
+      {
+        "level": 2,
+        "description": "10% faster gauge fill rate and 10% faster charge times."
+      },
+      {
+        "level": 3,
+        "description": "20% faster gauge fill rate and 15% faster charge times."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Power Prolonger",
+    "href": "https://mhrise.kiranico.com/data/skills/928294933",
+    "description": "Long swords, dual blades, insect glaives, switch axes, and charge blades stay powered up longer.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly boosts the duration weapons are powered up."
+      },
+      {
+        "level": 2,
+        "description": "Boosts the duration weapons are powered up."
+      },
+      {
+        "level": 3,
+        "description": "Greatly boosts the duration weapons are powered up."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Marathon Runner",
+    "href": "https://mhrise.kiranico.com/data/skills/808327178",
+    "description": "Slows down stamina depletion for actions which continuously drain stamina (such as dashing).",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces continuous stamina depletion by 15%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces continuous stamina depletion by 30%."
+      },
+      {
+        "level": 3,
+        "description": "Reduces continuous stamina depletion by 50%."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Constitution",
+    "href": "https://mhrise.kiranico.com/data/skills/822560811",
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces fixed stamina depletion by 10%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces fixed stamina depletion by 20%."
+      },
+      {
+        "level": 3,
+        "description": "Reduces fixed stamina depletion by 30%."
+      },
+      {
+        "level": 4,
+        "description": "Reduces fixed stamina depletion by 40%."
+      },
+      {
+        "level": 5,
+        "description": "Reduces fixed stamina depletion by 50%."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Stamina Surge",
+    "href": "https://mhrise.kiranico.com/data/skills/869842888",
+    "description": "Speeds up stamina recovery.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Stamina recovery speed +10%"
+      },
+      {
+        "level": 2,
+        "description": "Stamina recovery speed +20%"
+      },
+      {
+        "level": 3,
+        "description": "Stamina recovery speed +40%"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Guard",
+    "href": "https://mhrise.kiranico.com/data/skills/1018294249",
+    "description": "Reduces knockbacks and stamina depletion when guarding.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Very slightly decreases the impact of attacks."
+      },
+      {
+        "level": 2,
+        "description": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%."
+      },
+      {
+        "level": 3,
+        "description": "Decreases the impact of attacks and reduces stamina depletion by 15%."
+      },
+      {
+        "level": 4,
+        "description": "Decreases the impact of attacks and reduces stamina depletion by 30%."
+      },
+      {
+        "level": 5,
+        "description": "Greatly decreases the impact of attacks and reduces stamina depletion by 30%."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Guard Up",
+    "href": "https://mhrise.kiranico.com/data/skills/1032544142",
+    "description": "Allows you to guard against ordinarily unblockable attacks.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces damage taken by 30%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces damage taken by 50%."
+      },
+      {
+        "level": 3,
+        "description": "Reduces damage taken by 80%."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Offensive Guard",
+    "href": "https://mhrise.kiranico.com/data/skills/1047302063",
+    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +5% while active."
+      },
+      {
+        "level": 2,
+        "description": "Attack +10% while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +15% while active."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Critical Draw",
+    "href": "https://mhrise.kiranico.com/data/skills/1061551948",
+    "description": "Increases affinity for a short time after performing a draw attack. (Does not include Silkbind attacks.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Affinity +10%"
+      },
+      {
+        "level": 2,
+        "description": "Affinity +20%"
+      },
+      {
+        "level": 3,
+        "description": "Affinity +40%"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Punishing Draw",
+    "href": "https://mhrise.kiranico.com/data/skills/941567853",
+    "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Does not include Silkbind attacks.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Draw attacks deal a small amount of stun damage and get attack +3."
+      },
+      {
+        "level": 2,
+        "description": "Draw attacks deal a small amount of stun damage and get attack +5."
+      },
+      {
+        "level": 3,
+        "description": "Draw attacks deal a small amount of stun damage and get attack +7."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Quick Sheathe",
+    "href": "https://mhrise.kiranico.com/data/skills/988847874",
+    "description": "Speeds up weapon sheathing.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases sheathing speed."
+      },
+      {
+        "level": 2,
+        "description": "Moderately increases sheathing speed."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases sheathing speed."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Slugger",
+    "href": "https://mhrise.kiranico.com/data/skills/1003081507",
+    "description": "Makes it easier to stun monsters.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Stun power +20%"
+      },
+      {
+        "level": 2,
+        "description": "Stun power +30%"
+      },
+      {
+        "level": 3,
+        "description": "Stun power +40%"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Stamina Thief",
+    "href": "https://mhrise.kiranico.com/data/skills/614678208",
+    "description": "Increases certain attacks' ability to exhaust monsters.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Exhaust power +20%"
+      },
+      {
+        "level": 2,
+        "description": "Exhaust power +30%"
+      },
+      {
+        "level": 3,
+        "description": "Exhaust power +40%"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Affinity Sliding",
+    "href": "https://mhrise.kiranico.com/data/skills/629436129",
+    "description": "Sliding increases your affinity for a short time.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Enables skill use."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Horn Maestro",
+    "href": "https://mhrise.kiranico.com/data/skills/643686022",
+    "description": "Increases overall performance speed and shockwave damage.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Artillery",
+    "href": "https://mhrise.kiranico.com/data/skills/657919655",
+    "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%."
+      },
+      {
+        "level": 2,
+        "description": "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%."
+      },
+      {
+        "level": 3,
+        "description": "Increases power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Load Shells",
+    "href": "https://mhrise.kiranico.com/data/skills/537427524",
+    "description": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases ammo and coating reloading speed."
+      },
+      {
+        "level": 2,
+        "description": "Gunlance loading capacity +1 Increases charge blade phials"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Special Ammo Boost",
+    "href": "https://mhrise.kiranico.com/data/skills/585215589",
+    "description": "Increases the power of bowgun special ammo and Dragon Piercer.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases power of bowgun special ammo and Dragon Piercer by 10%."
+      },
+      {
+        "level": 2,
+        "description": "Increases power of bowgun special ammo and Dragon Piercer by 20%."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Normal/Rapid Up",
+    "href": "https://mhrise.kiranico.com/data/skills/599465498",
+    "description": "Increases the attack power of Normal Ammo and Rapid-type arrows.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases the power of Normal Ammo and Rapid-type arrows."
+      },
+      {
+        "level": 2,
+        "description": "Increases the power of Normal Ammo and  Rapid-type arrows."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases the power of Normal Ammo and  Rapid-type arrows."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Pierce Up",
+    "href": "https://mhrise.kiranico.com/data/skills/748441147",
+    "description": "Increases the attack power of Piercing Ammo and Piercing-type arrows.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases the power of Piercing Ammo and Piercing-type arrows."
+      },
+      {
+        "level": 2,
+        "description": "Increases the power of Piercing Ammo and Piercing-type arrows."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases the power of Piercing Ammo and Piercing-type arrows."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Spread Up",
+    "href": "https://mhrise.kiranico.com/data/skills/762691032",
+    "description": "Increases the attack power of Spread Ammo and Spread- type arrows",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows."
+      },
+      {
+        "level": 2,
+        "description": "Increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Ammo Up",
+    "href": "https://mhrise.kiranico.com/data/skills/776924665",
+    "description": "Increases bowgun loading capacity. (There is a cap to loading capacity.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Expands clip size for some ammo types."
+      },
+      {
+        "level": 2,
+        "description": "Expands clip size for many ammo types."
+      },
+      {
+        "level": 3,
+        "description": "Expands clip size for most ammo types."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Reload Speed",
+    "href": "https://mhrise.kiranico.com/data/skills/790650270",
+    "description": "Increases bowgun reloading and bow coating loading speed.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Bowgun speed +1. Improves bow handling."
+      },
+      {
+        "level": 2,
+        "description": "Bowgun speed +2. Loads bow coating automatically."
+      },
+      {
+        "level": 3,
+        "description": "Bowgun speed +3."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Recoil Down",
+    "href": "https://mhrise.kiranico.com/data/skills/704220607",
+    "description": "Reduces recoil when firing bowgun ammo.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Recoil -1"
+      },
+      {
+        "level": 2,
+        "description": "Recoil -2"
+      },
+      {
+        "level": 3,
+        "description": "Recoil -3"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Steadiness",
+    "href": "https://mhrise.kiranico.com/data/skills/718470492",
+    "description": "Suppresses the deviation of bowgun shots.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Deviation -1"
+      },
+      {
+        "level": 2,
+        "description": "Deviation -2"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Rapid Fire Up",
+    "href": "https://mhrise.kiranico.com/data/skills/733228413",
+    "description": "Improves light bowgun rapid fire.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Rapid fire damage +5%"
+      },
+      {
+        "level": 2,
+        "description": "Rapid fire damage +10%"
+      },
+      {
+        "level": 3,
+        "description": "Rapid fire damage +20%"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Defense Boost",
+    "href": "https://mhrise.kiranico.com/data/skills/1418566930",
+    "description": "Increases defense. Resistances will also improve as the level increases.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Defense +5"
+      },
+      {
+        "level": 2,
+        "description": "Defense +10"
+      },
+      {
+        "level": 3,
+        "description": "Defense +5% Bonus: +10"
+      },
+      {
+        "level": 4,
+        "description": "Defense +5% Bonus: +20 All elemental resistances +3"
+      },
+      {
+        "level": 5,
+        "description": "Defense +8% Bonus: +20 All elemental resistances +3"
+      },
+      {
+        "level": 6,
+        "description": "Defense +8% Bonus: +35 All elemental resistances +5"
+      },
+      {
+        "level": 7,
+        "description": "Defense +10% Bonus: +35 All elemental resistances +5"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Divine Blessing",
+    "href": "https://mhrise.kiranico.com/data/skills/1432800563",
+    "description": "Has a predetermined chance of reducing the damage you take.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, reduces damage taken by 15%."
+      },
+      {
+        "level": 2,
+        "description": "While active, reduces damage taken by 30%."
+      },
+      {
+        "level": 3,
+        "description": "While active, reduces damage taken by 50%."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Recovery Up",
+    "href": "https://mhrise.kiranico.com/data/skills/1446526160",
+    "description": "Increases the amount recovered when restoring health.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases recovery."
+      },
+      {
+        "level": 2,
+        "description": "Increases recovery."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases recovery."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Recovery Speed",
+    "href": "https://mhrise.kiranico.com/data/skills/1460759793",
+    "description": "Speeds healing of recoverable damage (the red portion of the health gauge).",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Doubles the speed at which you heal recoverable damage."
+      },
+      {
+        "level": 2,
+        "description": "Triples the speed at which you heal recoverable damage."
+      },
+      {
+        "level": 3,
+        "description": "Quadruples the speed at which you heal recoverable damage."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Speed Eating",
+    "href": "https://mhrise.kiranico.com/data/skills/1374346390",
+    "description": "Increases meat-eating and item-consumption speed.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases eating speed."
+      },
+      {
+        "level": 2,
+        "description": "Increases eating speed."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases eating speed."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Earplugs",
+    "href": "https://mhrise.kiranico.com/data/skills/1389104311",
+    "description": "Grants protection from large monsters' roars.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the effects of weak monster roars."
+      },
+      {
+        "level": 2,
+        "description": "Nullifies weak monster roars."
+      },
+      {
+        "level": 3,
+        "description": "Nullifies weak monster roars and reduces the effects of strong monster roars."
+      },
+      {
+        "level": 4,
+        "description": "Nullifies weak and strong monster roars."
+      },
+      {
+        "level": 5,
+        "description": "Nullifies weak and strong monster roars. Reduces the effects of powerful monster roars."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Windproof",
+    "href": "https://mhrise.kiranico.com/data/skills/1403354196",
+    "description": "Grants protection against wind pressure.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Negates minor wind pressure."
+      },
+      {
+        "level": 2,
+        "description": "Negates minor and major wind pressure."
+      },
+      {
+        "level": 3,
+        "description": "Negates minor and major wind pressure and reduces the effects of dragon wind pressure."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Tremor Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1551805557",
+    "description": "Grants protection against ground tremors.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Nullifies minor ground tremors."
+      },
+      {
+        "level": 2,
+        "description": "Nullifies minor ground tremors and reduces the effects of major ground tremors."
+      },
+      {
+        "level": 3,
+        "description": "Nullifies minor and major ground tremors."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Bubbly Dance",
+    "href": "https://mhrise.kiranico.com/data/skills/1565531242",
+    "description": "Reduces bubbleblight and grants increased evasion when afflicted.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the effects of major bubbleblight."
+      },
+      {
+        "level": 2,
+        "description": "Reduces major bubbleblight to minor bubbleblight and increases evasiveness while afflicted."
+      },
+      {
+        "level": 3,
+        "description": "Also inflicts bubbleblight when performing consecutive evasive movement."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Evade Window",
+    "href": "https://mhrise.kiranico.com/data/skills/1579764747",
+    "description": "Extends the invulnerability period when evading.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Very slightly increases invulnerability window."
+      },
+      {
+        "level": 2,
+        "description": "Slightly increases invulnerability window."
+      },
+      {
+        "level": 3,
+        "description": "Increases invulnerability window."
+      },
+      {
+        "level": 4,
+        "description": "Greatly increases invulnerability window."
+      },
+      {
+        "level": 5,
+        "description": "Massively increases invulnerability window."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Evade Extender",
+    "href": "https://mhrise.kiranico.com/data/skills/1594014760",
+    "description": "Increases evade distance.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly extends evasion distance."
+      },
+      {
+        "level": 2,
+        "description": "Extends evasion distance."
+      },
+      {
+        "level": 3,
+        "description": "Greatly extends evasion distance."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Fire Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1507582921",
+    "description": "Increases fire resistance. Also improves defense at higher levels.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Fire resistance +6"
+      },
+      {
+        "level": 2,
+        "description": "Fire resistance +12"
+      },
+      {
+        "level": 3,
+        "description": "Fire resistance +20 Defense +10"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Water Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1522357230",
+    "description": "Increases water resistance. Also improves defense at higher levels.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Water resistance +6"
+      },
+      {
+        "level": 2,
+        "description": "Water resistance +12"
+      },
+      {
+        "level": 3,
+        "description": "Water resistance +20 Defense +10"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Ice Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1536590735",
+    "description": "Increases ice resistance. Also improves defense at higher levels.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Ice resistance +6"
+      },
+      {
+        "level": 2,
+        "description": "Ice resistance +12"
+      },
+      {
+        "level": 3,
+        "description": "Ice resistance +20 Defense +10"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Thunder Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1148187564",
+    "description": "Increases thunder resistance. Also improves defense at higher levels.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Thunder resistance +6"
+      },
+      {
+        "level": 2,
+        "description": "Thunder resistance +12"
+      },
+      {
+        "level": 3,
+        "description": "Thunder resistance +20 Defense +10"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Dragon Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1161896781",
+    "description": "Increases dragon resistance. Also improves defense at higher levels.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Dragon resistance +6"
+      },
+      {
+        "level": 2,
+        "description": "Dragon resistance +12"
+      },
+      {
+        "level": 3,
+        "description": "Dragon resistance +20 Defense +10"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Blight Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1176146786",
+    "description": "Grants protection against all elemental blights.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the duration of all elemental blights by 50%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces the duration of all elemental blights by 75%."
+      },
+      {
+        "level": 3,
+        "description": "Nullifies all elemental blights."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Poison Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1089716995",
+    "description": "Reduces damage while poisoned.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the number of times you take poison damage."
+      },
+      {
+        "level": 2,
+        "description": "Greatly reduces the number of times you take poison damage."
+      },
+      {
+        "level": 3,
+        "description": "Prevents poison and reduces venom."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Paralysis Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1104491296",
+    "description": "Reduces the duration of paralysis.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the duration of paralysis by 30%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces the duration of paralysis by 60%."
+      },
+      {
+        "level": 3,
+        "description": "Prevents paralysis."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Sleep Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1118724801",
+    "description": "Reduces the duration of sleep.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the duration of sleep by 30%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces the duration of sleep by 60%."
+      },
+      {
+        "level": 3,
+        "description": "Prevents sleep."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Stun Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1132974822",
+    "description": "Reduces stun duration.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces the duration of stun by 60%."
+      },
+      {
+        "level": 2,
+        "description": "Reduces the duration of stun by 90%."
+      },
+      {
+        "level": 3,
+        "description": "Prevents stun."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Muck Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1280901767",
+    "description": "Reduces impairments to mobility while stuck in monster muck or deep snow.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces limits on movement speed."
+      },
+      {
+        "level": 2,
+        "description": "Negates limits to movement speed."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Blast Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/1295151780",
+    "description": "Grants protection against blastblight.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Delays blastblight and reduces blast damage."
+      },
+      {
+        "level": 2,
+        "description": "Greatly delays blastblight and greatly reduces blast damage."
+      },
+      {
+        "level": 3,
+        "description": "Prevents blastblight."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Botanist",
+    "href": "https://mhrise.kiranico.com/data/skills/1309385285",
+    "description": "Increases the quantity of herbs and other consumable items you gather.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "One extra consumable herb item per gather."
+      },
+      {
+        "level": 2,
+        "description": "One extra consumable herb, fruit, nut, or seed item per gather."
+      },
+      {
+        "level": 3,
+        "description": "One extra consumable herb, fruit, nut, seed, or insect item per gather."
+      },
+      {
+        "level": 4,
+        "description": "One extra consumable herb, fruit, nut, seed, insect, or mushroom item per gather."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Geologist",
+    "href": "https://mhrise.kiranico.com/data/skills/1223496314",
+    "description": "Increases the number of times you can use a gathering point.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Allows you to gather one extra time from bonepiles."
+      },
+      {
+        "level": 2,
+        "description": "Allows you to gather one extra time from gathering points."
+      },
+      {
+        "level": 3,
+        "description": "Allows you to gather one extra time from mining outcrops."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Partbreaker",
+    "href": "https://mhrise.kiranico.com/data/skills/1237729819",
+    "description": "Makes it easier to break or sever parts of monsters.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Part damage +10%"
+      },
+      {
+        "level": 2,
+        "description": "Part damage +20%"
+      },
+      {
+        "level": 3,
+        "description": "Part damage +30%"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Capture Master",
+    "href": "https://mhrise.kiranico.com/data/skills/1251979832",
+    "description": "High chance of increased capture rewards. (No effect when joining mid-quest.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Carving Master",
+    "href": "https://mhrise.kiranico.com/data/skills/1265689049",
+    "description": "Lets you carve one additional time. (No effect when joining mid-quest.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Good Luck",
+    "href": "https://mhrise.kiranico.com/data/skills/1951027710",
+    "description": "Good chance of increased quest rewards. (No effect when joining mid-quest.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Slightly increases luck."
+      },
+      {
+        "level": 2,
+        "description": "Increases luck."
+      },
+      {
+        "level": 3,
+        "description": "Greatly increases luck."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Speed Sharpening",
+    "href": "https://mhrise.kiranico.com/data/skills/1965261215",
+    "description": "Speeds up weapon sharpening when using a whetstone.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Removes one cycle from the sharpening process."
+      },
+      {
+        "level": 2,
+        "description": "Removes two cycles from the sharpening process."
+      },
+      {
+        "level": 3,
+        "description": "Removes three cycles from the sharpening process."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Bombardier",
+    "href": "https://mhrise.kiranico.com/data/skills/1980035516",
+    "description": "Increases the damage of explosive items.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Explosive power +10%"
+      },
+      {
+        "level": 2,
+        "description": "Explosive power +20%"
+      },
+      {
+        "level": 3,
+        "description": "Explosive power +30%"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Mushroomancer",
+    "href": "https://mhrise.kiranico.com/data/skills/1893605725",
+    "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Lets you digest blue mushrooms and toadstools."
+      },
+      {
+        "level": 2,
+        "description": "Additionally lets you digest nitroshrooms and parashrooms."
+      },
+      {
+        "level": 3,
+        "description": "Additionally lets you digest mandragoras and exciteshrooms."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Item Prolonger",
+    "href": "https://mhrise.kiranico.com/data/skills/1907855730",
+    "description": "Extends the duration of some item effects.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Item effect duration +10%"
+      },
+      {
+        "level": 2,
+        "description": "Item effect duration +25%"
+      },
+      {
+        "level": 3,
+        "description": "Item effect duration +50%"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Wide-Range",
+    "href": "https://mhrise.kiranico.com/data/skills/1921564947",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Items affect nearby allies with 33% of their efficacy."
+      },
+      {
+        "level": 2,
+        "description": "Items affect nearby allies in a wider radius with 33% of their efficacy."
+      },
+      {
+        "level": 3,
+        "description": "Items affect nearby allies in a wider radius with 66% of their efficacy."
+      },
+      {
+        "level": 4,
+        "description": "Items affect nearby allies in a much wider radius with 66% of their efficacy."
+      },
+      {
+        "level": 5,
+        "description": "Items affect nearby allies in a much wider radius with full efficacy."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Free Meal",
+    "href": "https://mhrise.kiranico.com/data/skills/1935814960",
+    "description": "Gives you a predetermined chance of consuming a food or drink item for free.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates 10% of the time."
+      },
+      {
+        "level": 2,
+        "description": "Activates 25% of the time."
+      },
+      {
+        "level": 3,
+        "description": "Activates 45% of the time."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Heroics",
+    "href": "https://mhrise.kiranico.com/data/skills/2084266193",
+    "description": "Increases attack power and defense when health drops to 35% or lower.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, increases defense by 50 points."
+      },
+      {
+        "level": 2,
+        "description": "Attack +5% and defense +50 while active."
+      },
+      {
+        "level": 3,
+        "description": "Attack +5% and defense +100 while active."
+      },
+      {
+        "level": 4,
+        "description": "Attack +10% and defense +100 while active."
+      },
+      {
+        "level": 5,
+        "description": "While active, attack power +30% and defense-increasing effects are negated."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Fortify",
+    "href": "https://mhrise.kiranico.com/data/skills/2099040502",
+    "description": "Increases your attack and defense when you fall in battle. (Disabled for some quests. Can be activated twice.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases attack by 10% and defense by 15% with each use."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Flinch Free",
+    "href": "https://mhrise.kiranico.com/data/skills/2146828439",
+    "description": "Prevents knockbacks and other reactions to small damage.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Prevents knockbacks."
+      },
+      {
+        "level": 2,
+        "description": "Prevents knockbacks. Tripping is reduced to a knockback instead."
+      },
+      {
+        "level": 3,
+        "description": "Prevents knockbacks and tripping."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Jump Master",
+    "href": "https://mhrise.kiranico.com/data/skills/2026860724",
+    "description": "Prevents attacks from knocking you back during a jump.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Negates knockback during jumps."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Carving Pro",
+    "href": "https://mhrise.kiranico.com/data/skills/2040569941",
+    "description": "Prevents knockback from attacks while carving.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Hunger Resistance",
+    "href": "https://mhrise.kiranico.com/data/skills/2054819914",
+    "description": "Reduces maximum stamina depletion over time.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Extends the time until your stamina cap reduces by 50%."
+      },
+      {
+        "level": 2,
+        "description": "Extends the time until your stamina cap reduces by 100%."
+      },
+      {
+        "level": 3,
+        "description": "Prevents your stamina cap from decreasing."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Leap of Faith",
+    "href": "https://mhrise.kiranico.com/data/skills/2069053547",
+    "description": "Allows you to do a dive-evade when facing towards large monsters, and extends the dive-evade distance.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Enables skill use."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Diversion",
+    "href": "https://mhrise.kiranico.com/data/skills/1681174536",
+    "description": "Increases the attention drawn when attacking a monster.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates skill effect."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Master Mounter",
+    "href": "https://mhrise.kiranico.com/data/skills/1695408169",
+    "description": "Improves your Wyvern Riding skills.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Makes filling the Riding Gauge easier and increases ease of parrying."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Chameleos Blessing",
+    "href": "https://mhrise.kiranico.com/data/skills/1743214542",
+    "description": "Gain the power of the elder dragon Chameleos.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Sometimes increases the effects of Spiribirds."
+      },
+      {
+        "level": 2,
+        "description": "Also negates minor and major wind pressure."
+      },
+      {
+        "level": 3,
+        "description": "Also extends the duration of your poison's effect on monsters."
+      },
+      {
+        "level": 4,
+        "description": "Also negates all wind pressure."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Kushala Blessing",
+    "href": "https://mhrise.kiranico.com/data/skills/1622706159",
+    "description": "Gain the power of the elder dragon Kushala Daora.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Water and ice attack +5%"
+      },
+      {
+        "level": 2,
+        "description": "Water and ice attack +10%"
+      },
+      {
+        "level": 3,
+        "description": "Also allows recovery to exceed the red portion of the health gauge."
+      },
+      {
+        "level": 4,
+        "description": "Also nullifies heat damage."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Teostra Blessing",
+    "href": "https://mhrise.kiranico.com/data/skills/1636956044",
+    "description": "Gain the power of the elder dragon Teostra.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Fire attack and blast buildup +5%"
+      },
+      {
+        "level": 2,
+        "description": "Fire attack and blast buildup +10%"
+      },
+      {
+        "level": 3,
+        "description": "Also prevents poison and venom."
+      },
+      {
+        "level": 4,
+        "description": "Also negates theft."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Dragonheart",
+    "href": "https://mhrise.kiranico.com/data/skills/1651189677",
+    "description": "Draconic energy fills you after losing a certain amount of health. Weapons lose all non-dragon effects.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "When your health is at 50% or less, you contract dragonblight, and all elemental resistances are set to 30."
+      },
+      {
+        "level": 2,
+        "description": "When your health is at 50% or less, you contract dragonblight, and all elemental resistances are set to 50."
+      },
+      {
+        "level": 3,
+        "description": "When your health is at 70% or less, you contract dragonblight, and all elemental resistances are set to 50."
+      },
+      {
+        "level": 4,
+        "description": "Contract dragonblight when at 70% health or less. Sets Elemental resistances to 50 and gain +5% attack power."
+      },
+      {
+        "level": 5,
+        "description": "Contract dragonblight when at 80% health or less. Sets Elemental resistances to 50 and gain +10% attack power."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Wirebug Whisperer",
+    "href": "https://mhrise.kiranico.com/data/skills/1665963842",
+    "description": "Improves your handling of Wirebugs.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Extends the duration you can keep a Wirebug by 30%."
+      },
+      {
+        "level": 2,
+        "description": "Also increases Wirefall recovery rate."
+      },
+      {
+        "level": 3,
+        "description": "Also increases passive recovery rate while on the ground."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Wall Runner",
+    "href": "https://mhrise.kiranico.com/data/skills/1814415203",
+    "description": "Reduces stamina consumption when running on walls.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces stamina consumption by 25% while wall running."
+      },
+      {
+        "level": 2,
+        "description": "Reduces stamina consumption by 50% while wall running."
+      },
+      {
+        "level": 3,
+        "description": "Also temporarily increases attack power by wall running."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Counterstrike",
+    "href": "https://mhrise.kiranico.com/data/skills/1862219520",
+    "description": "Temporarily increases attack power after being knocked back.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attack +10 after activation."
+      },
+      {
+        "level": 2,
+        "description": "Attack +15 after activation."
+      },
+      {
+        "level": 3,
+        "description": "Attack +25 after activation."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Rapid Morph",
+    "href": "https://mhrise.kiranico.com/data/skills/1875928865",
+    "description": "Increases switch speed and power for switch axes and charge blades.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Speed +10%"
+      },
+      {
+        "level": 2,
+        "description": "Speed +20% Morph attack damage +10%"
+      },
+      {
+        "level": 3,
+        "description": "Speed +30% Morph attack damage +20%"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Hellfire Cloak",
+    "href": "https://mhrise.kiranico.com/data/skills/1755961030",
+    "description": "Grants hellfire resistance and confers explosive hellfire power to your attacks after fulfilling certain conditions.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Reduces damage from hellfire."
+      },
+      {
+        "level": 2,
+        "description": "Increases damage from hellfire blasts."
+      },
+      {
+        "level": 3,
+        "description": "Inflicts hellfireblight when monsters are enraged."
+      },
+      {
+        "level": 4,
+        "description": "Effect persists for one minute after a monster's rage has subsided."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Wind Alignment",
+    "href": "https://mhrise.kiranico.com/data/skills/1770194663",
+    "description": "Gain the power of the elder dragon Wind Serpent Ibushi.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Dragon resistance +1"
+      },
+      {
+        "level": 2,
+        "description": "Dragon resistance +2"
+      },
+      {
+        "level": 3,
+        "description": "Dragon resistance +3"
+      },
+      {
+        "level": 4,
+        "description": "Dragon resistance +4"
+      },
+      {
+        "level": 5,
+        "description": "Also grants Great Luck."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Thunder Alignment",
+    "href": "https://mhrise.kiranico.com/data/skills/1784968836",
+    "description": "Gain the power of the elder dragon Thunder Serpent Narwa.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Thunder resistance +1"
+      },
+      {
+        "level": 2,
+        "description": "Thunder resistance +2"
+      },
+      {
+        "level": 3,
+        "description": "Thunder resistance +3"
+      },
+      {
+        "level": 4,
+        "description": "Thunder resistance +4"
+      },
+      {
+        "level": 5,
+        "description": "Also grants Great Luck."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Stormsoul",
+    "href": "https://mhrise.kiranico.com/data/skills/1799202469",
+    "description": "Strengthens thunder and dragon power and improves skills of the same elements.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Thunder and dragon attack +5%"
+      },
+      {
+        "level": 2,
+        "description": "Thunder and dragon attack +10%"
+      },
+      {
+        "level": 3,
+        "description": "Thunder and dragon attack +15%"
+      },
+      {
+        "level": 4,
+        "description": "Also increases level of other skills by +1."
+      },
+      {
+        "level": 5,
+        "description": "Also increases level of other skills by +1 (stacks with previous bonus)."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Blood Rite",
+    "href": "https://mhrise.kiranico.com/data/skills/337057370",
+    "description": "A proportion of damage dealt is converted to health when striking a broken monster part.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      },
+      {
+        "level": 2,
+        "description": "Increase the amount of health you recover"
+      },
+      {
+        "level": 3,
+        "description": "Further increases the amount of health you recover"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Dereliction",
+    "href": "https://mhrise.kiranico.com/data/skills/384321147",
+    "description": "Qurio will drain health, but also bolster your attacks. Multiple Qurio further bolster attacks and let you recover health when performing a Switch Skill Swap.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Using Red Scroll: Increased elemental and status values. Using Blue Scroll: Increased attack and stun potency"
+      },
+      {
+        "level": 2,
+        "description": "Bolsters your attacks depending on which Swap Scroll is used"
+      },
+      {
+        "level": 3,
+        "description": "Further bolsters your attacks depending on which Swap Scroll is used"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Furious",
+    "href": "https://mhrise.kiranico.com/data/skills/398571032",
+    "description": "Using the Red Scroll builds your fury while fighting monsters. Swapping to the Blue Scroll when your fury is full gives you infinite stamina temporarily.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Using Red Scroll: Defense+ 10, all Res+ 5 | Swap to Blue Scroll: Temporary Infinite Stamina"
+      },
+      {
+        "level": 2,
+        "description": "Using Red Scroll: Defense+ 20, all Res+ 10 | Swap to Blue Scroll: Infinite Stamina Extended"
+      },
+      {
+        "level": 3,
+        "description": "Using Red Scroll: Defense+ 30, all Res+ 20 | Swap to Blue Scroll: Infinite Stamina Extended"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Mail of Hellfire",
+    "href": "https://mhrise.kiranico.com/data/skills/278586937",
+    "description": "Decreases defense but increases attack. Exact changes to stats depends on Switch Skill Swap Scroll that is being used.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Using Red Scroll: Defense down, attack up. Using Blue Scroll: Resistance down, element up"
+      },
+      {
+        "level": 2,
+        "description": "Further decreases defense and resistance, while further increasing attack and element"
+      },
+      {
+        "level": 3,
+        "description": "Greatly decreases defense and resistance, while greatly increasing attack and element"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Coalescence",
+    "href": "https://mhrise.kiranico.com/data/skills/293361118",
+    "description": "Temporarily enhances attacks after recovering from blights or abnormal status.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, attack +12, element attack power +2, and status buildup +5%"
+      },
+      {
+        "level": 2,
+        "description": "While active, attack +15, element attack power +3, and status buildup +10%"
+      },
+      {
+        "level": 3,
+        "description": "While active, attack +18, element attack power +4, and status buildup +20%"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Bloodlust",
+    "href": "https://mhrise.kiranico.com/data/skills/307594751",
+    "description": "The effects of the Frenzy virus change. Health is gradually reduced, but you gain a variety of effects. Frenzy virus occurs regularly when in combat.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While infected, attack & evasion increase & stamina use reduced"
+      },
+      {
+        "level": 2,
+        "description": "While infected, further boost to effects received. Upon recovery, further increase to affinity"
+      },
+      {
+        "level": 3,
+        "description": "While infected, further boost to effects received. Upon recovery, further increases duration of increased affinity"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Defiance",
+    "href": "https://mhrise.kiranico.com/data/skills/321844636",
+    "description": "Increases defense when large monsters become enraged.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, nullifles weak roars, wind pressure, and tremors"
+      },
+      {
+        "level": 2,
+        "description": "While active, nullifles weak roars, wind pressure, and tremors. Reduces all strong ones, def +5"
+      },
+      {
+        "level": 3,
+        "description": "While active, nullifles weak and strong roars, wind pressure, and tremors, def +10"
+      },
+      {
+        "level": 4,
+        "description": "While active, nullifles weak and strong roars, wind, and tremors, reduces powerful roars & d.wind, def +20"
+      },
+      {
+        "level": 5,
+        "description": "While active, nullifles weak, strong and powerful  roars, wind & dragon wind, and tremors, def +30"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Sneak Attack",
+    "href": "https://mhrise.kiranico.com/data/skills/469771709",
+    "description": "Increases damage to large monsters when attacks hit them from behind.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, increases attack power by 5%"
+      },
+      {
+        "level": 2,
+        "description": "While active, increases attack power by 10%"
+      },
+      {
+        "level": 3,
+        "description": "While active, increases attack power by 12%"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Adrenaline Rush",
+    "href": "https://mhrise.kiranico.com/data/skills/517576018",
+    "description": "Perform a perfectly-timed evade just as a monster attacks for a temporary attack boost.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, temporary attack power +10"
+      },
+      {
+        "level": 2,
+        "description": "While active, temporary attack power +15"
+      },
+      {
+        "level": 3,
+        "description": "While active, temporary attack power +30"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Redirection",
+    "href": "https://mhrise.kiranico.com/data/skills/412366096",
+    "description": "Perform a perfectly-timed Switch Skill Swap just as a monster attacks to reduce the damage and negate damage reactions.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      },
+      {
+        "level": 2,
+        "description": "Nullifies incoming damage, and automatically performs a Swap Evade backwards which recovers Wirebug Gauge"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Spiribird's Call",
+    "href": "https://mhrise.kiranico.com/data/skills/426599729",
+    "description": "Receive the effects of a random Spiribird at fixed intervals. (Certain quests only)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Charge Master",
+    "href": "https://mhrise.kiranico.com/data/skills/440849622",
+    "description": "When a charged attack hits a monster, the element and status buildup of the charged attack increases.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "When active, grants a slight increase to elemental damage and status buildup"
+      },
+      {
+        "level": 2,
+        "description": "When active, grants an increase to elemental damage and status buildup"
+      },
+      {
+        "level": 3,
+        "description": "When active, grants a large increase to elemental damage and status buildup"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Foray",
+    "href": "https://mhrise.kiranico.com/data/skills/454558967",
+    "description": "Increases attack power and affinity when attacking a large monster affected by poison, paralysis, or an elemental blight.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, increases attack power +10"
+      },
+      {
+        "level": 2,
+        "description": "While active, increases attack power +10 and affinity +10%"
+      },
+      {
+        "level": 3,
+        "description": "While active, increases attack power +15 and affinity +20%"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Tune-Up",
+    "href": "https://mhrise.kiranico.com/data/skills/99710100",
+    "description": "Increases the stats of custom mods attached to bowguns.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Increases stats of Silencer and Shield. If neither are equipped, Reload Speed +1"
+      },
+      {
+        "level": 2,
+        "description": "Also increases stats of Long Barrel and Power Barrel. If neither are equipped, Reload Speed +1 and Steadiness +1"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Grinder (S)",
+    "href": "https://mhrise.kiranico.com/data/skills/113943733",
+    "description": "When recovering sharpness, grants a boost to sharpness properties based on the number of levels recovered.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Effect activates for 60 seconds when sharpness recovers 3 levels"
+      },
+      {
+        "level": 2,
+        "description": "Effect activates for 60 seconds when sharpness recovers 2 levels"
+      },
+      {
+        "level": 3,
+        "description": "Effect activates for 90 seconds when sharpness recovers 2 levels"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Bladescale Hone",
+    "href": "https://mhrise.kiranico.com/data/skills/128717994",
+    "description": "Dodge rolling to evade an attack with your weapon drawn will recover sharpness, refill bowgun ammo, or give Close-range Coatings a temporary boost.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activates 50% of the time"
+      },
+      {
+        "level": 2,
+        "description": "Activates 75% of the time"
+      },
+      {
+        "level": 3,
+        "description": "Activates 100% of the time"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Wall Runner (Boost)",
+    "href": "https://mhrise.kiranico.com/data/skills/8733771",
+    "description": "Wirebug Gauge recovers faster while wall running.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Quick Breath",
+    "href": "https://mhrise.kiranico.com/data/skills/232963023",
+    "description": "You can remove some statuses or slow their effects by performing a Switch Skill Swap. Health recovers when a status is removed.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Element Exploit",
+    "href": "https://mhrise.kiranico.com/data/skills/22983784",
+    "description": "Increases elemental damage when attacking body parts upon which the element are highly effective.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Attacks that hit weak spots do +10% elemental damage"
+      },
+      {
+        "level": 2,
+        "description": "Attacks that hit weak spots do +12.5% elemental damage"
+      },
+      {
+        "level": 3,
+        "description": "Attacks that hit weak spots do +15% elemental damage"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Chain Crit",
+    "href": "https://mhrise.kiranico.com/data/skills/37217289",
+    "description": "Continuously landing hits gradually increases attack and elemental attack. (The amount of increase depends on the weapon.)",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for an extra stat boost"
+      },
+      {
+        "level": 2,
+        "description": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for a large stat boost"
+      },
+      {
+        "level": 3,
+        "description": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for a huge stat boost"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Guts",
+    "href": "https://mhrise.kiranico.com/data/skills/50943022",
+    "description": "Prevents fainting one time only when damage taken exceeds a certain amount of your remaining health.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect when vitality is 80 or higher"
+      },
+      {
+        "level": 2,
+        "description": "Activate effect when vitality is 72 or higher"
+      },
+      {
+        "level": 3,
+        "description": "Activate effect when vitality is 64 or higher"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Status Trigger",
+    "href": "https://mhrise.kiranico.com/data/skills/247196652",
+    "description": "Perform a perfectly-timed evade just as a monster attacks to trigger abnormal status buildup on hit.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "While active, effect duration is 5 seconds"
+      },
+      {
+        "level": 2,
+        "description": "While active, effect duration is 8 seconds"
+      },
+      {
+        "level": 3,
+        "description": "While active, effect duration is 12 seconds"
+      }
+    ]
+  }
+]

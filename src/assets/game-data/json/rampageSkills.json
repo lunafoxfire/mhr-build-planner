@@ -1,0 +1,1448 @@
+{
+  "Attack Boost I": {
+    "id": 0,
+    "name": "Attack Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/366824395",
+    "description": "Attack +4"
+  },
+  "Attack Boost II": {
+    "id": 1,
+    "name": "Attack Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/381074408",
+    "description": "Attack +6"
+  },
+  "Attack Boost III": {
+    "id": 2,
+    "name": "Attack Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/395307913",
+    "description": "Attack +8"
+  },
+  "Attack Boost IV": {
+    "id": 3,
+    "name": "Attack Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/274815918",
+    "description": "Attack +10"
+  },
+  "Attack Surge": {
+    "id": 4,
+    "name": "Attack Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/289049423",
+    "description": "Attack +20 Affinity -30%"
+  },
+  "Non-elemental Boost": {
+    "id": 5,
+    "name": "Non-elemental Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/858617035",
+    "description": "+10 Attack if the Ramped-Up weapon has no element."
+  },
+  "Elemental Boost I": {
+    "id": 6,
+    "name": "Elemental Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/303299436",
+    "description": "Weapon Element +5"
+  },
+  "Elemental Boost II": {
+    "id": 7,
+    "name": "Elemental Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/485829389",
+    "description": "Weapon Element +7"
+  },
+  "Elemental Boost III": {
+    "id": 8,
+    "name": "Elemental Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/500079394",
+    "description": "Weapon Element +10"
+  },
+  "Elemental Surge": {
+    "id": 9,
+    "name": "Elemental Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/514312899",
+    "description": "Weapon Element +10 Attack -15"
+  },
+  "Affinity Boost I": {
+    "id": 10,
+    "name": "Affinity Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/528038624",
+    "description": "Affinity +4%"
+  },
+  "Affinity Boost II": {
+    "id": 11,
+    "name": "Affinity Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/408054401",
+    "description": "Affinity +6%"
+  },
+  "Affinity Boost III": {
+    "id": 12,
+    "name": "Affinity Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/422304422",
+    "description": "Affinity +8%"
+  },
+  "Affinity Boost IV": {
+    "id": 13,
+    "name": "Affinity Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/437062215",
+    "description": "Affinity +10%"
+  },
+  "Affinity Surge": {
+    "id": 14,
+    "name": "Affinity Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/82213476",
+    "description": "Affinity +20% Attack -10"
+  },
+  "Defense Boost I": {
+    "id": 15,
+    "name": "Defense Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/96446981",
+    "description": "Defense Bonus +10"
+  },
+  "Defense Boost II": {
+    "id": 16,
+    "name": "Defense Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/110172730",
+    "description": "Defense Bonus +20"
+  },
+  "Defense Boost III": {
+    "id": 17,
+    "name": "Defense Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/124406235",
+    "description": "Defense Bonus +30"
+  },
+  "Fire Boost I": {
+    "id": 18,
+    "name": "Fire Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/4438520",
+    "description": "Fire element attack power +4"
+  },
+  "Fire Boost II": {
+    "id": 19,
+    "name": "Fire Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/19196313",
+    "description": "Fire element attack power +6"
+  },
+  "Fire Boost III": {
+    "id": 20,
+    "name": "Fire Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/67000766",
+    "description": "Fire element attack power +8"
+  },
+  "Fire Boost IV": {
+    "id": 21,
+    "name": "Fire Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/215451999",
+    "description": "Fire element attack power +10"
+  },
+  "Water Boost I": {
+    "id": 22,
+    "name": "Water Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/229177724",
+    "description": "Water element attack power +4"
+  },
+  "Water Boost II": {
+    "id": 23,
+    "name": "Water Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/243411229",
+    "description": "Water element attack power +6"
+  },
+  "Water Boost III": {
+    "id": 24,
+    "name": "Water Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/257661234",
+    "description": "Water element attack power +8"
+  },
+  "Water Boost IV": {
+    "id": 25,
+    "name": "Water Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/138201299",
+    "description": "Water element attack power +10"
+  },
+  "Thunder Boost I": {
+    "id": 26,
+    "name": "Thunder Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/152451312",
+    "description": "Thunder element attack power +4"
+  },
+  "Thunder Boost II": {
+    "id": 27,
+    "name": "Thunder Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/200239249",
+    "description": "Thunder element attack power +6"
+  },
+  "Thunder Boost III": {
+    "id": 28,
+    "name": "Thunder Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/885053622",
+    "description": "Thunder element attack power +8"
+  },
+  "Thunder Boost IV": {
+    "id": 29,
+    "name": "Thunder Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/899287127",
+    "description": "Thunder element attack power +10"
+  },
+  "Ice Boost I": {
+    "id": 30,
+    "name": "Ice Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/913537140",
+    "description": "Ice element attack power +4"
+  },
+  "Ice Boost II": {
+    "id": 31,
+    "name": "Ice Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/928294933",
+    "description": "Ice element attack power +6"
+  },
+  "Ice Boost III": {
+    "id": 32,
+    "name": "Ice Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/808327178",
+    "description": "Ice element attack power +8"
+  },
+  "Ice Boost IV": {
+    "id": 33,
+    "name": "Ice Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/822560811",
+    "description": "Ice element attack power +10"
+  },
+  "Dragon Boost I": {
+    "id": 34,
+    "name": "Dragon Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/869842888",
+    "description": "Dragon element attack power +4"
+  },
+  "Dragon Boost II": {
+    "id": 35,
+    "name": "Dragon Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1018294249",
+    "description": "Dragon element attack power +6"
+  },
+  "Dragon Boost III": {
+    "id": 36,
+    "name": "Dragon Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1032544142",
+    "description": "Dragon element attack power +8"
+  },
+  "Dragon Boost IV": {
+    "id": 37,
+    "name": "Dragon Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1047302063",
+    "description": "Dragon element attack power +10"
+  },
+  "Poison Boost I": {
+    "id": 38,
+    "name": "Poison Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1061551948",
+    "description": "Poison buildup +3"
+  },
+  "Poison Boost II": {
+    "id": 39,
+    "name": "Poison Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/941567853",
+    "description": "Poison buildup +5"
+  },
+  "Poison Boost III": {
+    "id": 40,
+    "name": "Poison Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/988847874",
+    "description": "Poison buildup +7"
+  },
+  "Paralysis Boost I": {
+    "id": 41,
+    "name": "Paralysis Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1003081507",
+    "description": "Paralysis buildup +2"
+  },
+  "Paralysis Boost II": {
+    "id": 42,
+    "name": "Paralysis Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/614678208",
+    "description": "Paralysis buildup +4"
+  },
+  "Paralysis Boost III": {
+    "id": 43,
+    "name": "Paralysis Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/629436129",
+    "description": "Paralysis buildup +6"
+  },
+  "Sleep Boost I": {
+    "id": 44,
+    "name": "Sleep Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/643686022",
+    "description": "Sleep buildup +2"
+  },
+  "Sleep Boost II": {
+    "id": 45,
+    "name": "Sleep Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/657919655",
+    "description": "Sleep buildup +4"
+  },
+  "Sleep Boost III": {
+    "id": 46,
+    "name": "Sleep Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/537427524",
+    "description": "Sleep buildup +6"
+  },
+  "Blast Boost I": {
+    "id": 47,
+    "name": "Blast Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/585215589",
+    "description": "Blast buildup +3"
+  },
+  "Blast Boost II": {
+    "id": 48,
+    "name": "Blast Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/599465498",
+    "description": "Blast buildup +5"
+  },
+  "Blast Boost III": {
+    "id": 49,
+    "name": "Blast Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/748441147",
+    "description": "Blast buildup +7"
+  },
+  "Fire I": {
+    "id": 50,
+    "name": "Fire I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/762691032",
+    "description": "Sets weapon element to Fire and adds +10 to its value."
+  },
+  "Fire II": {
+    "id": 51,
+    "name": "Fire II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/776924665",
+    "description": "Sets weapon element to Fire and adds +15 to its value."
+  },
+  "Fire III": {
+    "id": 52,
+    "name": "Fire III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/790650270",
+    "description": "Sets weapon element to Fire and adds +20 to its value, but reduces attack by 5."
+  },
+  "Fire IV": {
+    "id": 53,
+    "name": "Fire IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/704220607",
+    "description": "Sets weapon element to Fire and adds +30 to its value, but reduces attack by 10."
+  },
+  "Water I": {
+    "id": 54,
+    "name": "Water I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/718470492",
+    "description": "Sets weapon element to Water and adds +10 to its value."
+  },
+  "Water II": {
+    "id": 55,
+    "name": "Water II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/733228413",
+    "description": "Sets weapon element to Water and adds +15 to its value."
+  },
+  "Water III": {
+    "id": 56,
+    "name": "Water III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1418566930",
+    "description": "Sets weapon element to Water and adds +20 to its value, but reduces attack by 5."
+  },
+  "Water IV": {
+    "id": 57,
+    "name": "Water IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1432800563",
+    "description": "Sets weapon element to Water and adds +30 to its value, but reduces attack by 10."
+  },
+  "Thunder I": {
+    "id": 58,
+    "name": "Thunder I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1446526160",
+    "description": "Sets weapon element to Thunder and adds +10 to its value."
+  },
+  "Thunder II": {
+    "id": 59,
+    "name": "Thunder II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1460759793",
+    "description": "Sets weapon element to Thunder and adds +15 to its value."
+  },
+  "Thunder III": {
+    "id": 60,
+    "name": "Thunder III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1374346390",
+    "description": "Sets weapon element to Thunder and adds +20 to its value, but reduces attack by 5."
+  },
+  "Thunder IV": {
+    "id": 61,
+    "name": "Thunder IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1389104311",
+    "description": "Sets weapon element to Thunder and adds +30 to its value, but reduces attack by 10."
+  },
+  "Ice I": {
+    "id": 62,
+    "name": "Ice I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1403354196",
+    "description": "Sets weapon element to Ice and adds +10 to its value."
+  },
+  "Ice II": {
+    "id": 63,
+    "name": "Ice II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1551805557",
+    "description": "Sets weapon element to Ice and adds +15 to its value."
+  },
+  "Ice III": {
+    "id": 64,
+    "name": "Ice III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1565531242",
+    "description": "Sets weapon element to Ice and adds +20 to its value, but reduces attack by 5."
+  },
+  "Ice IV": {
+    "id": 65,
+    "name": "Ice IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1579764747",
+    "description": "Sets weapon element to Ice and adds +30 to its value, but reduces attack by 10."
+  },
+  "Dragon I": {
+    "id": 66,
+    "name": "Dragon I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1594014760",
+    "description": "Sets weapon element to Dragon and adds +10 to its value."
+  },
+  "Dragon II": {
+    "id": 67,
+    "name": "Dragon II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1507582921",
+    "description": "Sets weapon element to Dragon and adds +15 to its value."
+  },
+  "Dragon III": {
+    "id": 68,
+    "name": "Dragon III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1522357230",
+    "description": "Sets weapon element to Dragon and adds +20 to its value, but reduces attack by 5."
+  },
+  "Dragon IV": {
+    "id": 69,
+    "name": "Dragon IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1536590735",
+    "description": "Sets weapon element to Dragon and adds +30 to its value, but reduces attack by 10."
+  },
+  "Poison I": {
+    "id": 70,
+    "name": "Poison I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1148187564",
+    "description": "Sets weapon element to Poison and adds +10 to its value."
+  },
+  "Poison II": {
+    "id": 71,
+    "name": "Poison II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1161896781",
+    "description": "Sets weapon element to Poison and adds +20 to its value, but reduces Attack by 10."
+  },
+  "Poison III": {
+    "id": 72,
+    "name": "Poison III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1176146786",
+    "description": "Sets weapon element to Poison and adds +30 to its value, but reduces Attack by 20."
+  },
+  "Paralysis I": {
+    "id": 73,
+    "name": "Paralysis I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1089716995",
+    "description": "Sets weapon element to Paralysis and adds +10 to its value."
+  },
+  "Paralysis II": {
+    "id": 74,
+    "name": "Paralysis II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1104491296",
+    "description": "Sets weapon element to Paralysis and adds +15 to its value, but reduces Attack by 10."
+  },
+  "Paralysis III": {
+    "id": 75,
+    "name": "Paralysis III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1118724801",
+    "description": "Sets weapon element to Paralysis and adds +20 to its value, but reduces Attack by 20."
+  },
+  "Sleep I": {
+    "id": 76,
+    "name": "Sleep I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1132974822",
+    "description": "Sets weapon element to Sleep and adds +10 to its value."
+  },
+  "Sleep II": {
+    "id": 77,
+    "name": "Sleep II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1280901767",
+    "description": "Sets weapon element to Sleep and adds +12 to its value, but reduces Attack by 10."
+  },
+  "Sleep III": {
+    "id": 78,
+    "name": "Sleep III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1295151780",
+    "description": "Sets weapon element to Sleep and adds +15 to its value, but reduces Attack by 20."
+  },
+  "Blast I": {
+    "id": 79,
+    "name": "Blast I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1309385285",
+    "description": "Sets weapon element to Blast and adds +10 to its value."
+  },
+  "Blast II": {
+    "id": 80,
+    "name": "Blast II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1223496314",
+    "description": "Sets weapon element to Blast and adds +15 to its value, but reduces Attack by 10."
+  },
+  "Blast III": {
+    "id": 81,
+    "name": "Blast III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1237729819",
+    "description": "Sets weapon element to Blast and adds +20 to its value, but reduces Attack by 20."
+  },
+  "Sharpness Type I": {
+    "id": 82,
+    "name": "Sharpness Type I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1251979832",
+    "description": "Modifies the sharpness of Ramped-Up weapons."
+  },
+  "Sharpness Type II": {
+    "id": 83,
+    "name": "Sharpness Type II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1265689049",
+    "description": "Modifies the sharpness of Ramped-Up weapons."
+  },
+  "Sharpness Type III": {
+    "id": 84,
+    "name": "Sharpness Type III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1951027710",
+    "description": "Modifies the sharpness of Ramped-Up weapons, but reduces Attack by 10."
+  },
+  "Sharpness Type IV": {
+    "id": 85,
+    "name": "Sharpness Type IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1965261215",
+    "description": "Modifies the sharpness of Ramped-Up weapons, but reduces Attack by 20."
+  },
+  "Secondary: Fire I": {
+    "id": 86,
+    "name": "Secondary: Fire I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1921564947",
+    "description": "Sets a non-Fire weapon's sub element to Fire and adds +10 to its value."
+  },
+  "Secondary: Fire II": {
+    "id": 87,
+    "name": "Secondary: Fire II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1935814960",
+    "description": "Sets a non-Fire weapon's sub element to Fire and adds +20 to its value, as well as +5 to the primary element."
+  },
+  "Secondary: Fire III": {
+    "id": 88,
+    "name": "Secondary: Fire III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2084266193",
+    "description": "Sets a non-Fire weapon's sub element to Fire and adds +30 to its value, as well as +10 to the primary element."
+  },
+  "Secondary: Water I": {
+    "id": 89,
+    "name": "Secondary: Water I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2099040502",
+    "description": "Sets a non-Water weapon's sub element to Water and adds +10 to its value."
+  },
+  "Secondary: Water II": {
+    "id": 90,
+    "name": "Secondary: Water II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2146828439",
+    "description": "Sets a non-Water weapon's sub element to Water and adds +20 to its value, as well as +5 to the primary element."
+  },
+  "Secondary: Water III": {
+    "id": 91,
+    "name": "Secondary: Water III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2026860724",
+    "description": "Sets a non-Water weapon's sub element to Water and adds +30 to its value, as well as +10 to the primary element."
+  },
+  "Secondary: Thunder I": {
+    "id": 92,
+    "name": "Secondary: Thunder I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2040569941",
+    "description": "Sets a non-Thunder weapon's sub element to Thunder and adds +10 to its value."
+  },
+  "Secondary: Thunder II": {
+    "id": 93,
+    "name": "Secondary: Thunder II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2054819914",
+    "description": "Sets a non-Thunder weapon's sub element to Thunder and adds +20 to its value, as well as +5 to the primary element."
+  },
+  "Secondary: Thunder III": {
+    "id": 94,
+    "name": "Secondary: Thunder III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/2069053547",
+    "description": "Sets a non-Thunder weapon's sub element to Thunder and adds +30 to its value, as well as +10 to the primary element."
+  },
+  "Secondary: Ice I": {
+    "id": 95,
+    "name": "Secondary: Ice I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1681174536",
+    "description": "Sets a non-Ice weapon's sub element to Ice and adds +10 to its value."
+  },
+  "Secondary: Ice II": {
+    "id": 96,
+    "name": "Secondary: Ice II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1695408169",
+    "description": "Sets a non-Ice weapon's sub element to Ice and adds +20 to its value, as well as +5 to the primary element."
+  },
+  "Secondary: Ice III": {
+    "id": 97,
+    "name": "Secondary: Ice III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1743214542",
+    "description": "Sets a non-Ice weapon's sub element to Ice and adds +30 to its value, as well as +10 to the primary element."
+  },
+  "Secondary: Dragon I": {
+    "id": 98,
+    "name": "Secondary: Dragon I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1622706159",
+    "description": "Sets a non-Dragon weapon's sub element to Dragon and adds +10 to its value."
+  },
+  "Secondary: Dragon II": {
+    "id": 99,
+    "name": "Secondary: Dragon II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1636956044",
+    "description": "Sets a non-Dragon weapon's sub element to Dragon and adds +20 to its value, as well as +5 to the primary element."
+  },
+  "Secondary: Dragon III": {
+    "id": 100,
+    "name": "Secondary: Dragon III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1651189677",
+    "description": "Sets a non-Dragon weapon's sub element to Dragon and adds +30 to its value, as well as +10 to the primary element."
+  },
+  "Wyrmstake Boost": {
+    "id": 101,
+    "name": "Wyrmstake Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1665963842",
+    "description": "Raises the Wyrmstake Cannon's damage level by 1."
+  },
+  "Shelling: Normal I": {
+    "id": 102,
+    "name": "Shelling: Normal I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1814415203",
+    "description": "Sets shelling type to Normal and shelling level to Level 3."
+  },
+  "Shelling: Normal II": {
+    "id": 103,
+    "name": "Shelling: Normal II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1862219520",
+    "description": "Sets shelling type to Normal and shelling level to Level 4."
+  },
+  "Shelling: Normal III": {
+    "id": 104,
+    "name": "Shelling: Normal III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1875928865",
+    "description": "Sets shelling type to Normal and shelling level to Level 5."
+  },
+  "Shelling: Long I": {
+    "id": 105,
+    "name": "Shelling: Long I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1755961030",
+    "description": "Sets shelling type to Long and shelling level to Level 3."
+  },
+  "Shelling: Long II": {
+    "id": 106,
+    "name": "Shelling: Long II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1770194663",
+    "description": "Sets shelling type to Long and shelling level to Level 4."
+  },
+  "Shelling: Long III": {
+    "id": 107,
+    "name": "Shelling: Long III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1784968836",
+    "description": "Sets shelling type to Long and shelling level to Level 5."
+  },
+  "Shelling: Wide I": {
+    "id": 108,
+    "name": "Shelling: Wide I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1799202469",
+    "description": "Sets shelling type to Wide and shelling level to Level 3."
+  },
+  "Shelling: Wide II": {
+    "id": 109,
+    "name": "Shelling: Wide II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/337057370",
+    "description": "Sets shelling type to Wide and shelling level to Level 4."
+  },
+  "Shelling: Wide III": {
+    "id": 110,
+    "name": "Shelling: Wide III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/384321147",
+    "description": "Sets shelling type to Wide and shelling level to Level 5."
+  },
+  "Attack Melody I": {
+    "id": 111,
+    "name": "Attack Melody I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/398571032",
+    "description": "Enables attack-focused performances."
+  },
+  "Attack Melody II": {
+    "id": 112,
+    "name": "Attack Melody II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/278586937",
+    "description": "Enables attack-focused performances."
+  },
+  "Defensive Melody I": {
+    "id": 113,
+    "name": "Defensive Melody I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/293361118",
+    "description": "Enables defense-focused performances."
+  },
+  "Defensive Melody II": {
+    "id": 114,
+    "name": "Defensive Melody II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/307594751",
+    "description": "Enables defense-focused performances."
+  },
+  "Healing Melody I": {
+    "id": 115,
+    "name": "Healing Melody I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/321844636",
+    "description": "Enables healing-focused performances."
+  },
+  "Healing Melody II": {
+    "id": 116,
+    "name": "Healing Melody II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/469771709",
+    "description": "Enables healing-focused performances."
+  },
+  "Resilient Melody I": {
+    "id": 117,
+    "name": "Resilient Melody I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/517576018",
+    "description": "Enables performances that nullify status ailments."
+  },
+  "Resilient Melody II": {
+    "id": 118,
+    "name": "Resilient Melody II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/531809651",
+    "description": "Enables performances that nullify status ailments."
+  },
+  "Boost Equipped Coating": {
+    "id": 119,
+    "name": "Boost Equipped Coating",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/412366096",
+    "description": "Coating element +10"
+  },
+  "Phial: Power": {
+    "id": 120,
+    "name": "Phial: Power",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/426599729",
+    "description": "Changes equipped phial to a Power Phial, but reduces Attack by 10."
+  },
+  "Phial: Element": {
+    "id": 121,
+    "name": "Phial: Element",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/440849622",
+    "description": "Changes equipped phial to an element phial."
+  },
+  "Phial: Poison I": {
+    "id": 122,
+    "name": "Phial: Poison I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/128717994",
+    "description": "Changes equipped phial to a Poison Phial, and adds +20 to the phial's element."
+  },
+  "Phial: Poison II": {
+    "id": 123,
+    "name": "Phial: Poison II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/8733771",
+    "description": "Changes equipped phial to a Poison Phial, and adds +25 to the phial's element."
+  },
+  "Phial: Poison III": {
+    "id": 124,
+    "name": "Phial: Poison III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/22983784",
+    "description": "Changes equipped phial to a Poison Phial, and adds +30 to the phial's element."
+  },
+  "Phial: Paralysis I": {
+    "id": 125,
+    "name": "Phial: Paralysis I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/454558967",
+    "description": "Changes equipped phial to a Paralysis Phial, and adds +15 to the phial's element."
+  },
+  "Phial: Paralysis II": {
+    "id": 126,
+    "name": "Phial: Paralysis II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/99710100",
+    "description": "Changes equipped phial to a Paralysis Phial, and adds +20 to the phial's element."
+  },
+  "Phial: Paralysis III": {
+    "id": 127,
+    "name": "Phial: Paralysis III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/113943733",
+    "description": "Changes equipped phial to a Paralysis Phial, and adds +25 to the phial's element."
+  },
+  "Phial: Dragon I": {
+    "id": 128,
+    "name": "Phial: Dragon I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/37217289",
+    "description": "Changes equipped phial to a Dragon phial, and adds +20 to the phial's element."
+  },
+  "Phial: Dragon II": {
+    "id": 129,
+    "name": "Phial: Dragon II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/50943022",
+    "description": "Changes equipped phial to a Dragon phial, and adds +25 to the phial's element."
+  },
+  "Phial: Dragon III": {
+    "id": 130,
+    "name": "Phial: Dragon III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/232963023",
+    "description": "Changes equipped phial to a Dragon phial, and adds +30 to the phial's element."
+  },
+  "Phial: Exhaust I": {
+    "id": 131,
+    "name": "Phial: Exhaust I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/247196652",
+    "description": "Changes equipped phial to an Exhaust Phial, and adds +20 to the phial's element attack."
+  },
+  "Phial: Exhaust II": {
+    "id": 132,
+    "name": "Phial: Exhaust II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/261970829",
+    "description": "Changes equipped phial to an Exhaust Phial, and adds +30 to the phial's element attack."
+  },
+  "Phial: Exhaust III": {
+    "id": 133,
+    "name": "Phial: Exhaust III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/141986722",
+    "description": "Changes equipped phial to an Exhaust Phial, and adds +40 to the phial's element attack."
+  },
+  "Kinsect Level Boost": {
+    "id": 134,
+    "name": "Kinsect Level Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/169945952",
+    "description": "Raises Kinsect Level by 1."
+  },
+  "Kinsect Level Boost I": {
+    "id": 135,
+    "name": "Kinsect Level Boost I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/888838913",
+    "description": "Raises Kinsect Level to Level 4."
+  },
+  "Kinsect Level Boost II": {
+    "id": 136,
+    "name": "Kinsect Level Boost II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/903072550",
+    "description": "Raises Kinsect Level to Level 5."
+  },
+  "Kinsect Level Boost III": {
+    "id": 137,
+    "name": "Kinsect Level Boost III",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/917846727",
+    "description": "Raises Kinsect Level to Level 6, but reduces Attack by 10."
+  },
+  "Kinsect Level Boost IV": {
+    "id": 138,
+    "name": "Kinsect Level Boost IV",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/932080356",
+    "description": "Raises Kinsect Level to Level 7, but reduces Attack by 20."
+  },
+  "Recoil Down Boost": {
+    "id": 139,
+    "name": "Recoil Down Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/812112517",
+    "description": "Decrease recoil by 1."
+  },
+  "Recoil Down Surge": {
+    "id": 140,
+    "name": "Recoil Down Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1022077560",
+    "description": "Decreases recoil by 2 but increases deviation by 1."
+  },
+  "Reload Speed Boost": {
+    "id": 141,
+    "name": "Reload Speed Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/825821882",
+    "description": "Increases reload speed by 1."
+  },
+  "Reload Speed Surge": {
+    "id": 142,
+    "name": "Reload Speed Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1036851737",
+    "description": "Increases reload speed by 2 but also increases recoil by 1."
+  },
+  "Steadiness Boost": {
+    "id": 143,
+    "name": "Steadiness Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/840071771",
+    "description": "Decreases deviation by 1."
+  },
+  "Steadiness Surge": {
+    "id": 144,
+    "name": "Steadiness Surge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1051085374",
+    "description": "Decreases deviation by 2 but also decreases reload speed by 1."
+  },
+  "Normal Effect I": {
+    "id": 145,
+    "name": "Normal Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1065335263",
+    "description": "Enables loading of Level 2 Ammo, and increases ammo capacity."
+  },
+  "Normal Effect II": {
+    "id": 146,
+    "name": "Normal Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/944826876",
+    "description": "Enables loading of all levels of ammo, and increases ammo capacity."
+  },
+  "Pierce Effect I": {
+    "id": 147,
+    "name": "Pierce Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/959076765",
+    "description": "Enables loading of Pierce Ammo 1 &amp; 2, and increases ammo capacity."
+  },
+  "Pierce Effect II": {
+    "id": 148,
+    "name": "Pierce Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/973310386",
+    "description": "Enables loading of all Pierce Ammo, and increases ammo capacity."
+  },
+  "Spread Effect I": {
+    "id": 149,
+    "name": "Spread Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/618985811",
+    "description": "Enables loading of Spread Ammo 1 &amp; 2, and increases ammo capacity."
+  },
+  "Spread Effect II": {
+    "id": 150,
+    "name": "Spread Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/633219440",
+    "description": "Enables loading of all Spread Ammo, and increases ammo capacity."
+  },
+  "Shrapnel Effect I": {
+    "id": 151,
+    "name": "Shrapnel Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/647469329",
+    "description": "Enables loading of Shrapnel Ammo 1 &amp; 2, and increases ammo capacity."
+  },
+  "Shrapnel Effect II": {
+    "id": 152,
+    "name": "Shrapnel Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/661178678",
+    "description": "Enables loading of all Shrapnel Ammo, and increases ammo capacity."
+  },
+  "Sticky Effect I": {
+    "id": 153,
+    "name": "Sticky Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/541210839",
+    "description": "Enables loading of Sticky Ammo 1 &amp; 2, and increases ammo capacity."
+  },
+  "Sticky Effect II": {
+    "id": 154,
+    "name": "Sticky Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/555444468",
+    "description": "Enables loading of all Sticky Ammo, and increases ammo capacity."
+  },
+  "Cluster Effect I": {
+    "id": 155,
+    "name": "Cluster Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/603773077",
+    "description": "Enables loading of Cluster Bombs 1 &amp; 2, and increases ammo capacity."
+  },
+  "Cluster Effect II": {
+    "id": 156,
+    "name": "Cluster Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/752224394",
+    "description": "Enables loading of all Cluster Bombs, and increases ammo capacity."
+  },
+  "Add: Normal Ammo I": {
+    "id": 157,
+    "name": "Add: Normal Ammo I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/766474411",
+    "description": "Expands weapon ammo capacity for normal ammo."
+  },
+  "Add: Normal Ammo II": {
+    "id": 158,
+    "name": "Add: Normal Ammo II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/780183624",
+    "description": "Expands weapon ammo capacity for normal ammo."
+  },
+  "Sticky/Cluster Effect I": {
+    "id": 165,
+    "name": "Sticky/Cluster Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1450311587",
+    "description": "Enables loading of Sticky Ammo and Cluster Bombs, and changes ammo capacity."
+  },
+  "Sticky/Cluster Effect II": {
+    "id": 166,
+    "name": "Sticky/Cluster Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1464545088",
+    "description": "Enables loading of Sticky Ammo and Cluster Bombs, and changes ammo capacity."
+  },
+  "Fire Effect I": {
+    "id": 167,
+    "name": "Fire Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1345101665",
+    "description": "Enables loading of Flaming Ammo, and changes ammo capacity."
+  },
+  "Fire Effect II": {
+    "id": 168,
+    "name": "Fire Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1359335174",
+    "description": "Enables loading of Flaming Ammo and Piercing Fire Ammo, and changes ammo capacity."
+  },
+  "Water Effect I": {
+    "id": 169,
+    "name": "Water Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1407139623",
+    "description": "Enables loading of Water Ammo, and changes ammo capacity."
+  },
+  "Water Effect II": {
+    "id": 170,
+    "name": "Water Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1555066564",
+    "description": "Enables loading of Water Ammo and Piercing Water Ammo, and changes ammo capacity."
+  },
+  "Thunder Effect I": {
+    "id": 171,
+    "name": "Thunder Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1569316581",
+    "description": "Enables loading of Thunder Ammo, and changes ammo capacity."
+  },
+  "Thunder Effect II": {
+    "id": 172,
+    "name": "Thunder Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1583550106",
+    "description": "Enables loading of Thunder Ammo and Piercing Thunder Ammo, and changes ammo capacity."
+  },
+  "Ice Effect I": {
+    "id": 173,
+    "name": "Ice Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1598324411",
+    "description": "Enables loading of Freeze Ammo, and changes ammo capacity."
+  },
+  "Ice Effect II": {
+    "id": 174,
+    "name": "Ice Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1478340184",
+    "description": "Enables loading of Freeze Ammo and Piercing Ice Ammo, and changes ammo capacity."
+  },
+  "Dragon Effect I": {
+    "id": 175,
+    "name": "Dragon Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1526144633",
+    "description": "Enables loading of Dragon Ammo, and changes ammo capacity."
+  },
+  "Dragon Effect II": {
+    "id": 176,
+    "name": "Dragon Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1539853854",
+    "description": "Enables loading of Dragon Ammo and Piercing Dragon Ammo, and changes ammo capacity."
+  },
+  "Paralysis Effect I": {
+    "id": 177,
+    "name": "Paralysis Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1151450687",
+    "description": "Enables loading of Paralysis Ammo, and changes ammo capacity."
+  },
+  "Paralysis Effect II": {
+    "id": 178,
+    "name": "Paralysis Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1165684188",
+    "description": "Enables loading of Paralysis Ammo, and changes ammo capacity."
+  },
+  "Sleep Effect I": {
+    "id": 179,
+    "name": "Sleep Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1180458493",
+    "description": "Enables loading of Sleep Ammo, and changes ammo capacity."
+  },
+  "Sleep Effect II": {
+    "id": 180,
+    "name": "Sleep Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1194691986",
+    "description": "Enables loading of Sleep Ammo, and changes ammo capacity."
+  },
+  "Poison Effect I": {
+    "id": 181,
+    "name": "Poison Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1074724275",
+    "description": "Enables loading of Poison, Recovery, Demon, and Armor Ammo, and changes ammo capacity."
+  },
+  "Poison Effect II": {
+    "id": 182,
+    "name": "Poison Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1121987920",
+    "description": "Enables loading of Poison, Recovery, Demon, and Armor Ammo, and changes ammo capacity."
+  },
+  "Exhaust Effect I": {
+    "id": 183,
+    "name": "Exhaust Effect I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1136237937",
+    "description": "Enables loading of Poison, Recovery, Demon, and Armor Ammo, and changes ammo capacity."
+  },
+  "Exhaust Effect II": {
+    "id": 184,
+    "name": "Exhaust Effect II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1284689174",
+    "description": "Enables loading of Poison, Recovery, Demon, and Armor Ammo, and changes ammo capacity."
+  },
+  "Special: Wyvernheart": {
+    "id": 185,
+    "name": "Special: Wyvernheart",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1299463479",
+    "description": "Changes special ammo to Wyvernheart."
+  },
+  "Special: Wyvernsnipe": {
+    "id": 186,
+    "name": "Special: Wyvernsnipe",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1313696980",
+    "description": "Changes special ammo  to Wyvernsnipe."
+  },
+  "Rapid Fire (Normal)": {
+    "id": 187,
+    "name": "Rapid Fire (Normal)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1327946997",
+    "description": "Allows rapid fire of loadable Normal Ammo 1 &amp; 2."
+  },
+  "Rapid Fire (Piercing)": {
+    "id": 188,
+    "name": "Rapid Fire (Piercing)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1240993002",
+    "description": "Allows rapid fire of loadable Pierce Ammo 1 &amp; 2."
+  },
+  "Rapid Fire (Spread)": {
+    "id": 189,
+    "name": "Rapid Fire (Spread)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1255242891",
+    "description": "Allows rapid fire of loadable Spread Ammo 1 &amp; 2."
+  },
+  "Rapid Fire (Shrapnel)": {
+    "id": 190,
+    "name": "Rapid Fire (Shrapnel)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1269476520",
+    "description": "Allows rapid fire of loadable Shrapnel Ammo 1 &amp; 2."
+  },
+  "Rapid Fire (Sticky)": {
+    "id": 191,
+    "name": "Rapid Fire (Sticky)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1955339337",
+    "description": "Allows rapid fire of loadable Sticky Ammo 1."
+  },
+  "Rapid Fire (Fire)": {
+    "id": 192,
+    "name": "Rapid Fire (Fire)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1969572974",
+    "description": "Allows rapid fire of loadable Flaming Ammo and Piercing Fire Ammo."
+  },
+  "Rapid Fire (Water)": {
+    "id": 193,
+    "name": "Rapid Fire (Water)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1983822863",
+    "description": "Allows rapid fire of loadable Water Ammo and Piercing Water Ammo."
+  },
+  "Rapid Fire (Thunder)": {
+    "id": 194,
+    "name": "Rapid Fire (Thunder)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1911116749",
+    "description": "Allows rapid fire of loadable Thunder Ammo and Piercing Thunder Ammo."
+  },
+  "Rapid Fire (Ice)": {
+    "id": 195,
+    "name": "Rapid Fire (Ice)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1998056492",
+    "description": "Allows rapid fire of loadable Freeze Ammo and Piercing Ice Ammo."
+  },
+  "Rapid Fire (Dragon)": {
+    "id": 196,
+    "name": "Rapid Fire (Dragon)",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1925350370",
+    "description": "Allows rapid fire of loadable Dragon Ammo and Piercing Dragon Ammo."
+  },
+  "Poison Coating Boost": {
+    "id": 197,
+    "name": "Poison Coating Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1699193528",
+    "description": "Strengthens Poison Coating if coatings can be applied to weapon."
+  },
+  "Paralysis Coating Boost": {
+    "id": 198,
+    "name": "Paralysis Coating Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1712919129",
+    "description": "Strengthens Paralysis Coating if coatings can be applied to weapon."
+  },
+  "Sleep Coating Boost": {
+    "id": 199,
+    "name": "Sleep Coating Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1626489470",
+    "description": "Strengthens Sleep Coating if coatings can be applied to weapon."
+  },
+  "Close-range Coating Boost": {
+    "id": 200,
+    "name": "Close-range Coating Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1640739359",
+    "description": "Strengthens Close-range Coating, but reduces Attack by 5."
+  },
+  "Use Power Coating": {
+    "id": 201,
+    "name": "Use Power Coating",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1655497276",
+    "description": "Allows you to apply Power Coatings."
+  },
+  "Use Poison Coating I": {
+    "id": 202,
+    "name": "Use Poison Coating I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1669747165",
+    "description": "Allows you to apply Poison Coatings."
+  },
+  "Use Poison Coating II": {
+    "id": 203,
+    "name": "Use Poison Coating II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1818198514",
+    "description": "Allows you to apply Poison Coatings and enhances them, but reduces Attack by 5."
+  },
+  "Use Para Coating I": {
+    "id": 204,
+    "name": "Use Para Coating I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1831924115",
+    "description": "Allows you to apply Paralysis Coatings."
+  },
+  "Use Para Coating II": {
+    "id": 205,
+    "name": "Use Para Coating II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1846157744",
+    "description": "Allows you to apply Paralysis Coatings and enhances them, but reduces Attack by 10."
+  },
+  "Use Sleep Coating I": {
+    "id": 206,
+    "name": "Use Sleep Coating I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1759744337",
+    "description": "Allows you to apply Sleep Coatings."
+  },
+  "Use Sleep Coating II": {
+    "id": 207,
+    "name": "Use Sleep Coating II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1774502262",
+    "description": "Allows you to apply Sleep Coatings and enhances them, but reduces Attack by 10."
+  },
+  "Use Blast Coating": {
+    "id": 208,
+    "name": "Use Blast Coating",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1788752151",
+    "description": "Allows you to apply Blast Coatings."
+  },
+  "Use Exhaust Coating": {
+    "id": 209,
+    "name": "Use Exhaust Coating",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1802985780",
+    "description": "Allows you to apply Exhaust Coatings, and grants +10 Attack."
+  },
+  "Firing: Rapid": {
+    "id": 210,
+    "name": "Firing: Rapid",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/340316373",
+    "description": "Modifies weapon for Rapid-based Charged Attacks."
+  },
+  "Firing: Pierce": {
+    "id": 211,
+    "name": "Firing: Pierce",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/354549962",
+    "description": "Modifies weapon for Pierce-based Charged Attacks."
+  },
+  "Firing: Spread": {
+    "id": 212,
+    "name": "Firing: Spread",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/402354411",
+    "description": "Modifies weapon for Spread-based Charged Attacks."
+  },
+  "Firing: Charge": {
+    "id": 213,
+    "name": "Firing: Charge",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/282894472",
+    "description": "Modifies arrow Charge Level for Charged Attacks."
+  },
+  "Firing: Swift": {
+    "id": 214,
+    "name": "Firing: Swift",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/297144489",
+    "description": "Modifies weapon for somewhat unconventional Charged Attacks."
+  },
+  "Arc Shot: Recovery": {
+    "id": 215,
+    "name": "Arc Shot: Recovery",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/311377998",
+    "description": "Changes shot type to Recovery."
+  },
+  "Arc Shot: Affinity": {
+    "id": 216,
+    "name": "Arc Shot: Affinity",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/325103727",
+    "description": "Changes shot type to Affinity."
+  },
+  "Arc Shot: Anti-shock": {
+    "id": 217,
+    "name": "Arc Shot: Anti-shock",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/473554956",
+    "description": "Changes shot type to Brace."
+  },
+  "Dulling Strike": {
+    "id": 218,
+    "name": "Dulling Strike",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/487804973",
+    "description": "Has a chance to increase attack power when your sharpness gauge is green or lower."
+  },
+  "Brutal Strike": {
+    "id": 219,
+    "name": "Brutal Strike",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/536119234",
+    "description": "Has a chance to increase damage with a negative affinity attack."
+  },
+  "Element Exploit": {
+    "id": 220,
+    "name": "Element Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/416151523",
+    "description": "Increases damage when exploiting a foe's elemental weakness."
+  },
+  "Silkbind Boost": {
+    "id": 221,
+    "name": "Silkbind Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/430385024",
+    "description": "Increases damage dealt using Silkbind attacks."
+  },
+  "Defense Grinder I": {
+    "id": 222,
+    "name": "Defense Grinder I",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/444110753",
+    "description": "Sharpness is unaffected when guarding."
+  },
+  "Defense Grinder II": {
+    "id": 223,
+    "name": "Defense Grinder II",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/458344262",
+    "description": "Sharpness is slightly restored when guarding."
+  },
+  "Hellion Mode": {
+    "id": 224,
+    "name": "Hellion Mode",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/69941095",
+    "description": "Attacking in Demon Mode turns every attack into a critical hit, but also doubles sharpness degredation."
+  },
+  "Maximum Volume": {
+    "id": 225,
+    "name": "Maximum Volume",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/84698884",
+    "description": "Increases a performance's range of effect once it is activated."
+  },
+  "Phial Switch Boost": {
+    "id": 226,
+    "name": "Phial Switch Boost",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/132503333",
+    "description": "Grants special effects to phials when executing morph attacks."
+  },
+  "Lasting Arc Shot": {
+    "id": 227,
+    "name": "Lasting Arc Shot",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/12519130",
+    "description": "Prolongs the bow's arc shot effect."
+  },
+  "Master Rider": {
+    "id": 228,
+    "name": "Master Rider",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/26244859",
+    "description": "Increases damage inflicted by Wyvern Riding, and increases the Wyvern Riding Timer."
+  },
+  "Wyvern Exploit": {
+    "id": 229,
+    "name": "Wyvern Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/40478360",
+    "description": "Increases damage to Bird, Flying, Brute, Piscine, and Fanged Wyverns, as well as Leviathans."
+  },
+  "Small Monster Exploit": {
+    "id": 230,
+    "name": "Small Monster Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/54728377",
+    "description": "Increases damage to small monsters."
+  },
+  "Anti-Aerial Species": {
+    "id": 231,
+    "name": "Anti-Aerial Species",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1007068392",
+    "description": "Increases damage to flying monsters."
+  },
+  "Anti-Aquatic Species": {
+    "id": 232,
+    "name": "Anti-Aquatic Species",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/1054348425",
+    "description": "Increases damage to aquatic monsters."
+  },
+  "Fireblight Exploit": {
+    "id": 233,
+    "name": "Fireblight Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/203703902",
+    "description": "Increases damage to monsters afflicted with fireblight."
+  },
+  "Waterblight Exploit": {
+    "id": 234,
+    "name": "Waterblight Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/251508351",
+    "description": "Increases damage to monsters afflicted with waterblight."
+  },
+  "Thunderblight Exploit": {
+    "id": 235,
+    "name": "Thunderblight Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/265741852",
+    "description": "Increases damage to monsters afflicted with thunderblight."
+  },
+  "Iceblight Exploit": {
+    "id": 236,
+    "name": "Iceblight Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/145249853",
+    "description": "Increases damage to monsters afflicted with iceblight."
+  },
+  "Magnamalo Soul": {
+    "id": 237,
+    "name": "Magnamalo Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/159483346",
+    "description": "Increases attack when afflicted by hellfire status."
+  },
+  "Valstrax Soul": {
+    "id": 238,
+    "name": "Valstrax Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/173733363",
+    "description": "Increases Dragon element attack by 20% when afflicted with dragonblight."
+  },
+  "Chameleos Soul": {
+    "id": 239,
+    "name": "Chameleos Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/188491152",
+    "description": "Landing a hit will yield a small chance of boosting Health, Stamina, Attack, or Defense."
+  },
+  "Kushala Daora Soul": {
+    "id": 240,
+    "name": "Kushala Daora Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/873829809",
+    "description": "Affinity gradually increases when continuously landing hits on foes."
+  },
+  "Teostra Soul": {
+    "id": 241,
+    "name": "Teostra Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/921617750",
+    "description": "Increases damage dealt by blast explosions."
+  },
+  "Ibushi Soul": {
+    "id": 242,
+    "name": "Ibushi Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/935343479",
+    "description": "Enhances weapon functionality with each piece of Narwa armor you equip."
+  },
+  "Narwa Soul": {
+    "id": 243,
+    "name": "Narwa Soul",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/815359252",
+    "description": "Enhances weapon functionality with each piece of Ibushi armor you equip."
+  },
+  "Buddy Rally": {
+    "id": 244,
+    "name": "Buddy Rally",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/829609269",
+    "description": "Increases Palico and Palamute attack power and defense."
+  },
+  "Spiribird Doubled": {
+    "id": 245,
+    "name": "Spiribird Doubled",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills/844367146",
+    "description": "Occasionally increases the effect of Spiribirds."
+  },
+  "Fanged Exploit": {
+    "id": 272,
+    "name": "Fanged Exploit",
+    "href": "https://mhrise.kiranico.com/data/rampage-skills",
+    "description": "Increases damage to Fanged Beasts."
+  }
+}
