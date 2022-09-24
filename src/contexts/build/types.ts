@@ -30,7 +30,7 @@ export type TalismanChoice = {
 };
 
 export type ActiveSkillTable = {
-  [key: string]: boolean,
+  [key: string]: boolean | undefined,
 };
 
 export type BuildState = {
@@ -49,12 +49,14 @@ export type BuildState = {
   activeSkills: ActiveSkillTable,
 };
 
+export type CalculatedSkill = {
+  level: number,
+  maxLevel: number,
+  effectiveLevel: number,
+};
+
 export type CalculatedSkills = {
-  [key: string]: {
-    level: number,
-    maxLevel: number,
-    effectiveLevel: number,
-  },
+  [key: string]: CalculatedSkill | undefined,
 };
 
 export type SharpnessMultipliers = {

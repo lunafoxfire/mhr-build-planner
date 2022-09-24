@@ -8,8 +8,8 @@ import SortableTable, { DataColumn } from '@/components/SortableTable';
 import GameIcon from '@/components/GameIcon';
 import { StyledModal, TableWrapper } from '../shared';
 
-const DECO_TABLE_DATA = Object.values(decorationTable).sort((a, b) => b.size - a.size);
-const RAMPAGE_DECO_TABLE_DATA = Object.values(rampageDecorationTable).sort((a, b) => b.size - a.size);
+const DECO_TABLE_DATA = (Object.values(decorationTable) as Decoration[]).sort((a, b) => b.size - a.size);
+const RAMPAGE_DECO_TABLE_DATA = (Object.values(rampageDecorationTable) as RampageDecoration[]).sort((a, b) => b.size - a.size);
 
 const DECO_TABLE_COLUMNS: Array<DataColumn<Decoration>> = [
   {

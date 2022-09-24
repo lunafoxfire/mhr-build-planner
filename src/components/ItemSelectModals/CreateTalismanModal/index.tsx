@@ -15,6 +15,7 @@ const SLOT_OPTIONS = [
 function getLevelOptions(skill: string | null) {
   if (!skill) return [];
   const skillData = skillTable[skill];
+  if (!skillData) return [];
   const options = [];
   for (let i = 0; i < skillData.levels.length; i++) {
     options.push(`${i + 1}`);

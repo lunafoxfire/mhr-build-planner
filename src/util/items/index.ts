@@ -161,7 +161,9 @@ export function getDecorationSkills(decorations: Array<string | null>): ArmorSki
   decorations.forEach((decoration) => {
     if (decoration) {
       const decoInfo = decorationTable[decoration];
-      skills.push(decoInfo.skill);
+      if (decoInfo) {
+        skills.push(decoInfo.skill);
+      }
     }
   });
   return skills;
@@ -169,6 +171,7 @@ export function getDecorationSkills(decorations: Array<string | null>): ArmorSki
 
 export function getArmorSkills(item: ArmorChoice): ArmorSkill[] {
   const itemData = armorTable[item.name];
+  if (!itemData) return [];
   return [
     ...itemData.skills,
     ...getDecorationSkills(item.decorations),

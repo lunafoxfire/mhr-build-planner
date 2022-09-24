@@ -143,11 +143,11 @@ export type SkillDecorationInfo = {
   skillLevel: number,
 };
 
-export type SkillDecorationMap = { [key: string]: SkillDecorationInfo[] };
+export type SkillDecorationMap = { [key: string]: SkillDecorationInfo[] | undefined };
 
-export type ArmorTable = { [key: string]: Armor };
-export type WeaponTable = { [key: string]: Weapon };
-export type DecorationTable = { [key: string]: Decoration };
-export type RampageDecorationTable = { [key: string]: RampageDecoration };
-export type SkillTable = { [key: string]: Skill };
-export type RampageSkillTable = { [key: string]: RampageSkill };
+export type ArmorTable = { [key: string]: Armor | undefined };
+export type WeaponTable = { [key: string]: Weapon | undefined };
+export type DecorationTable = { [key: string]: Decoration | undefined };
+export type RampageDecorationTable = { [key: string]: RampageDecoration | undefined };
+export type SkillTable = { [key: string]: Skill | undefined };
+export type RampageSkillTable = { [key: string]: RampageSkill | undefined };

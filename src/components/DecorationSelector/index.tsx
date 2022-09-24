@@ -27,7 +27,13 @@ const DecorationSelector = ({ slotSize, value, onChange, rampage }: DecorationSe
     if (!value) {
       return '---';
     }
-    return rampage ? rampageDecorationTable[value].skill : stringifySkill(decorationTable[value].skill);
+    if (rampage) {
+      return rampageDecorationTable[value]?.skill ?? 'undefined';
+    }
+    if (decorationTable[value]?.skill) {
+      return stringifySkill(decorationTable[value]!.skill);
+    }
+    return 'undefined';
   }, [rampage, value]);
 
   const icon = useMemo(() => getDecorationSlotIcon(slotSize), [slotSize]);

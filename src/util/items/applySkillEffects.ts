@@ -1,5 +1,5 @@
 import { WeaponElementType, WeaponStatusType } from '@/assets/game-data/types';
-import { ActiveSkillTable, CalculatedSkills } from '@/contexts/build/types';
+import { ActiveSkillTable, CalculatedSkill, CalculatedSkills } from '@/contexts/build/types';
 
 export type ElementModifier = { bonus: number, multiplier: number };
 
@@ -20,7 +20,7 @@ export type SkillEffects = {
 
 type SkillFunction = (effects: SkillEffects) => void;
 
-type SkillFunctionMap = { [key: string]: { [key: number]: SkillFunction } };
+type SkillFunctionMap = { [key: string]: { [key: number]: SkillFunction | undefined } | undefined };
 
 const BASE_SKILL_EFFECTS: SkillEffects = {
   attackBonus: 0,
@@ -57,7 +57,7 @@ const BASE_SKILL_EFFECTS: SkillEffects = {
 export function applySkillEffects(skills: CalculatedSkills, activeSkills: ActiveSkillTable): SkillEffects {
   const currentEffects: SkillEffects = { ...BASE_SKILL_EFFECTS };
 
-  Object.entries(skills).forEach(([skill, { effectiveLevel }]) => {
+  (Object.entries(skills) as Array<[string, CalculatedSkill]>).forEach(([skill, { effectiveLevel }]) => {
     if (activeSkills[skill] == null || activeSkills[skill]) {
       SKILL_FUNCTION_MAP[skill]?.[effectiveLevel]?.(currentEffects);
     }

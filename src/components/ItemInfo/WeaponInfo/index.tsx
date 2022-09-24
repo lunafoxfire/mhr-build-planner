@@ -15,15 +15,15 @@ const WeaponInfo = ({ }: WeaponInfoProps) => {
 
   const { weaponData, name, slots, rampageSlots } = useMemo(() => {
     const weaponData = weaponTable[build.weapon.name];
-    const name = weaponData.name;
+    const name = weaponData?.name || 'undefined';
     const slots: SlotSelection[] = [];
     const rampageSlots: SlotSelection[] = [];
 
-    weaponData.slots.forEach((size, i) => {
+    weaponData?.slots.forEach((size, i) => {
       const decoration = build.weapon.decorations[i] || null;
       slots.push({ size, decoration });
     });
-    weaponData.rampageSlots.forEach((size, i) => {
+    weaponData?.rampageSlots.forEach((size, i) => {
       const decoration = build.weapon.rampageDecorations[i] || null;
       rampageSlots.push({ size, decoration });
     });
@@ -114,11 +114,11 @@ const WeaponInfo = ({ }: WeaponInfoProps) => {
         }
       </GridSection>
       <GridSection section="stats">
-        <ItemStatEntry>Atk: {weaponData.stats.attack}</ItemStatEntry>
-        <ItemStatEntry>Aff: {weaponData.stats.affinity}%</ItemStatEntry>
-        {!!weaponData.stats.defense && (<ItemStatEntry>Def: {weaponData.stats.defense}</ItemStatEntry>)}
-        {!!weaponData.stats.element && (<ItemStatWithIcon text={`${weaponData.stats.element.power}`} icon={getElementIcon(weaponData.stats.element.type)} />)}
-        {!!weaponData.stats.status && (<ItemStatWithIcon text={`${weaponData.stats.status.power}`} icon={getElementIcon(weaponData.stats.status.type)} />)}
+        <ItemStatEntry>Atk: {weaponData?.stats.attack}</ItemStatEntry>
+        <ItemStatEntry>Aff: {weaponData?.stats.affinity}%</ItemStatEntry>
+        {!!weaponData?.stats.defense && (<ItemStatEntry>Def: {weaponData?.stats.defense}</ItemStatEntry>)}
+        {!!weaponData?.stats.element && (<ItemStatWithIcon text={`${weaponData?.stats.element.power}`} icon={getElementIcon(weaponData?.stats.element.type)} />)}
+        {!!weaponData?.stats.status && (<ItemStatWithIcon text={`${weaponData?.stats.status.power}`} icon={getElementIcon(weaponData?.stats.status.type)} />)}
       </GridSection>
     </>
   );

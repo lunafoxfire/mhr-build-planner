@@ -49,10 +49,10 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
     }
 
     const armorData = armorTable[selectedArmor.name];
-    const name = armorData.name;
+    const name = armorData?.name || 'undefined';
     const slots: SlotSelection[] = [];
 
-    armorData.slots.forEach((size, i) => {
+    armorData?.slots.forEach((size, i) => {
       const decoration = selectedArmor.decorations[i] || null;
       slots.push({ size, decoration });
     });
@@ -190,9 +190,9 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       </GridSection>
       <GridSection section="skills">
         <Vertical>
-          {armorData.skills.map((skill) => (
+          {armorData?.skills.map((skill) => (
             <ItemSkillEntry key={skill.name}>{stringifySkill(skill)}</ItemSkillEntry>
-          ))}
+          )) ?? null}
         </Vertical>
       </GridSection>
       <GridSection section="slots">
@@ -208,12 +208,12 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
         }
       </GridSection>
       <GridSection section="stats">
-        <ItemStatEntry>Def: {armorData.stats.defense}</ItemStatEntry>
-        <ItemStatWithIcon text={`${armorData.stats.fireRes}`} icon={getElementIcon('fire')} />
-        <ItemStatWithIcon text={`${armorData.stats.waterRes}`} icon={getElementIcon('water')} />
-        <ItemStatWithIcon text={`${armorData.stats.thunderRes}`} icon={getElementIcon('thunder')} />
-        <ItemStatWithIcon text={`${armorData.stats.iceRes}`} icon={getElementIcon('ice')} />
-        <ItemStatWithIcon text={`${armorData.stats.dragonRes}`} icon={getElementIcon('dragon')} />
+        <ItemStatEntry>Def: {armorData?.stats.defense}</ItemStatEntry>
+        <ItemStatWithIcon text={`${armorData?.stats.fireRes}`} icon={getElementIcon('fire')} />
+        <ItemStatWithIcon text={`${armorData?.stats.waterRes}`} icon={getElementIcon('water')} />
+        <ItemStatWithIcon text={`${armorData?.stats.thunderRes}`} icon={getElementIcon('thunder')} />
+        <ItemStatWithIcon text={`${armorData?.stats.iceRes}`} icon={getElementIcon('ice')} />
+        <ItemStatWithIcon text={`${armorData?.stats.dragonRes}`} icon={getElementIcon('dragon')} />
       </GridSection>
     </>
   );

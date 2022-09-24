@@ -5,6 +5,7 @@ import { weaponTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
 import { useBuildContext } from '@/contexts/build';
 import SharpnessBar from '@/components/SharpnessBar';
+import { CalculatedSkill } from '@/contexts/build/types';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
@@ -14,7 +15,7 @@ const DisplayStats = ({}: DisplayStatsProps) => {
 
   function renderSkills() {
     return (
-      Object.entries(calculatedSkills)
+      (Object.entries(calculatedSkills) as Array<[string, CalculatedSkill]>)
         .sort((a, b) => {
           if (a[1].effectiveLevel > b[1].effectiveLevel) return -1;
           if (a[1].effectiveLevel < b[1].effectiveLevel) return 1;
@@ -73,7 +74,7 @@ const DisplayStats = ({}: DisplayStatsProps) => {
       <StatEntry label="Raw Multiplier" value={calculatedStats.sharpnessMultipliers.raw} />
       <StatEntry label="Elemental Multiplier" value={calculatedStats.sharpnessMultipliers.elemental} />
       <Space h="xs" />
-      <SharpnessBar height={24} scale={0.5} sharpness={weaponInfo.sharpness} maxSharpness={weaponInfo.maxSharpness} currentSharpness={calculatedStats.sharpness} />
+      <SharpnessBar height={24} scale={0.5} sharpness={weaponInfo?.sharpness ?? []} maxSharpness={weaponInfo?.maxSharpness ?? []} currentSharpness={calculatedStats.sharpness} />
     </Paper>
   );
 };

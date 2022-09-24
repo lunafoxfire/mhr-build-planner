@@ -4,7 +4,7 @@ import { getArmorSkills, getDecorationSkills, getSharpnessMultipliers, getTalism
 import { applySkillEffects } from '@/util/items/applySkillEffects';
 import { clamp } from '@/util/number';
 import { BuildDispatchAction, reducer } from './reducer';
-import { BuildState, CalculatedSkills, CalculatedStats } from './types';
+import { BuildState, CalculatedSkill, CalculatedSkills, CalculatedStats } from './types';
 
 // CONTEXT
 export type BuildContextProps = {
@@ -37,7 +37,7 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
     onBuildUpdate(newState);
   }, [build, onBuildUpdate]);
 
-  const calculatedSkills = useMemo(() => {
+  const calculatedSkills = useMemo<CalculatedSkills>(() => {
     const calculatedSkills: CalculatedSkills = {};
     const aggregatedSkills = [
       ...getDecorationSkills(build.weapon.decorations),
@@ -52,17 +52,17 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
     aggregatedSkills.forEach((skill) => {
       const skillInfo = skillTable[skill.name];
       if (calculatedSkills[skill.name]) {
-        calculatedSkills[skill.name].level += skill.level;
+        calculatedSkills[skill.name]!.level += skill.level;
       } else {
         calculatedSkills[skill.name] = {
           level: skill.level,
-          maxLevel: skillInfo.levels.length,
+          maxLevel: skillInfo?.levels.length ?? 0,
           effectiveLevel: 0,
         };
       }
     });
 
-    Object.values(calculatedSkills).forEach((skill) => {
+    (Object.values(calculatedSkills) as CalculatedSkill[]).forEach((skill) => {
       skill.effectiveLevel = Math.min(skill.level, skill.maxLevel);
     });
 
@@ -76,7 +76,7 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
     }
 
     if (stormsoulBonus > 0) {
-      Object.entries(calculatedSkills).forEach(([name, skill]) => {
+      (Object.entries(calculatedSkills) as Array<[string, CalculatedSkill]>).forEach(([name, skill]) => {
         if (name !== 'Stormsoul') {
           skill.level += stormsoulBonus;
           skill.effectiveLevel = Math.min(skill.level, skill.maxLevel);
@@ -87,13 +87,39 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
     return calculatedSkills;
   }, [build.arms, build.body, build.head, build.legs, build.talisman, build.waist, build.weapon.decorations]);
 
-  const calculatedStats = useMemo(() => {
+  const calculatedStats = useMemo<CalculatedStats>(() => {
     const weaponInfo = weaponTable[build.weapon.name];
     const headInfo = armorTable[build.head.name];
     const bodyInfo = armorTable[build.body.name];
     const armsInfo = armorTable[build.arms.name];
     const waistInfo = armorTable[build.waist.name];
     const legsInfo = armorTable[build.legs.name];
+
+    if (!weaponInfo || !headInfo || !bodyInfo || !armsInfo || !waistInfo || !legsInfo) {
+      return {
+        effectiveRaw: 0,
+        raw: 0,
+        affinity: 0,
+        critMultiplier: 0,
+
+        effectiveElement: 0,
+        element: 0,
+        elementCritMultiplier: 0,
+        status: 0,
+
+        defense: 0,
+        fireRes: 0,
+        waterRes: 0,
+        thunderRes: 0,
+        iceRes: 0,
+        dragonRes: 0,
+
+        sharpness: [],
+        sharpnessClass: 0,
+        sharpnessMultipliers: { raw: 0, elemental: 0 },
+      };
+    }
+
     const skillEffects = applySkillEffects(calculatedSkills, build.activeSkills);
 
     // RAW
