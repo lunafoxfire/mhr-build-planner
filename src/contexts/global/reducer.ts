@@ -16,10 +16,26 @@ export type GlobalDispatchAction =
 | { type: 'DELETE_BUILD', id: string }
 | { type: 'SET_ACTIVE_TAB', id: string | null };
 
-export function getDefaultState(): GlobalState {
+export function getInitialState(): GlobalState {
+  let initialBuilds: BuildState[] = [];
+  let initialTab: string | null = null;
+
+  try {
+    const buildsJson = window.localStorage.getItem('builds');
+    if (buildsJson) {
+      // TODO: validation
+      initialBuilds = JSON.parse(buildsJson);
+    }
+    const tabJson = window.sessionStorage.getItem('active-tab');
+    if (tabJson) {
+      initialTab = tabJson;
+    }
+  } catch (e) {
+    console.error(e);
+  }
   return {
-    builds: [],
-    activeTab: null,
+    builds: initialBuilds,
+    activeTab: initialTab,
   };
 }
 

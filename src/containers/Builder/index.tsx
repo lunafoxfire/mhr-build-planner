@@ -10,12 +10,11 @@ import DisplayStats from './DisplayStats';
 
 export type BuilderProps = {
   build: BuildState,
-  onBuildUpdate: (data: BuildState) => void,
 };
-const Builder = ({ build, onBuildUpdate }: BuilderProps) => {
+const Builder = ({ build }: BuilderProps) => {
   const { dispatch } = useGlobalContext();
   return (
-    <BuildContextProvider build={build} onBuildUpdate={onBuildUpdate}>
+    <BuildContextProvider build={build}>
       <Group>
         <Button
           color="success"

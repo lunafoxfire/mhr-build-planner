@@ -3,6 +3,7 @@ import { armorTable, skillTable, weaponTable } from '@/assets/game-data';
 import { getArmorSkills, getDecorationSkills, getSharpnessMultipliers, getTalismanSkills } from '@/util/items';
 import { applySkillEffects } from '@/util/items/applySkillEffects';
 import { clamp } from '@/util/number';
+import { useGlobalContext } from '@/contexts/global';
 import { BuildDispatchAction, reducer } from './reducer';
 import { BuildState, CalculatedSkill, CalculatedSkills, CalculatedStats } from './types';
 
@@ -28,14 +29,15 @@ export function useBuildContext() {
 // PROVIDER
 type BuildContextProviderProps = {
   build: BuildState,
-  onBuildUpdate: (data: BuildState) => void,
   children: React.ReactNode,
 };
-export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildContextProviderProps) => {
+export const BuildContextProvider = ({ build, children }: BuildContextProviderProps) => {
+  const { dispatch: globalDispatch } = useGlobalContext();
+
   const dispatch = useCallback((action: BuildDispatchAction) => {
     const newState = reducer(build, action);
-    onBuildUpdate(newState);
-  }, [build, onBuildUpdate]);
+    globalDispatch({ type: 'UPDATE_BUILD', data: newState });
+  }, [build, globalDispatch]);
 
   const calculatedSkills = useMemo<CalculatedSkills>(() => {
     const calculatedSkills: CalculatedSkills = {};

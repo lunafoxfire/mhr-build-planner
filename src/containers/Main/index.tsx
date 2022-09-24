@@ -1,23 +1,12 @@
-import React, { useCallback, useEffect, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import styled from '@emotion/styled';
 import { Space, Tabs } from '@mantine/core';
 import { useGlobalContext } from '@/contexts/global';
-import { BuildState } from '@/contexts/build/types';
 import Builder from '@/containers/Builder';
 
 export type MainProps = {};
 const Main = ({ }: MainProps) => {
   const { state, dispatch } = useGlobalContext();
-
-  useEffect(() => {
-    if (state.builds.length === 0) {
-      dispatch({ type: 'CREATE_BUILD_IF_NONE' });
-    }
-  }, [dispatch, state.builds]);
-
-  const onBuildUpdate = useCallback((data: BuildState) => {
-    dispatch({ type: 'UPDATE_BUILD', data });
-  }, [dispatch]);
 
   const renderedTabs = useMemo(() => {
     return state.builds.map((build) => (
@@ -30,10 +19,10 @@ const Main = ({ }: MainProps) => {
   const renderedTabPanels = useMemo(() => {
     return state.builds.map((build) => (
       <Tabs.Panel key={build.id} value={build.id}>
-        <Builder build={build} onBuildUpdate={onBuildUpdate} />
+        <Builder build={build} />
       </Tabs.Panel>
     ));
-  }, [onBuildUpdate, state.builds]);
+  }, [state.builds]);
 
   return (
     <MainContainer>
