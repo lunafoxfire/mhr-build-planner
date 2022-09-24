@@ -8,7 +8,7 @@ import CreateTalismanModal, { InProgressTalisman } from '@/components/ItemSelect
 import DecorationSelector from '@/components/DecorationSelector';
 import { GridSection, ItemIconWrapper, ItemSkillEntry, TitleIconWrapper, TitleWrapper, Vertical } from '../shared';
 
-export interface TalismanInfoProps {};
+export type TalismanInfoProps = {};
 const TalismanInfo = ({ }: TalismanInfoProps) => {
   const { state, dispatch } = useBuildContext();
   const [modalOpen, setModalOpen] = useState(false);

@@ -4,19 +4,19 @@ import { Table } from '@mantine/core';
 import { ChevronUp, ChevronDown, Icon } from 'react-feather';
 import ClickableDiv from '@/components/ClickableDiv';
 
-export interface SortOptions {
+export type SortOptions = {
   key: string,
   order: 'ASC' | 'DESC',
-}
+};
 
-export interface DataColumn<T> {
+export type DataColumn<T> = {
   key: string,
   label: React.ReactNode,
   render: (item: T) => React.ReactNode,
   sort?: (a: T, b: T) => number,
-}
+};
 
-export interface SortableTableProps<T> {
+export type SortableTableProps<T> = {
   columns: Array<DataColumn<T>>,
   data: T[],
   getItemKey: (item: T) => string,

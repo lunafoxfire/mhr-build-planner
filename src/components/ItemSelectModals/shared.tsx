@@ -7,11 +7,11 @@ import GameIcon from '../GameIcon';
 
 export const StyledModal = styled<(props: ModalProps & { maxWidth?: string }) => JSX.Element>(Modal)`
   .mantine-Modal-modal {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     width: 100%;
     max-width: ${({ maxWidth }) => maxWidth || '1200px'};
-    min-width: 800px;
+    min-width: 850px;
 
     border: 3px solid ${({ theme }) => theme.colors.dark[4]};
   }

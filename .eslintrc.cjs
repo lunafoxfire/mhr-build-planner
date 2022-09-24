@@ -40,7 +40,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': OFF,
     '@typescript-eslint/space-before-function-paren': OFF,
     '@typescript-eslint/explicit-function-return-type': OFF,
-    '@typescript-eslint/consistent-type-definitions': OFF,
+    '@typescript-eslint/consistent-type-definitions': [ERROR, 'type'],
     '@typescript-eslint/member-delimiter-style': [ERROR, {
       multiline: { delimiter: 'comma', requireLast: true },
       singleline: { delimiter: 'comma', requireLast: false },

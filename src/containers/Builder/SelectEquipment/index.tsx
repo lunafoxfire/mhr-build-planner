@@ -2,7 +2,7 @@ import React from 'react';
 import { Divider, Paper } from '@mantine/core';
 import ItemInfo from '@/components/ItemInfo';
 
-export interface SelectEquipmentProps {};
+export type SelectEquipmentProps = {};
 const SelectEquipment = ({ }: SelectEquipmentProps) => {
   return (
     <Paper shadow="md" p="md">

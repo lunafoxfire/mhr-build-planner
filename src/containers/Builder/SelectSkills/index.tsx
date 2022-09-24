@@ -15,7 +15,7 @@ const RANK_OPTIONS = [
   { value: 'low', label: 'Low Rank' },
 ];
 
-export interface SelectSkillsProps {};
+export type SelectSkillsProps = {};
 const SelectSkills = ({}: SelectSkillsProps) => {
   const { state, dispatch } = useBuildContext();
   const [searchValue, setSearchValue] = useState<string>('');

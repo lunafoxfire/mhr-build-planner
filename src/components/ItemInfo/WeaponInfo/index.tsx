@@ -8,7 +8,7 @@ import SelectWeaponModal from '@/components/ItemSelectModals/SelectWeaponModal';
 import DecorationSelector from '@/components/DecorationSelector';
 import { GridSection, ItemIconWrapper, ItemStatEntry, ItemStatWithIcon, SlotSelection, TitleIconWrapper, TitleWrapper } from '../shared';
 
-export interface WeaponInfoProps {};
+export type WeaponInfoProps = {};
 const WeaponInfo = ({ }: WeaponInfoProps) => {
   const { state, dispatch } = useBuildContext();
   const [modalOpen, setModalOpen] = useState(false);

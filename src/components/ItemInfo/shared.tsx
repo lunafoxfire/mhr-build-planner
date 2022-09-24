@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 import ClickableDiv, { ClickableDivProps } from '@/components/ClickableDiv';
 import GameIcon from '../GameIcon';
 
-export interface SlotSelection {
+export type SlotSelection = {
   size: number,
   decoration: string | null,
-}
+};
 
 export const GridSection = styled.div<{ section: string }>`
   grid-area: ${({ section }) => section};

@@ -5,7 +5,7 @@ import WeaponInfo from './WeaponInfo';
 import TalismanInfo from './TalismanInfo';
 import ArmorInfo from './ArmorInfo';
 
-export interface ItemInfoProps {
+export type ItemInfoProps = {
   type: 'WEAPON' | 'TALISMAN' | ArmorType,
 };
 const ItemInfo = ({ type }: ItemInfoProps) => {

@@ -4,7 +4,7 @@ import { Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
 import { truncateFloat } from '@/util/number';
 import { useBuildContext } from '@/contexts/build';
 
-export interface DisplayStatsProps {};
+export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
   const { calculatedSkills, calculatedStats } = useBuildContext();
 

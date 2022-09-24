@@ -3,9 +3,10 @@ import { Group, ModalProps, Select, Space, TextInput } from '@mantine/core';
 import { Search } from 'react-feather';
 import { weaponTable } from '@/assets/game-data';
 import { Weapon } from '@/assets/game-data/types';
-import { compareElements, compareSlots, getWeaponsByTypeAndRank, stringifyRank } from '@/util/items';
+import { compareElements, compareSharpness, compareSlots, getWeaponsByTypeAndRank, stringifyRank } from '@/util/items';
 import { useBuildContext } from '@/contexts/build';
 import SortableTable, { DataColumn } from '@/components/SortableTable';
+import SharpnessBar from '@/components/SharpnessBar';
 import { ElementDisplay, SlotsDisplay, StyledModal, TableWrapper } from '../shared';
 
 const WEAPON_TYPE_OPTIONS = [
@@ -88,10 +89,18 @@ const TABLE_COLUMNS: Array<DataColumn<Weapon>> = [
   },
   {
     key: 'rampage-slots',
-    label: 'Rampage Slots',
+    label: 'R. Slots',
     render: (item) => <SlotsDisplay slots={item.rampageSlots} />,
     sort: (a, b) => {
       return compareSlots(a.rampageSlots, b.rampageSlots);
+    },
+  },
+  {
+    key: 'sharpness',
+    label: 'Sharpness',
+    render: (item) => <SharpnessBar height={12} scale={0.2} sharpness={item.sharpness} maxSharpness={item.maxSharpness} />,
+    sort: (a, b) => {
+      return compareSharpness(a.maxSharpness, b.maxSharpness);
     },
   },
 ];

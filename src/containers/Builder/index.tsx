@@ -6,7 +6,7 @@ import SelectSkills from './SelectSkills';
 import SelectEquipment from './SelectEquipment';
 import DisplayStats from './DisplayStats';
 
-export interface BuilderProps {};
+export type BuilderProps = {};
 const Builder = ({}: BuilderProps) => {
   return (
     <BuildContextProvider>

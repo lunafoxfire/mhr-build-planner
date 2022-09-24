@@ -7,7 +7,7 @@ import SelectDecorationModal from '@/components/ItemSelectModals/SelectDecoratio
 import ClickableDiv from '@/components/ClickableDiv';
 import GameIcon from '@/components/GameIcon';
 
-export interface DecorationSelectorProps {
+export type DecorationSelectorProps = {
   slotSize: number,
   value: string | null,
   onChange: (val: string | null) => void,

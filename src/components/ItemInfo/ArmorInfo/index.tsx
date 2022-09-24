@@ -14,7 +14,7 @@ import { GridSection, ItemIconWrapper, ItemSkillEntry, ItemStatEntry, ItemStatWi
 import DecorationSelector from '@/components/DecorationSelector';
 import { getElementIcon, stringifySkill } from '@/util/items';
 
-export interface ArmorInfoProps {
+export type ArmorInfoProps = {
   type: ArmorType,
 };
 const ArmorInfo = ({ type }: ArmorInfoProps) => {

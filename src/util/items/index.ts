@@ -148,6 +148,14 @@ export function compareElements(a: WeaponElement, b: WeaponElement): -1 | 0 | 1 
   return 0;
 }
 
+export function compareSharpness(a: number[], b: number[]): -1 | 0 | 1 {
+  for (let i = 6; i >= 0; i--) {
+    if (a[i] > b[i]) return 1;
+    if (a[i] < b[i]) return -1;
+  }
+  return 0;
+}
+
 export function getDecorationSkills(decorations: Array<string | null>): ArmorSkill[] {
   const skills: ArmorSkill[] = [];
   decorations.forEach((decoration) => {
