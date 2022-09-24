@@ -4,7 +4,7 @@ import url from 'url';
 import util from 'util';
 import {
   Armor, Weapon, ItemsByRank, CategorizedItems,
-  ArmorTable, WeaponTable, DecorationTable, RampageDecorationTable, SkillTable, RampageSkillTable,
+  ArmorTable, WeaponTable, DecorationTable, RampageDecorationTable, SkillTable, RampageSkillTable, SkillDecorationMap, SkillDecorationInfo,
 } from '@/assets/game-data/types';
 
 const __filename = url.fileURLToPath(import.meta.url);
@@ -42,6 +42,7 @@ const rampageDecorationTable: RampageDecorationTable = {};
 const skillTable: SkillTable = {};
 const rampageSkillTable: RampageSkillTable = {};
 
+const skillDecorationMap: SkillDecorationMap = {};
 const categorizedItems: CategorizedItems = {
   armor: {
     HEAD: { lowRank: [], highRank: [], masterRank: [] },
@@ -67,6 +68,7 @@ const categorizedItems: CategorizedItems = {
     LIGHT_BOWGUN: { lowRank: [], highRank: [], masterRank: [] },
   },
 };
+
 
 const LOW_RANK = [1, 2, 3];
 const HIGH_RANK = [4, 5, 6, 7];
@@ -171,14 +173,28 @@ rampageDecorationData.forEach((item: any) => {
   rampageDecorationTable[item.name] = item;
 });
 
-skillData.forEach((item: any) => {
-  if (skillTable[item.name]) return;
-  skillTable[item.name] = item;
+skillData.forEach((skill: any) => {
+  if (skillTable[skill.name]) return;
+  skillTable[skill.name] = skill;
+
+  const skillDecorations: SkillDecorationInfo[] = [];
+  Object.entries(decorationTable).forEach(([decoration, decoInfo]) => {
+    if (decoInfo.skill.name === skill.name) {
+      skillDecorations.push({
+        decoName: decoration,
+        decoSize: decoInfo.size,
+        skillLevel: decoInfo.skill.level,
+      });
+    }
+  });
+  if (skillDecorations.length) {
+    skillDecorationMap[skill.name] = skillDecorations;
+  }
 });
 
-rampageSkillData.forEach((item: any) => {
-  if (rampageSkillTable[item.name]) return;
-  rampageSkillTable[item.name] = item;
+rampageSkillData.forEach((skill: any) => {
+  if (rampageSkillTable[skill.name]) return;
+  rampageSkillTable[skill.name] = skill;
 });
 
 
@@ -189,6 +205,7 @@ writeFileSafe('rampageDecorations.json', rampageDecorationTable);
 writeFileSafe('skills.json', skillTable);
 writeFileSafe('rampageSkills.json', rampageSkillTable);
 writeFileSafe('categorizedItems.json', categorizedItems);
+writeFileSafe('skillDecorationMap.json', skillDecorationMap);
 
 function writeFileSafe(fileName: string, data: any) {
   const filePath = path.join(OUTPUT_DIR, fileName);

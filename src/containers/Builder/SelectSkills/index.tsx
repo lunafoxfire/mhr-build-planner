@@ -78,6 +78,10 @@ const SelectSkills = ({}: SelectSkillsProps) => {
       <Divider my="sm" />
 
       <Title order={4}>Target Skills</Title>
+      <Space h="xs" />
+      <Text size="sm">
+        Select skills that are essential to your build. Armor will be scored and ranked based on the skills you choose here.
+      </Text>
       <Space h="md" />
       <Select
         aria-label='Select a skill to add'

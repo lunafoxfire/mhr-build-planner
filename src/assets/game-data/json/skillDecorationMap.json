@@ -1,0 +1,1164 @@
+{
+  "Attack Boost": [
+    {
+      "decoName": "Attack Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Agitator": [
+    {
+      "decoName": "Challenger Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Peak Performance": [
+    {
+      "decoName": "Flawless Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Resentment": [
+    {
+      "decoName": "Furor Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Resuscitate": [
+    {
+      "decoName": "Crisis Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Crisis Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Critical Eye": [
+    {
+      "decoName": "Expert Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Critical Boost": [
+    {
+      "decoName": "Critical Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Weakness Exploit": [
+    {
+      "decoName": "Tenderizer Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Latent Power": [
+    {
+      "decoName": "Throttle Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Maximum Might": [
+    {
+      "decoName": "Mighty Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Critical Element": [
+    {
+      "decoName": "Crit Element Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Crit Element Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Master's Touch": [
+    {
+      "decoName": "Mastery Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Mastery Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Fire Attack": [
+    {
+      "decoName": "Blaze Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Blaze Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Blaze Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    }
+  ],
+  "Water Attack": [
+    {
+      "decoName": "Stream Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Stream Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Stream Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    }
+  ],
+  "Ice Attack": [
+    {
+      "decoName": "Frost Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Frost Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Frost Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    }
+  ],
+  "Thunder Attack": [
+    {
+      "decoName": "Bolt Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Bolt Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Bolt Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    }
+  ],
+  "Dragon Attack": [
+    {
+      "decoName": "Dragon Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Dragon Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Dragon Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    }
+  ],
+  "Poison Attack": [
+    {
+      "decoName": "Venom Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Venom Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Paralysis Attack": [
+    {
+      "decoName": "Paralyzer Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Sleep Attack": [
+    {
+      "decoName": "Sleep Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Blast Attack": [
+    {
+      "decoName": "Blast Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Handicraft": [
+    {
+      "decoName": "Handicraft Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Razor Sharp": [
+    {
+      "decoName": "Razor Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Razor Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Spare Shot": [
+    {
+      "decoName": "Thrift Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Protective Polish": [
+    {
+      "decoName": "Sharp Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Sharp Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Mind's Eye": [
+    {
+      "decoName": "Mind's Eye Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Mind's Eye Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Ballistics": [
+    {
+      "decoName": "Precise Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Precise Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Bludgeoner": [
+    {
+      "decoName": "Blunt Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Bow Charge Plus": [
+    {
+      "decoName": "Mighty Bow Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 1
+    }
+  ],
+  "Focus": [
+    {
+      "decoName": "Charger Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Charger Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Power Prolonger": [
+    {
+      "decoName": "Enhancer Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Enhancer Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Marathon Runner": [
+    {
+      "decoName": "Sprinter Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Sprinter Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Constitution": [
+    {
+      "decoName": "Physique Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Physique Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Stamina Surge": [
+    {
+      "decoName": "Refresh Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Refresh Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Guard": [
+    {
+      "decoName": "Ironwall Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Ironwall Jewel+ 3",
+      "decoSize": 3,
+      "skillLevel": 2
+    }
+  ],
+  "Guard Up": [
+    {
+      "decoName": "Shield Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Shield Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Offensive Guard": [
+    {
+      "decoName": "Guardian Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Critical Draw": [
+    {
+      "decoName": "Draw Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Draw Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Punishing Draw": [
+    {
+      "decoName": "Gambit Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Gambit Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Quick Sheathe": [
+    {
+      "decoName": "Sheath Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Sheath Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Slugger": [
+    {
+      "decoName": "KO Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "KO Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Stamina Thief": [
+    {
+      "decoName": "Drain Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Drain Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Affinity Sliding": [
+    {
+      "decoName": "Slider Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Horn Maestro": [
+    {
+      "decoName": "Sonorous Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Artillery": [
+    {
+      "decoName": "Artillery Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Artillery Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Load Shells": [
+    {
+      "decoName": "Magazine Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Magazine Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Special Ammo Boost": [
+    {
+      "decoName": "Trueshot Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Trueshot Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Normal/Rapid Up": [
+    {
+      "decoName": "Forceshot Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Pierce Up": [
+    {
+      "decoName": "Pierce Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Spread Up": [
+    {
+      "decoName": "Spread Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Ammo Up": [
+    {
+      "decoName": "Capacity Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Reload Speed": [
+    {
+      "decoName": "Quickload Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Recoil Down": [
+    {
+      "decoName": "Absorber Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Steadiness": [
+    {
+      "decoName": "Sniper Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Sniper Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Sniper Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Rapid Fire Up": [
+    {
+      "decoName": "Salvo Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Defense Boost": [
+    {
+      "decoName": "Defense Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Defense Jewel+ 2",
+      "decoSize": 2,
+      "skillLevel": 2
+    },
+    {
+      "decoName": "Hard Defense Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Defense Jewel++ 4",
+      "decoSize": 4,
+      "skillLevel": 5
+    }
+  ],
+  "Divine Blessing": [
+    {
+      "decoName": "Protection Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Protection Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Recovery Up": [
+    {
+      "decoName": "Medicine Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Medicine Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Recovery Speed": [
+    {
+      "decoName": "Recovery Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Recovery Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Speed Eating": [
+    {
+      "decoName": "Gobbler Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Gobbler Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Earplugs": [
+    {
+      "decoName": "Earplug Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Earplug Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Windproof": [
+    {
+      "decoName": "Wind Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Wind Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Tremor Resistance": [
+    {
+      "decoName": "Footing Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Footing Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Bubbly Dance": [
+    {
+      "decoName": "Bubble Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Bubble Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Evade Window": [
+    {
+      "decoName": "Evasion Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Evasion Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Evade Extender": [
+    {
+      "decoName": "Jumping Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Jumping Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Fire Resistance": [
+    {
+      "decoName": "Fire Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Fire Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Water Resistance": [
+    {
+      "decoName": "Water Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Water Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Ice Resistance": [
+    {
+      "decoName": "Ice Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Ice Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Thunder Resistance": [
+    {
+      "decoName": "Thunder Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Thunder Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Dragon Resistance": [
+    {
+      "decoName": "Dragon Res Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Dragon Res Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Blight Resistance": [
+    {
+      "decoName": "Resistor Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Resistor Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Poison Resistance": [
+    {
+      "decoName": "Antidote Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Antidote Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Paralysis Resistance": [
+    {
+      "decoName": "Antipara Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Antipara Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Sleep Resistance": [
+    {
+      "decoName": "Pep Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Pep Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Stun Resistance": [
+    {
+      "decoName": "Steadfast Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Steadfast Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Muck Resistance": [
+    {
+      "decoName": "Muck Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Blast Resistance": [
+    {
+      "decoName": "Antiblast Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Antiblast Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Botanist": [
+    {
+      "decoName": "Botany Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Botany Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Geologist": [
+    {
+      "decoName": "Geology Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Geology Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Partbreaker": [
+    {
+      "decoName": "Destroyer Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Destroyer Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Good Luck": [
+    {
+      "decoName": "Fate Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Fate Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Speed Sharpening": [
+    {
+      "decoName": "Grinder Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Grinder Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Bombardier": [
+    {
+      "decoName": "Bomber Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Bomber Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Mushroomancer": [
+    {
+      "decoName": "Fungiform Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Fungiform Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Item Prolonger": [
+    {
+      "decoName": "Enduring Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Enduring Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Wide-Range": [
+    {
+      "decoName": "Friendship Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Friendship Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Friendship Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
+    }
+  ],
+  "Free Meal": [
+    {
+      "decoName": "Satiated Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Satiated Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Heroics": [
+    {
+      "decoName": "Potential Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Fortify": [
+    {
+      "decoName": "Fortitude Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Flinch Free": [
+    {
+      "decoName": "Brace Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Brace Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Jump Master": [
+    {
+      "decoName": "Leap Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Carving Pro": [
+    {
+      "decoName": "Carver Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Hunger Resistance": [
+    {
+      "decoName": "Hungerless Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Hungerless Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Leap of Faith": [
+    {
+      "decoName": "Dive Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Diversion": [
+    {
+      "decoName": "Diversion Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Master Mounter": [
+    {
+      "decoName": "Rodeo Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Wirebug Whisperer": [
+    {
+      "decoName": "Wirebug Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Wirebug Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Wall Runner": [
+    {
+      "decoName": "Wall Run Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hard Wall Run Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
+  "Counterstrike": [
+    {
+      "decoName": "Counter Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Counter Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Rapid Morph": [
+    {
+      "decoName": "Quickswitch Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Quickswitch Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Hellfire Cloak": [
+    {
+      "decoName": "Hellfire Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Hellfire Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Coalescence": [
+    {
+      "decoName": "Phoenix Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Redirection": [
+    {
+      "decoName": "Redirection Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Spiribird's Call": [
+    {
+      "decoName": "Spiribird's Call Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Charge Master": [
+    {
+      "decoName": "Charge Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Tune-Up": [
+    {
+      "decoName": "Foil Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Grinder (S)": [
+    {
+      "decoName": "Polisher Pro Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Bladescale Hone": [
+    {
+      "decoName": "Bladescale Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Wall Runner (Boost)": [
+    {
+      "decoName": "Flywall Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Quick Breath": [
+    {
+      "decoName": "Breath Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ]
+}

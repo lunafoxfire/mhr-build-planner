@@ -4,13 +4,27 @@ import { Search } from 'react-feather';
 import { armorTable } from '@/assets/game-data';
 import { Armor, ArmorType } from '@/assets/game-data/types';
 import { capitalize } from '@/util/string';
-import { compareSlots, getArmorByTypeAndRank, getElementIcon, stringifyRank, stringifySkill, stringifySkillList } from '@/util/items';
+import { compareSlots, getArmorByTypeAndRank, getArmorScore, getElementIcon, stringifyRank, stringifySkill, stringifySkillList } from '@/util/items';
 import { useBuildContext } from '@/contexts/build';
 import SortableTable, { DataColumn } from '@/components/SortableTable';
 import GameIcon from '@/components/GameIcon';
 import { SlotsDisplay, StyledModal, TableWrapper } from '../shared';
 
-const TABLE_COLUMNS: Array<DataColumn<Armor>> = [
+export type ArmorWithScore = {
+  score: number,
+} & Armor;
+
+const TABLE_COLUMNS: Array<DataColumn<ArmorWithScore>> = [
+  {
+    key: 'score',
+    label: 'Score',
+    render: (item) => item.score ? item.score : null,
+    sort: (a, b) => {
+      if (a.score > b.score) return 1;
+      if (a.score < b.score) return -1;
+      return 0;
+    },
+  },
   {
     key: 'name',
     label: 'Name',
@@ -129,16 +143,19 @@ const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmo
   }, [search]);
 
   const tableData = useMemo(() => {
-    const data: Armor[] = [];
+    const data: ArmorWithScore[] = [];
     getArmorByTypeAndRank(armorType, state.targetRank)
       .forEach((itemName) => {
         const itemData = armorTable[itemName];
         if (itemData) {
-          data.push(itemData);
+          data.push({
+            ...itemData,
+            score: getArmorScore(itemData, state.prioritySkills),
+          });
         }
       });
-    return data;
-  }, [armorType, state.targetRank]);
+    return data.sort((a, b) => b.score - a.score);
+  }, [armorType, state.prioritySkills, state.targetRank]);
 
   return (
     <StyledModal

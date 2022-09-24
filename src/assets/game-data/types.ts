@@ -123,6 +123,14 @@ export type CategorizedItems = {
   },
 };
 
+export type SkillDecorationInfo = {
+  decoName: string,
+  decoSize: number,
+  skillLevel: number,
+};
+
+export type SkillDecorationMap = { [key: string]: SkillDecorationInfo[] };
+
 export type ArmorTable = { [key: string]: Armor };
 export type WeaponTable = { [key: string]: Weapon };
 export type DecorationTable = { [key: string]: Decoration };

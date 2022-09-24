@@ -11,8 +11,8 @@ import gemLv1Icon from '@/assets/icons/gems/gem_lv1.png';
 import gemLv2Icon from '@/assets/icons/gems/gem_lv2.png';
 import gemLv3Icon from '@/assets/icons/gems/gem_lv3.png';
 import gemLv4Icon from '@/assets/icons/gems/gem_lv4.png';
-import { armorTable, categorizedItems, decorationTable } from '@/assets/game-data';
-import { ArmorSkill, ArmorType, WeaponElement, WeaponType } from '@/assets/game-data/types';
+import { armorTable, categorizedItems, decorationTable, skillDecorationMap } from '@/assets/game-data';
+import { Armor, ArmorSkill, ArmorType, WeaponElement, WeaponType } from '@/assets/game-data/types';
 import { ArmorChoice, RankOption, TalismanChoice } from '@/contexts/build/types';
 
 export const WEAPON_TYPES = [
@@ -178,4 +178,30 @@ export function getTalismanSkills(item: TalismanChoice): ArmorSkill[] {
   const decorations = [item.slot1, item.slot2, item.slot3].map((slot) => slot?.name ?? null);
   skills.push(...getDecorationSkills(decorations));
   return skills;
+}
+
+export function getArmorScore(item: Armor, targetSkills: string[]): number {
+  let score = 0;
+  item.skills.forEach((skill) => {
+    if (targetSkills.includes(skill.name)) {
+      score += skill.level;
+    }
+  });
+  item.slots.forEach((slotSize) => {
+    let maxScore = 0;
+    targetSkills.forEach((skill) => {
+      const skillDecos = skillDecorationMap[skill];
+      if (skillDecos) {
+        skillDecos.forEach((skillDeco) => {
+          if (skillDeco.decoSize <= slotSize) {
+            if (skillDeco.skillLevel > maxScore) {
+              maxScore = skillDeco.skillLevel;
+            }
+          }
+        });
+      }
+    });
+    score += maxScore;
+  });
+  return score;
 }
