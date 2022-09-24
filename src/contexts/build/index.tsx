@@ -162,10 +162,6 @@ export const BuildContextProvider = ({ children }: BuildContextProviderProps) =>
     }
     const sharpnessMultipliers = getSharpnessMultipliers(sharpnessClass);
 
-    console.log(weaponInfo.sharpness);
-    console.log(weaponInfo.maxSharpness);
-    console.log(sharpness);
-
     // EFFECTIVE
     const effectiveAffinity = clamp(Math.abs(affinity), 0, 100) / 100;
     const effectiveRaw = raw * sharpnessMultipliers.raw * (1 + (critMultiplier - 1) * effectiveAffinity);
