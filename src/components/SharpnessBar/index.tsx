@@ -1,4 +1,5 @@
 import React from 'react';
+import { sum } from '@/util/array';
 
 export const MAX_SHARPNESS = 400;
 
@@ -28,8 +29,9 @@ export type SharpnessBarProps = {
   scale: number,
   sharpness: number[],
   maxSharpness: number[],
+  currentSharpness?: number[],
 };
-const SharpnessBar = ({ height, scale, sharpness, maxSharpness }: SharpnessBarProps) => {
+const SharpnessBar = ({ height, scale, sharpness, maxSharpness, currentSharpness }: SharpnessBarProps) => {
   function renderSections(values: number[], isMax?: boolean) {
     let offset = 0;
     const segmentJSX: JSX.Element[] = [];
@@ -37,10 +39,11 @@ const SharpnessBar = ({ height, scale, sharpness, maxSharpness }: SharpnessBarPr
     values.forEach((value, index) => {
       segmentJSX.push(
         <rect
+          key={index}
           height={height / 2}
           width={value * scale}
           x={offset * scale}
-          y={isMax ? height / 2 : 0}
+          y={(isMax ? height / 2 : 0) + 4}
           fill={sharpnessIndexToColor(index)}
           stroke="none"
         />,
@@ -51,10 +54,44 @@ const SharpnessBar = ({ height, scale, sharpness, maxSharpness }: SharpnessBarPr
     return segmentJSX;
   }
 
+  function renderCurrentSharpness() {
+    if (!currentSharpness) return null;
+    const offset = sum(currentSharpness);
+    return (
+      <>
+        <rect
+          height={height}
+          width={4}
+          x={offset * scale}
+          y={4}
+          fill={'#238cff'}
+          stroke="none"
+        />
+        <rect
+          height={4}
+          width={12}
+          x={offset * scale - 8}
+          y={0}
+          fill={'#238cff'}
+          stroke="none"
+        />
+        <rect
+          height={4}
+          width={12}
+          x={offset * scale - 8}
+          y={height + 4}
+          fill={'#238cff'}
+          stroke="none"
+        />
+      </>
+    );
+  }
+
   return (
-    <svg width={MAX_SHARPNESS * scale} height={height}>
+    <svg width={MAX_SHARPNESS * scale + 4} height={height + 8}>
       {renderSections(sharpness)}
       {renderSections(maxSharpness, true)}
+      {renderCurrentSharpness()}
     </svg>
   );
 };

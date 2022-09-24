@@ -1,12 +1,16 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
+import { weaponTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
 import { useBuildContext } from '@/contexts/build';
+import SharpnessBar from '@/components/SharpnessBar';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
-  const { calculatedSkills, calculatedStats } = useBuildContext();
+  const { state, calculatedSkills, calculatedStats } = useBuildContext();
+
+  const weaponInfo = weaponTable[state.weapon.name];
 
   function renderSkills() {
     return (
@@ -18,7 +22,7 @@ const DisplayStats = ({}: DisplayStatsProps) => {
           if (a[0] < b[0]) return -1;
           return 0;
         })
-        .map(([name, { level, effectiveLevel, maxLevel }]) => (
+        .map(([name, { level, maxLevel }]) => (
           <SkillEntry key={name} name={name} level={level} maxLevel={maxLevel} />
         ))
     );
@@ -33,42 +37,44 @@ const DisplayStats = ({}: DisplayStatsProps) => {
       <Divider my="sm" />
       <Title order={5}>Damage</Title>
       <Space h="xs" />
-      <StatEntry label="Effective Raw" value={100} />
-      <StatEntry label="Raw" value={100} />
-      <StatEntry label="Affinity" value={100} />
-      <StatEntry label="Crit Multiplier" value={100} />
+      <StatEntry label="Effective Raw" value={calculatedStats.effectiveRaw} />
+      <StatEntry label="Raw" value={calculatedStats.raw} />
+      <StatEntry label="Affinity" value={calculatedStats.affinity} suffix="%" />
+      <StatEntry label="Crit Multiplier" value={calculatedStats.critMultiplier} />
       <Divider my="sm" variant="dashed" />
-      <StatEntry label="Effective Element" value={100} />
-      <StatEntry label="Element" value={100} />
-      <StatEntry label="Element Crit Multiplier" value={100} />
-      <StatEntry label="Status" value={100} />
+      <StatEntry label="Effective Element" value={calculatedStats.effectiveElement} />
+      <StatEntry label="Element" value={calculatedStats.element} />
+      <StatEntry label="Element Crit Multiplier" value={calculatedStats.elementCritMultiplier} />
+      <StatEntry label="Status" value={calculatedStats.status} />
       <Space h="xs" />
       <Divider my="sm" />
       <Title order={5}>Defense</Title>
       <Space h="xs" />
-      <StatEntry label="Defense" value={100} />
-      <StatEntry label="Fire Res" value={100} />
-      <StatEntry label="Water Res" value={100} />
-      <StatEntry label="Thunder Res" value={100} />
-      <StatEntry label="Ice Res" value={100} />
-      <StatEntry label="Dragon Res" value={100} />
+      <StatEntry label="Defense" value={calculatedStats.defense} />
+      <StatEntry label="Fire Res" value={calculatedStats.fireRes} />
+      <StatEntry label="Water Res" value={calculatedStats.waterRes} />
+      <StatEntry label="Thunder Res" value={calculatedStats.thunderRes} />
+      <StatEntry label="Ice Res" value={calculatedStats.iceRes} />
+      <StatEntry label="Dragon Res" value={calculatedStats.dragonRes} />
       <Space h="xs" />
       <Divider my="sm" />
       <Title order={5}>Sharpness</Title>
       <Space h="xs" />
-      <StatEntry label="Raw Multiplier" value={100} />
-      <StatEntry label="Elemental Multiplier" value={100} />
+      <StatEntry label="Raw Multiplier" value={calculatedStats.sharpnessMultipliers.raw} />
+      <StatEntry label="Elemental Multiplier" value={calculatedStats.sharpnessMultipliers.elemental} />
+      <Space h="xs" />
+      <SharpnessBar height={24} scale={0.5} sharpness={weaponInfo.sharpness} maxSharpness={weaponInfo.maxSharpness} currentSharpness={calculatedStats.sharpness} />
     </Paper>
   );
 };
 
 export default DisplayStats;
 
-const StatEntry = ({ label, value, decimalPlaces }: { label: string, value: number, decimalPlaces?: number }) => {
+const StatEntry = ({ label, value, decimalPlaces, suffix }: { label: string, value: number, decimalPlaces?: number, suffix?: string }) => {
   return (
     <StatEntryWrapper>
       <div>{label}</div>
-      <div>{truncateFloat(value, decimalPlaces)}</div>
+      <div>{truncateFloat(value, decimalPlaces)}{suffix ?? ''}</div>
     </StatEntryWrapper>
   );
 };

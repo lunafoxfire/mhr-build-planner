@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Modal, ModalProps } from '@mantine/core';
-import { WeaponElement } from '@/assets/game-data/types';
+import { WeaponElement, WeaponStatus } from '@/assets/game-data/types';
 import { getElementIcon, getDecorationSlotIcon } from '@/util/items';
 import GameIcon from '../GameIcon';
 
@@ -23,7 +23,7 @@ export const TableWrapper = styled.div`
   overflow: auto;
 `;
 
-export const ElementDisplay = ({ element }: { element?: WeaponElement }) => {
+export const ElementDisplay = ({ element }: { element?: WeaponElement | WeaponStatus }) => {
   if (!element) return null;
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>

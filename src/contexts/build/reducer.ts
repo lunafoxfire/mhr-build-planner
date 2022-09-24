@@ -3,7 +3,7 @@ import { ArmorChoice, BuildState, RankOption, TalismanChoice, WeaponChoice } fro
 
 function getDefaultWeapon(): WeaponChoice {
   return {
-    name: 'Defender Great Sword I',
+    name: 'Kamura Cleaver I',
     decorations: [],
     rampageDecorations: [],
   };

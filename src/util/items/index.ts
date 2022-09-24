@@ -12,8 +12,8 @@ import gemLv2Icon from '@/assets/icons/gems/gem_lv2.png';
 import gemLv3Icon from '@/assets/icons/gems/gem_lv3.png';
 import gemLv4Icon from '@/assets/icons/gems/gem_lv4.png';
 import { armorTable, categorizedItems, decorationTable, skillDecorationMap } from '@/assets/game-data';
-import { Armor, ArmorSkill, ArmorType, WeaponElement, WeaponType } from '@/assets/game-data/types';
-import { ArmorChoice, RankOption, TalismanChoice } from '@/contexts/build/types';
+import { Armor, ArmorSkill, ArmorType, WeaponElement, WeaponStatus, WeaponType } from '@/assets/game-data/types';
+import { ArmorChoice, RankOption, SharpnessMultipliers, TalismanChoice } from '@/contexts/build/types';
 
 export const WEAPON_TYPES = [
   'GREAT_SWORD',
@@ -137,7 +137,7 @@ export function compareSlots(a: number[], b: number[]): -1 | 0 | 1 {
   return 0;
 }
 
-export function compareElements(a: WeaponElement, b: WeaponElement): -1 | 0 | 1 {
+export function compareElements(a: WeaponElement | WeaponStatus, b: WeaponElement | WeaponStatus): -1 | 0 | 1 {
   if (a === null && b === null) return 0;
   if (a !== null && b === null) return 1;
   if (a === null && b !== null) return -1;
@@ -212,4 +212,25 @@ export function getArmorScore(item: Armor, targetSkills: string[]): number {
     score += maxScore;
   });
   return score;
+}
+
+export function getSharpnessMultipliers(sharpnessClass: number): SharpnessMultipliers {
+  switch (sharpnessClass) {
+    case 0:
+      return { raw: 0.5, elemental: 0.25 };
+    case 1:
+      return { raw: 0.75, elemental: 0.5 };
+    case 2:
+      return { raw: 1, elemental: 0.75 };
+    case 3:
+      return { raw: 1.05, elemental: 1 };
+    case 4:
+      return { raw: 1.2, elemental: 1.0625 };
+    case 5:
+      return { raw: 1.32, elemental: 1.15 };
+    case 6:
+      return { raw: 1.39, elemental: 1.25 };
+    default:
+      return { raw: 0, elemental: 0 };
+  }
 }

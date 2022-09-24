@@ -52,6 +52,30 @@ export type CalculatedSkills = {
   },
 };
 
-export type CalculatedStats = {
+export type SharpnessMultipliers = {
+  raw: number,
+  elemental: number,
+};
 
+export type CalculatedStats = {
+  effectiveRaw: number,
+  raw: number,
+  affinity: number,
+  critMultiplier: number,
+
+  effectiveElement: number,
+  element: number,
+  elementCritMultiplier: number,
+  status: number,
+
+  defense: number,
+  fireRes: number,
+  waterRes: number,
+  thunderRes: number,
+  iceRes: number,
+  dragonRes: number,
+
+  sharpness: number[],
+  sharpnessClass: number,
+  sharpnessMultipliers: SharpnessMultipliers,
 };

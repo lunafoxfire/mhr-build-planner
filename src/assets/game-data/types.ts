@@ -42,7 +42,21 @@ export type WeaponType =
   'HEAVY_BOWGUN' |
   'LIGHT_BOWGUN';
 
-export type WeaponElement = { type: string, power: number } | null;
+export type WeaponElementType =
+  'fire' |
+  'water' |
+  'thunder' |
+  'ice' |
+  'dragon';
+
+export type WeaponStatusType =
+  'poison' |
+  'paralyze' |
+  'sleep' |
+  'blast';
+
+export type WeaponElement = { type: WeaponElementType, power: number } | null;
+export type WeaponStatus = { type: WeaponStatusType, power: number } | null;
 
 export type Weapon = {
   id: number,
@@ -57,7 +71,7 @@ export type Weapon = {
     affinity: number,
     defense: number,
     element: WeaponElement,
-    status: WeaponElement,
+    status: WeaponStatus,
   },
   sharpness: number[],
   maxSharpness: number[],

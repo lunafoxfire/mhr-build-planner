@@ -1,4 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react';
+import styled from '@emotion/styled';
 import { Group, ModalProps, Select, Space, TextInput } from '@mantine/core';
 import { Search } from 'react-feather';
 import { weaponTable } from '@/assets/game-data';
@@ -98,7 +99,11 @@ const TABLE_COLUMNS: Array<DataColumn<Weapon>> = [
   {
     key: 'sharpness',
     label: 'Sharpness',
-    render: (item) => <SharpnessBar height={12} scale={0.2} sharpness={item.sharpness} maxSharpness={item.maxSharpness} />,
+    render: (item) => (
+      <SharpnessWrapper>
+        <SharpnessBar height={12} scale={0.2} sharpness={item.sharpness} maxSharpness={item.maxSharpness} />
+      </SharpnessWrapper>
+    ),
     sort: (a, b) => {
       return compareSharpness(a.maxSharpness, b.maxSharpness);
     },
@@ -178,3 +183,8 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
 };
 
 export default SelectWeaponModal;
+
+const SharpnessWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;
