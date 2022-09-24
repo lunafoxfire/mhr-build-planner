@@ -29,6 +29,10 @@ export type TalismanChoice = {
   slot3: TalismanDecorationChoice | null,
 };
 
+export type ActiveSkillTable = {
+  [key: string]: boolean,
+};
+
 export type BuildState = {
   id: string,
   buildName: string,
@@ -42,6 +46,7 @@ export type BuildState = {
 
   targetRank: RankOption,
   prioritySkills: string[],
+  activeSkills: ActiveSkillTable,
 };
 
 export type CalculatedSkills = {

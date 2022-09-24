@@ -1,5 +1,5 @@
 import { WeaponElementType, WeaponStatusType } from '@/assets/game-data/types';
-import { CalculatedSkills } from '@/contexts/build/types';
+import { ActiveSkillTable, CalculatedSkills } from '@/contexts/build/types';
 
 export type ElementModifier = { bonus: number, multiplier: number };
 
@@ -54,11 +54,13 @@ const BASE_SKILL_EFFECTS: SkillEffects = {
   dragonheartResistances: 0,
 };
 
-export function applySkillEffects(skills: CalculatedSkills): SkillEffects {
+export function applySkillEffects(skills: CalculatedSkills, activeSkills: ActiveSkillTable): SkillEffects {
   const currentEffects: SkillEffects = { ...BASE_SKILL_EFFECTS };
 
   Object.entries(skills).forEach(([skill, { effectiveLevel }]) => {
-    SKILL_FUNCTION_MAP[skill]?.[effectiveLevel]?.(currentEffects);
+    if (activeSkills[skill] == null || activeSkills[skill]) {
+      SKILL_FUNCTION_MAP[skill]?.[effectiveLevel]?.(currentEffects);
+    }
   });
 
   return currentEffects;

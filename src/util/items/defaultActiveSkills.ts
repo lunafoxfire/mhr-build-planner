@@ -1,0 +1,27 @@
+import { ActiveSkillTable } from '@/contexts/build/types';
+
+export const DEFAULT_ACTIVE_SKILLS: ActiveSkillTable = {
+  'Agitator': false,
+  'Peak Performance': false,
+  'Resentment': false,
+  'Resuscitate': false,
+  'Weakness Exploit': true,
+  'Latent Power': false,
+  'Maximum Might': false,
+  'Bludgeoner': false,
+  'Offensive Guard': false,
+  'Critical Draw': false,
+  'Punishing Draw': false,
+  'Affinity Sliding': false,
+  'Heroics': false,
+  'Dragonheart': false,
+  'Counterstrike': false,
+  'Furious': false,
+  'Coalescence': false,
+  'Bloodlust': true,
+  'Defiance': false,
+  'Sneak Attack': false,
+  'Adrenaline Rush': false,
+  'Foray': false,
+  'Element Exploit': false,
+};

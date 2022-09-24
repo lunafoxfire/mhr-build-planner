@@ -1,5 +1,6 @@
+import { DEFAULT_ACTIVE_SKILLS } from '@/util/items/defaultActiveSkills';
 import { nanoid } from 'nanoid';
-import { ArmorChoice, BuildState, RankOption, TalismanChoice, WeaponChoice } from './types';
+import { ActiveSkillTable, ArmorChoice, BuildState, RankOption, TalismanChoice, WeaponChoice } from './types';
 
 function getDefaultWeapon(): WeaponChoice {
   return {
@@ -54,6 +55,12 @@ function getDefaultTalisman(): TalismanChoice {
   };
 }
 
+function getDefaultActiveSkills(): ActiveSkillTable {
+  return {
+    ...DEFAULT_ACTIVE_SKILLS,
+  };
+}
+
 export function getDefaultBuild(): BuildState {
   return {
     id: nanoid(),
@@ -68,6 +75,7 @@ export function getDefaultBuild(): BuildState {
 
     targetRank: 'master',
     prioritySkills: [],
+    activeSkills: getDefaultActiveSkills(),
   };
 }
 
@@ -83,7 +91,8 @@ export type BuildDispatchAction =
   | { type: 'SET_ARMS_ARMOR', data: ArmorChoice }
   | { type: 'SET_WAIST_ARMOR', data: ArmorChoice }
   | { type: 'SET_LEGS_ARMOR', data: ArmorChoice }
-  | { type: 'SET_TALISMAN', data: TalismanChoice };
+  | { type: 'SET_TALISMAN', data: TalismanChoice }
+  | { type: 'SET_ACTIVE_SKILL', skill: string, value: boolean };
 
 export function reducer(build: BuildState, action: BuildDispatchAction): BuildState {
   switch (action.type) {
@@ -161,6 +170,17 @@ export function reducer(build: BuildState, action: BuildDispatchAction): BuildSt
       return {
         ...build,
         talisman: { ...action.data },
+      };
+    }
+    case 'SET_ACTIVE_SKILL': {
+      if (build.activeSkills[action.skill] == null) return build;
+      const newActiveSkills = {
+        ...build.activeSkills,
+      };
+      newActiveSkills[action.skill] = action.value;
+      return {
+        ...build,
+        activeSkills: newActiveSkills,
       };
     }
     default:

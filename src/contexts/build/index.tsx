@@ -94,7 +94,7 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
     const armsInfo = armorTable[build.arms.name];
     const waistInfo = armorTable[build.waist.name];
     const legsInfo = armorTable[build.legs.name];
-    const skillEffects = applySkillEffects(calculatedSkills);
+    const skillEffects = applySkillEffects(calculatedSkills, build.activeSkills);
 
     // RAW
     const raw = (weaponInfo.stats.attack + skillEffects.attackBonus) * skillEffects.attackMult;
@@ -192,7 +192,7 @@ export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildCo
       sharpnessClass,
       sharpnessMultipliers,
     };
-  }, [calculatedSkills, build.arms.name, build.body.name, build.head.name, build.legs.name, build.waist.name, build.weapon.name]);
+  }, [build.weapon.name, build.head.name, build.body.name, build.arms.name, build.waist.name, build.legs.name, build.activeSkills, calculatedSkills]);
 
   const ctxValue = useMemo(() => {
     return {

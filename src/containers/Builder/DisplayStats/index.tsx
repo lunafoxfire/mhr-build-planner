@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
+import { Checkbox, Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
 import { weaponTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
 import { useBuildContext } from '@/contexts/build';
@@ -8,7 +8,7 @@ import SharpnessBar from '@/components/SharpnessBar';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
-  const { build, calculatedSkills, calculatedStats } = useBuildContext();
+  const { build, dispatch, calculatedSkills, calculatedStats } = useBuildContext();
 
   const weaponInfo = weaponTable[build.weapon.name];
 
@@ -23,7 +23,17 @@ const DisplayStats = ({}: DisplayStatsProps) => {
           return 0;
         })
         .map(([name, { level, maxLevel }]) => (
-          <SkillEntry key={name} name={name} level={level} maxLevel={maxLevel} />
+          <SkillWrapper key={name}>
+            <SkillEntry name={name} level={level} maxLevel={maxLevel} />
+            <Checkboxbox>
+              {build.activeSkills[name] != null && (
+                <Checkbox
+                  checked={!!build.activeSkills[name]}
+                  onChange={(e) => { dispatch({ type: 'SET_ACTIVE_SKILL', skill: name, value: e.target.checked }); }}
+                />
+              )}
+            </Checkboxbox>
+          </SkillWrapper>
         ))
     );
   }
@@ -130,4 +140,15 @@ const StatLevelMark = styled.div<{ color: string }>`
   width: 12px;
   height: 15px;
   margin-right: 6px;
+`;
+
+const SkillWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+const Checkboxbox = styled.div`
+  position: relative;
+  top: 8px;
 `;
