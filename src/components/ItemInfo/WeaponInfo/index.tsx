@@ -10,21 +10,21 @@ import { GridSection, ItemIconWrapper, ItemStatEntry, ItemStatWithIcon, SlotSele
 
 export type WeaponInfoProps = {};
 const WeaponInfo = ({ }: WeaponInfoProps) => {
-  const { state, dispatch } = useBuildContext();
+  const { build, dispatch } = useBuildContext();
   const [modalOpen, setModalOpen] = useState(false);
 
   const { weaponData, name, slots, rampageSlots } = useMemo(() => {
-    const weaponData = weaponTable[state.weapon.name];
+    const weaponData = weaponTable[build.weapon.name];
     const name = weaponData.name;
     const slots: SlotSelection[] = [];
     const rampageSlots: SlotSelection[] = [];
 
     weaponData.slots.forEach((size, i) => {
-      const decoration = state.weapon.decorations[i] || null;
+      const decoration = build.weapon.decorations[i] || null;
       slots.push({ size, decoration });
     });
     weaponData.rampageSlots.forEach((size, i) => {
-      const decoration = state.weapon.rampageDecorations[i] || null;
+      const decoration = build.weapon.rampageDecorations[i] || null;
       rampageSlots.push({ size, decoration });
     });
 
@@ -34,35 +34,35 @@ const WeaponInfo = ({ }: WeaponInfoProps) => {
       slots,
       rampageSlots,
     };
-  }, [state.weapon.decorations, state.weapon.name, state.weapon.rampageDecorations]);
+  }, [build.weapon.decorations, build.weapon.name, build.weapon.rampageDecorations]);
 
   const handleSelectItem = useCallback((item: string) => {
     const newData = {
-      ...state.weapon,
+      ...build.weapon,
       name: item,
       decorations: [],
       rampageDecorations: [],
     };
     dispatch({ type: 'SET_WEAPON', data: newData });
-  }, [dispatch, state.weapon]);
+  }, [dispatch, build.weapon]);
 
   const handleSelectDeco = useCallback((index: number, value: string | null) => {
     const newData = {
-      ...state.weapon,
-      decorations: [...state.weapon.decorations],
+      ...build.weapon,
+      decorations: [...build.weapon.decorations],
     };
     newData.decorations[index] = value;
     dispatch({ type: 'SET_WEAPON', data: newData });
-  }, [dispatch, state.weapon]);
+  }, [dispatch, build.weapon]);
 
   const handleSelectRampageDeco = useCallback((index: number, value: string | null) => {
     const newData = {
-      ...state.weapon,
-      rampageDecorations: [...state.weapon.rampageDecorations],
+      ...build.weapon,
+      rampageDecorations: [...build.weapon.rampageDecorations],
     };
     newData.rampageDecorations[index] = value;
     dispatch({ type: 'SET_WEAPON', data: newData });
-  }, [dispatch, state.weapon]);
+  }, [dispatch, build.weapon]);
 
   function renderModal() {
     return (

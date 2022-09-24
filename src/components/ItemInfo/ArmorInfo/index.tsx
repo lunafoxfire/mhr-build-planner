@@ -18,7 +18,7 @@ export type ArmorInfoProps = {
   type: ArmorType,
 };
 const ArmorInfo = ({ type }: ArmorInfoProps) => {
-  const { state, dispatch } = useBuildContext();
+  const { build, dispatch } = useBuildContext();
   const [modalOpen, setModalOpen] = useState(false);
 
   const { armorData, name, slots, icon } = useMemo(() => {
@@ -28,23 +28,23 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
     switch (type) {
       case 'HEAD':
         icon = headIcon;
-        selectedArmor = state.head;
+        selectedArmor = build.head;
         break;
       case 'BODY':
         icon = bodyIcon;
-        selectedArmor = state.body;
+        selectedArmor = build.body;
         break;
       case 'ARMS':
         icon = armsIcon;
-        selectedArmor = state.arms;
+        selectedArmor = build.arms;
         break;
       case 'WAIST':
         icon = waistIcon;
-        selectedArmor = state.waist;
+        selectedArmor = build.waist;
         break;
       case 'LEGS':
         icon = legsIcon;
-        selectedArmor = state.legs;
+        selectedArmor = build.legs;
         break;
     }
 
@@ -63,13 +63,13 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       slots,
       icon,
     };
-  }, [state.arms, state.body, state.head, state.legs, state.waist, type]);
+  }, [build.arms, build.body, build.head, build.legs, build.waist, type]);
 
   const handleSelectItem = useCallback((item: string) => {
     switch (type) {
       case 'HEAD': {
         const newData = {
-          ...state.head,
+          ...build.head,
           name: item,
           decorations: [],
         };
@@ -78,7 +78,7 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'BODY': {
         const newData = {
-          ...state.body,
+          ...build.body,
           name: item,
           decorations: [],
         };
@@ -87,7 +87,7 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'ARMS': {
         const newData = {
-          ...state.arms,
+          ...build.arms,
           name: item,
           decorations: [],
         };
@@ -96,7 +96,7 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'WAIST': {
         const newData = {
-          ...state.waist,
+          ...build.waist,
           name: item,
           decorations: [],
         };
@@ -105,7 +105,7 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'LEGS': {
         const newData = {
-          ...state.legs,
+          ...build.legs,
           name: item,
           decorations: [],
         };
@@ -113,14 +113,14 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
         break;
       }
     }
-  }, [dispatch, state.arms, state.body, state.head, state.legs, state.waist, type]);
+  }, [dispatch, build.arms, build.body, build.head, build.legs, build.waist, type]);
 
   const handleSelectDeco = useCallback((index: number, value: string | null) => {
     switch (type) {
       case 'HEAD': {
         const newData = {
-          ...state.head,
-          decorations: [...state.head.decorations],
+          ...build.head,
+          decorations: [...build.head.decorations],
         };
         newData.decorations[index] = value;
         dispatch({ type: 'SET_HEAD_ARMOR', data: newData });
@@ -128,8 +128,8 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'BODY': {
         const newData = {
-          ...state.body,
-          decorations: [...state.body.decorations],
+          ...build.body,
+          decorations: [...build.body.decorations],
         };
         newData.decorations[index] = value;
         dispatch({ type: 'SET_BODY_ARMOR', data: newData });
@@ -137,8 +137,8 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'ARMS': {
         const newData = {
-          ...state.arms,
-          decorations: [...state.arms.decorations],
+          ...build.arms,
+          decorations: [...build.arms.decorations],
         };
         newData.decorations[index] = value;
         dispatch({ type: 'SET_ARMS_ARMOR', data: newData });
@@ -146,8 +146,8 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'WAIST': {
         const newData = {
-          ...state.waist,
-          decorations: [...state.waist.decorations],
+          ...build.waist,
+          decorations: [...build.waist.decorations],
         };
         newData.decorations[index] = value;
         dispatch({ type: 'SET_WAIST_ARMOR', data: newData });
@@ -155,15 +155,15 @@ const ArmorInfo = ({ type }: ArmorInfoProps) => {
       }
       case 'LEGS': {
         const newData = {
-          ...state.legs,
-          decorations: [...state.legs.decorations],
+          ...build.legs,
+          decorations: [...build.legs.decorations],
         };
         newData.decorations[index] = value;
         dispatch({ type: 'SET_LEGS_ARMOR', data: newData });
         break;
       }
     }
-  }, [dispatch, state.arms, state.body, state.head, state.legs, state.waist, type]);
+  }, [dispatch, build.arms, build.body, build.head, build.legs, build.waist, type]);
 
   function renderModal() {
     return (

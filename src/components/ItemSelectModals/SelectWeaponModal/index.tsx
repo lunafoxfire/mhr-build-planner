@@ -118,7 +118,7 @@ export type SelectWeaponModalProps = {
   onSelectItem: (value: string) => void,
 } & ModalProps;
 const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalProps) => {
-  const { state } = useBuildContext();
+  const { build } = useBuildContext();
   const [search, setSearch] = useState<string>('');
   const [weaponType, setWeaponType] = useState<string | null>('GREAT_SWORD');
 
@@ -133,7 +133,7 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
 
   const tableData = useMemo(() => {
     const data: Weapon[] = [];
-    getWeaponsByTypeAndRank(weaponType, state.targetRank)
+    getWeaponsByTypeAndRank(weaponType, build.targetRank)
       .forEach((itemName) => {
         const itemData = weaponTable[itemName];
         if (itemData) {
@@ -141,7 +141,7 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
         }
       });
     return data;
-  }, [state.targetRank, weaponType]);
+  }, [build.targetRank, weaponType]);
 
   return (
     <StyledModal
@@ -164,7 +164,7 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
           data={WEAPON_TYPE_OPTIONS}
         />
         <TextInput
-          value={stringifyRank(state.targetRank)}
+          value={stringifyRank(build.targetRank)}
           disabled
         />
       </Group>

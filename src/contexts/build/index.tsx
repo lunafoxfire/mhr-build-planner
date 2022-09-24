@@ -1,21 +1,20 @@
-import React, { createContext, useContext, useMemo, useReducer } from 'react';
+import React, { createContext, useCallback, useContext, useMemo } from 'react';
 import { armorTable, skillTable, weaponTable } from '@/assets/game-data';
 import { getArmorSkills, getDecorationSkills, getSharpnessMultipliers, getTalismanSkills } from '@/util/items';
 import { applySkillEffects } from '@/util/items/applySkillEffects';
 import { clamp } from '@/util/number';
-import { BuildDispatchAction, getInitialState, reducer } from './reducer';
+import { BuildDispatchAction, reducer } from './reducer';
 import { BuildState, CalculatedSkills, CalculatedStats } from './types';
 
 // CONTEXT
 export type BuildContextProps = {
-  state: BuildState,
+  build: BuildState,
   dispatch: React.Dispatch<BuildDispatchAction>,
   calculatedSkills: CalculatedSkills,
   calculatedStats: CalculatedStats,
 };
 export const BuildContext = createContext<BuildContextProps | null>(null);
 BuildContext.displayName = 'BuildContext';
-
 
 // HELPER HOOK
 export function useBuildContext() {
@@ -26,24 +25,28 @@ export function useBuildContext() {
   return ctx;
 }
 
-
 // PROVIDER
 type BuildContextProviderProps = {
+  build: BuildState,
+  onBuildUpdate: (data: BuildState) => void,
   children: React.ReactNode,
 };
-export const BuildContextProvider = ({ children }: BuildContextProviderProps) => {
-  const [state, dispatch] = useReducer(reducer, getInitialState());
+export const BuildContextProvider = ({ build, onBuildUpdate, children }: BuildContextProviderProps) => {
+  const dispatch = useCallback((action: BuildDispatchAction) => {
+    const newState = reducer(build, action);
+    onBuildUpdate(newState);
+  }, [build, onBuildUpdate]);
 
   const calculatedSkills = useMemo(() => {
     const calculatedSkills: CalculatedSkills = {};
     const aggregatedSkills = [
-      ...getDecorationSkills(state.weapon.decorations),
-      ...getArmorSkills(state.head),
-      ...getArmorSkills(state.body),
-      ...getArmorSkills(state.arms),
-      ...getArmorSkills(state.waist),
-      ...getArmorSkills(state.legs),
-      ...getTalismanSkills(state.talisman),
+      ...getDecorationSkills(build.weapon.decorations),
+      ...getArmorSkills(build.head),
+      ...getArmorSkills(build.body),
+      ...getArmorSkills(build.arms),
+      ...getArmorSkills(build.waist),
+      ...getArmorSkills(build.legs),
+      ...getTalismanSkills(build.talisman),
     ];
 
     aggregatedSkills.forEach((skill) => {
@@ -82,15 +85,15 @@ export const BuildContextProvider = ({ children }: BuildContextProviderProps) =>
     }
 
     return calculatedSkills;
-  }, [state.arms, state.body, state.head, state.legs, state.talisman, state.waist, state.weapon.decorations]);
+  }, [build.arms, build.body, build.head, build.legs, build.talisman, build.waist, build.weapon.decorations]);
 
   const calculatedStats = useMemo(() => {
-    const weaponInfo = weaponTable[state.weapon.name];
-    const headInfo = armorTable[state.head.name];
-    const bodyInfo = armorTable[state.body.name];
-    const armsInfo = armorTable[state.arms.name];
-    const waistInfo = armorTable[state.waist.name];
-    const legsInfo = armorTable[state.legs.name];
+    const weaponInfo = weaponTable[build.weapon.name];
+    const headInfo = armorTable[build.head.name];
+    const bodyInfo = armorTable[build.body.name];
+    const armsInfo = armorTable[build.arms.name];
+    const waistInfo = armorTable[build.waist.name];
+    const legsInfo = armorTable[build.legs.name];
     const skillEffects = applySkillEffects(calculatedSkills);
 
     // RAW
@@ -189,16 +192,16 @@ export const BuildContextProvider = ({ children }: BuildContextProviderProps) =>
       sharpnessClass,
       sharpnessMultipliers,
     };
-  }, [calculatedSkills, state.arms.name, state.body.name, state.head.name, state.legs.name, state.waist.name, state.weapon.name]);
+  }, [calculatedSkills, build.arms.name, build.body.name, build.head.name, build.legs.name, build.waist.name, build.weapon.name]);
 
   const ctxValue = useMemo(() => {
     return {
-      state,
+      build,
       dispatch,
       calculatedSkills,
       calculatedStats,
     };
-  }, [calculatedSkills, calculatedStats, state]);
+  }, [build, dispatch, calculatedSkills, calculatedStats]);
 
   return (
     <BuildContext.Provider value={ctxValue}>

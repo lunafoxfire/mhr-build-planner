@@ -128,7 +128,7 @@ export type SelectArmorModalProps = {
   onSelectItem: (value: string) => void,
 } & ModalProps;
 const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmorModalProps) => {
-  const { state } = useBuildContext();
+  const { build } = useBuildContext();
   const [search, setSearch] = useState<string>('');
 
 
@@ -144,18 +144,18 @@ const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmo
 
   const tableData = useMemo(() => {
     const data: ArmorWithScore[] = [];
-    getArmorByTypeAndRank(armorType, state.targetRank)
+    getArmorByTypeAndRank(armorType, build.targetRank)
       .forEach((itemName) => {
         const itemData = armorTable[itemName];
         if (itemData) {
           data.push({
             ...itemData,
-            score: getArmorScore(itemData, state.prioritySkills),
+            score: getArmorScore(itemData, build.prioritySkills),
           });
         }
       });
     return data.sort((a, b) => b.score - a.score);
-  }, [armorType, state.prioritySkills, state.targetRank]);
+  }, [armorType, build.prioritySkills, build.targetRank]);
 
   return (
     <StyledModal
@@ -177,7 +177,7 @@ const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmo
           disabled
         />
         <TextInput
-          value={stringifyRank(state.targetRank)}
+          value={stringifyRank(build.targetRank)}
           disabled
         />
       </Group>

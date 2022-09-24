@@ -8,9 +8,9 @@ import SharpnessBar from '@/components/SharpnessBar';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
-  const { state, calculatedSkills, calculatedStats } = useBuildContext();
+  const { build, calculatedSkills, calculatedStats } = useBuildContext();
 
-  const weaponInfo = weaponTable[state.weapon.name];
+  const weaponInfo = weaponTable[build.weapon.name];
 
   function renderSkills() {
     return (

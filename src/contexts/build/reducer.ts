@@ -54,7 +54,7 @@ function getDefaultTalisman(): TalismanChoice {
   };
 }
 
-export function getInitialState(): BuildState {
+export function getDefaultBuild(): BuildState {
   return {
     id: nanoid(),
     buildName: '',
@@ -85,14 +85,14 @@ export type BuildDispatchAction =
   | { type: 'SET_LEGS_ARMOR', data: ArmorChoice }
   | { type: 'SET_TALISMAN', data: TalismanChoice };
 
-export function reducer(state: BuildState, action: BuildDispatchAction): BuildState {
+export function reducer(build: BuildState, action: BuildDispatchAction): BuildState {
   switch (action.type) {
     case 'RESET_BUILD': {
-      return getInitialState();
+      return getDefaultBuild();
     }
     case 'SET_BUILD_NAME': {
       return {
-        ...state,
+        ...build,
         buildName: action.name,
       };
     }
@@ -102,68 +102,68 @@ export function reducer(state: BuildState, action: BuildDispatchAction): BuildSt
         newRank = 'master';
       }
       return {
-        ...state,
+        ...build,
         targetRank: (newRank as RankOption),
       };
     }
     case 'ADD_PRIORITY_SKILL': {
-      const newSkillList = [...state.prioritySkills];
+      const newSkillList = [...build.prioritySkills];
       newSkillList.push(action.name);
       return {
-        ...state,
+        ...build,
         prioritySkills: newSkillList.sort(),
       };
     }
     case 'REMOVE_PRIORITY_SKILL': {
-      const newSkillList = state.prioritySkills.filter((s) => s !== action.name);
+      const newSkillList = build.prioritySkills.filter((s) => s !== action.name);
       return {
-        ...state,
+        ...build,
         prioritySkills: newSkillList.sort(),
       };
     }
     case 'SET_WEAPON': {
       return {
-        ...state,
+        ...build,
         weapon: { ...action.data },
       };
     }
     case 'SET_HEAD_ARMOR': {
       return {
-        ...state,
+        ...build,
         head: { ...action.data },
       };
     }
     case 'SET_BODY_ARMOR': {
       return {
-        ...state,
+        ...build,
         body: { ...action.data },
       };
     }
     case 'SET_ARMS_ARMOR': {
       return {
-        ...state,
+        ...build,
         arms: { ...action.data },
       };
     }
     case 'SET_WAIST_ARMOR': {
       return {
-        ...state,
+        ...build,
         waist: { ...action.data },
       };
     }
     case 'SET_LEGS_ARMOR': {
       return {
-        ...state,
+        ...build,
         legs: { ...action.data },
       };
     }
     case 'SET_TALISMAN': {
       return {
-        ...state,
+        ...build,
         talisman: { ...action.data },
       };
     }
     default:
-      return state;
+      return build;
   }
 }

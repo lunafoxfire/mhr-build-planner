@@ -10,14 +10,14 @@ import { GridSection, ItemIconWrapper, ItemSkillEntry, TitleIconWrapper, TitleWr
 
 export type TalismanInfoProps = {};
 const TalismanInfo = ({ }: TalismanInfoProps) => {
-  const { state, dispatch } = useBuildContext();
+  const { build, dispatch } = useBuildContext();
   const [modalOpen, setModalOpen] = useState(false);
 
   const { skills, slots } = useMemo(() => {
-    const skills = [state.talisman.skill1, state.talisman.skill2].filter((skill) => !!skill) as TalismanSkillChoice[];
-    const slots = [state.talisman.slot1, state.talisman.slot2, state.talisman.slot3].filter((slot) => !!slot) as TalismanDecorationChoice[];
+    const skills = [build.talisman.skill1, build.talisman.skill2].filter((skill) => !!skill) as TalismanSkillChoice[];
+    const slots = [build.talisman.slot1, build.talisman.slot2, build.talisman.slot3].filter((slot) => !!slot) as TalismanDecorationChoice[];
     return { skills, slots };
-  }, [state.talisman.skill1, state.talisman.skill2, state.talisman.slot1, state.talisman.slot2, state.talisman.slot3]);
+  }, [build.talisman.skill1, build.talisman.skill2, build.talisman.slot1, build.talisman.slot2, build.talisman.slot3]);
 
   const handleCreateTalisman = useCallback((talisman: InProgressTalisman) => {
     const newData = {
@@ -34,24 +34,24 @@ const TalismanInfo = ({ }: TalismanInfoProps) => {
     switch (index) {
       case 0: {
         const newData = {
-          ...state.talisman,
-          slot1: { ...state.talisman.slot1!, name: value },
+          ...build.talisman,
+          slot1: { ...build.talisman.slot1!, name: value },
         };
         dispatch({ type: 'SET_TALISMAN', data: newData });
         break;
       }
       case 1: {
         const newData = {
-          ...state.talisman,
-          slot2: { ...state.talisman.slot2!, name: value },
+          ...build.talisman,
+          slot2: { ...build.talisman.slot2!, name: value },
         };
         dispatch({ type: 'SET_TALISMAN', data: newData });
         break;
       }
       case 2: {
         const newData = {
-          ...state.talisman,
-          slot3: { ...state.talisman.slot3!, name: value },
+          ...build.talisman,
+          slot3: { ...build.talisman.slot3!, name: value },
         };
         dispatch({ type: 'SET_TALISMAN', data: newData });
         break;
@@ -59,7 +59,7 @@ const TalismanInfo = ({ }: TalismanInfoProps) => {
       default:
         break;
     }
-  }, [dispatch, state.talisman]);
+  }, [dispatch, build.talisman]);
 
   function renderModal() {
     return (

@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import styled from '@emotion/styled';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import { Divider, Paper, Select, Title, Text, Space } from '@mantine/core';
+import { Divider, Paper, Select, Title, Text, Space, TextInput } from '@mantine/core';
 import { X } from 'react-feather';
 import { skillTable } from '@/assets/game-data';
 import { useBuildContext } from '@/contexts/build';
@@ -17,7 +17,7 @@ const RANK_OPTIONS = [
 
 export type SelectSkillsProps = {};
 const SelectSkills = ({}: SelectSkillsProps) => {
-  const { state, dispatch } = useBuildContext();
+  const { build, dispatch } = useBuildContext();
   const [searchValue, setSearchValue] = useState<string>('');
   const reduceMotion = useReducedMotion();
 
@@ -35,11 +35,11 @@ const SelectSkills = ({}: SelectSkillsProps) => {
   }, [dispatch]);
 
   const skillOptions = useMemo(() => {
-    return SKILL_OPTIONS.filter((s) => !state.prioritySkills.includes(s));
-  }, [state.prioritySkills]);
+    return SKILL_OPTIONS.filter((s) => !build.prioritySkills.includes(s));
+  }, [build.prioritySkills]);
 
   function renderSelectedSkills() {
-    return state.prioritySkills.map((skill) => (
+    return build.prioritySkills.map((skill) => (
       <SkillCard
         key={skill}
         role="listitem"
@@ -66,12 +66,23 @@ const SelectSkills = ({}: SelectSkillsProps) => {
 
   return (
     <Paper shadow="md" p="md">
+      <Title order={4}>Build Name</Title>
+      <Space h="md" />
+      <TextInput
+        aria-label="Build name"
+        placeholder="Enter a name"
+        value={build.buildName}
+        onChange={(e) => { dispatch({ type: 'SET_BUILD_NAME', name: e.currentTarget.value }); }}
+      />
+      <Space h="md" />
+      <Divider my="sm" />
+
       <Title order={4}>Rank</Title>
       <Space h="md" />
       <Select
         aria-label='Select rank'
         data={RANK_OPTIONS}
-        value={state.targetRank}
+        value={build.targetRank}
         onChange={handleSetRank}
       />
       <Space h="md" />

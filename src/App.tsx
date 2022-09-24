@@ -1,12 +1,15 @@
 import React from 'react';
-import Main from '@/containers/Main';
 import { ThemedMantineProvider, GlobalStyles } from '@/theme';
+import Main from '@/containers/Main';
+import { GlobalContextProvider } from '@/contexts/global';
 
 function App() {
   return (
     <ThemedMantineProvider>
       <GlobalStyles />
-      <Main />
+      <GlobalContextProvider>
+        <Main />
+      </GlobalContextProvider>
     </ThemedMantineProvider>
   );
 }
