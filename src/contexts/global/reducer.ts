@@ -5,20 +5,19 @@ import { BuildState } from '@/contexts/build/types';
 
 export type GlobalState = {
   builds: BuildState[],
-  activeTab: string | null,
+  activeBuildIndex: number,
 };
 
 export type GlobalDispatchAction =
 { type: 'CREATE_BUILD' }
-| { type: 'CREATE_BUILD_IF_NONE' }
+| { type: 'DUPLICATE_BUILD' }
+| { type: 'DELETE_BUILD' }
 | { type: 'UPDATE_BUILD', data: BuildState }
-| { type: 'DUPLICATE_BUILD', id: string }
-| { type: 'DELETE_BUILD', id: string }
-| { type: 'SET_ACTIVE_TAB', id: string | null };
+| { type: 'SET_ACTIVE_BUILD', index: number };
 
 export function getInitialState(): GlobalState {
   let initialBuilds: BuildState[] = [];
-  let initialTab: string | null = null;
+  let initialIndex: number = 0;
 
   try {
     const buildsJson = window.localStorage.getItem('builds');
@@ -26,16 +25,24 @@ export function getInitialState(): GlobalState {
       // TODO: validation
       initialBuilds = JSON.parse(buildsJson);
     }
-    const tabJson = window.sessionStorage.getItem('active-tab');
-    if (tabJson) {
-      initialTab = tabJson;
+    const indexJson = window.sessionStorage.getItem('active-build');
+    if (indexJson) {
+      initialIndex = parseInt(indexJson);
     }
   } catch (e) {
     console.error(e);
   }
+
+  if (initialBuilds.length === 0) {
+    initialBuilds = [getDefaultBuild()];
+  }
+  if (initialIndex >= initialBuilds.length) {
+    initialIndex = 0;
+  }
+
   return {
     builds: initialBuilds,
-    activeTab: initialTab,
+    activeBuildIndex: initialIndex,
   };
 }
 
@@ -46,24 +53,41 @@ export function reducer(state: GlobalState, action: GlobalDispatchAction): Globa
         ...state.builds,
       ];
       const newBuild = getDefaultBuild();
-      newBuilds.push(newBuild);
+      const newIndex = newBuilds.push(newBuild) - 1;
       return {
-        ...state,
         builds: newBuilds,
-        activeTab: newBuild.id,
+        activeBuildIndex: newIndex,
       };
     }
-    case 'CREATE_BUILD_IF_NONE': {
-      if (state.builds.length > 0) return state;
+    case 'DUPLICATE_BUILD': {
+      const activeBuild = state.builds[state.activeBuildIndex];
+      if (!activeBuild) return state;
       const newBuilds = [
         ...state.builds,
       ];
-      const newBuild = getDefaultBuild();
-      newBuilds.push(newBuild);
+      const newBuild = cloneDeep(activeBuild);
+      newBuild.id = nanoid();
+      const newIndex = newBuilds.push(newBuild) - 1;
       return {
-        ...state,
         builds: newBuilds,
-        activeTab: newBuild.id,
+        activeBuildIndex: newIndex,
+      };
+    }
+    case 'DELETE_BUILD': {
+      const newBuilds = state.builds.filter((build, index) => index !== state.activeBuildIndex);
+      if (newBuilds.length === 0) {
+        return {
+          builds: [getDefaultBuild()],
+          activeBuildIndex: 0,
+        };
+      }
+      let newIndex = state.activeBuildIndex;
+      if (newIndex >= newBuilds.length) {
+        newIndex = newBuilds.length - 1;
+      }
+      return {
+        builds: newBuilds,
+        activeBuildIndex: newIndex,
       };
     }
     case 'UPDATE_BUILD': {
@@ -74,49 +98,14 @@ export function reducer(state: GlobalState, action: GlobalDispatchAction): Globa
         return build;
       });
       return {
-        ...state,
         builds: newBuilds,
+        activeBuildIndex: state.activeBuildIndex,
       };
     }
-    case 'DUPLICATE_BUILD': {
-      const targetBuild = state.builds.find((build) => build.id === action.id);
-      if (!targetBuild) return state;
-      const newBuilds = [
-        ...state.builds,
-      ];
-      const newBuild = cloneDeep(targetBuild);
-      newBuild.id = nanoid();
-      newBuilds.push(newBuild);
+    case 'SET_ACTIVE_BUILD': {
       return {
-        ...state,
-        builds: newBuilds,
-        activeTab: newBuild.id,
-      };
-    }
-    case 'DELETE_BUILD': {
-      const newBuilds = state.builds.filter((build) => build.id !== action.id);
-      let newActiveTab = '';
-      if (newBuilds[0]) {
-        newActiveTab = newBuilds[0].id;
-      }
-      const newState = {
-        ...state,
-        builds: newBuilds,
-        activeTab: newActiveTab,
-      };
-      if (!newState.builds[0]) {
-        return reducer(newState, { type: 'CREATE_BUILD_IF_NONE' });
-      }
-      return {
-        ...state,
-        builds: newBuilds,
-        activeTab: newActiveTab,
-      };
-    }
-    case 'SET_ACTIVE_TAB': {
-      return {
-        ...state,
-        activeTab: action.id,
+        builds: state.builds,
+        activeBuildIndex: action.index,
       };
     }
     default:

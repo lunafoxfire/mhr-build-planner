@@ -26,15 +26,9 @@ export const GlobalContextProvider = ({ children }: GlobalContextProviderProps) 
   const [state, dispatch] = useReducer(reducer, getInitialState());
 
   useEffect(() => {
-    if (state.builds.length === 0) {
-      dispatch({ type: 'CREATE_BUILD_IF_NONE' });
-    }
-  }, [dispatch, state.builds]);
-
-  useEffect(() => {
     try {
       window.localStorage.setItem('builds', JSON.stringify(state.builds));
-      window.sessionStorage.setItem('active-tab', state.activeTab ?? '');
+      window.sessionStorage.setItem('active-build', state.activeBuildIndex.toString());
     } catch (e) {
       console.error(e);
     }

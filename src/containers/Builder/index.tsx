@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Button, Group, Space } from '@mantine/core';
-import { useGlobalContext } from '@/contexts/global';
+import { Group, Space } from '@mantine/core';
 import { BuildContextProvider } from '@/contexts/build';
 import { BuildState } from '@/contexts/build/types';
 import SelectSkills from './SelectSkills';
@@ -12,35 +11,8 @@ export type BuilderProps = {
   build: BuildState,
 };
 const Builder = ({ build }: BuilderProps) => {
-  const { dispatch } = useGlobalContext();
   return (
     <BuildContextProvider build={build}>
-      <Group>
-        <Button
-          color="success"
-          onClick={() => { dispatch({ type: 'CREATE_BUILD' }); }}
-        >
-          New Build
-        </Button>
-        <Button
-          onClick={() => { dispatch({ type: 'DUPLICATE_BUILD', id: build.id }); }}
-        >
-          Duplicate Build
-        </Button>
-        <Button>
-          Export Build
-        </Button>
-        <Button>
-          Import Build
-        </Button>
-        <Button
-          color="fail"
-          style={{ marginLeft: 'auto' }}
-          onClick={() => { dispatch({ type: 'DELETE_BUILD', id: build.id }); }}
-        >
-          Delete Build
-        </Button>
-      </Group>
       <Space h="md" />
       <BuilderContainer position='center' align='flex-start'>
         <BuilderSection flex={1} minWidth={230}>
