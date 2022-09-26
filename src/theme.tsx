@@ -21,6 +21,8 @@ export const ThemedMantineProvider = (props: any) => (
               textOverflow: 'ellipsis',
               maxWidth: '150px',
               paddingBottom: '2px',
+              paddingLeft: '2px',
+              paddingRight: '2px',
             },
           }),
         },

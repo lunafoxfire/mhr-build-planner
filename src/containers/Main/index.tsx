@@ -71,7 +71,7 @@ const Main = ({ }: MainProps) => {
 
   return (
     <MainContainer>
-      <Tabs value={activeBuild?.id ?? null} onTabChange={handleTabChange}>
+      <Tabs variant="outline" value={activeBuild?.id ?? null} onTabChange={handleTabChange}>
         <Tabs.List>
           {renderedTabs}
         </Tabs.List>
