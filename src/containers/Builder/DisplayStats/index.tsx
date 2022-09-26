@@ -3,9 +3,11 @@ import styled from '@emotion/styled';
 import { Checkbox, Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
 import { weaponTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
+import { getElementIcon } from '@/util/items';
 import { useBuildContext } from '@/contexts/build';
 import SharpnessBar from '@/components/SharpnessBar';
 import { CalculatedSkill } from '@/contexts/build/types';
+import GameIcon from '@/components/GameIcon';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
@@ -53,20 +55,20 @@ const DisplayStats = ({}: DisplayStatsProps) => {
       <StatEntry label="Affinity" value={calculatedStats.affinity} suffix="%" />
       <StatEntry label="Crit Multiplier" value={calculatedStats.critMultiplier} />
       <Divider my="sm" variant="dashed" />
-      <StatEntry label="Effective Element" value={calculatedStats.effectiveElement} />
-      <StatEntry label="Element" value={calculatedStats.element} />
+      <StatEntry label="Effective Element" value={calculatedStats.effectiveElement} icon={weaponInfo?.stats.element ? getElementIcon(weaponInfo.stats.element.type) : undefined } />
+      <StatEntry label="Element" value={calculatedStats.element} icon={weaponInfo?.stats.element ? getElementIcon(weaponInfo.stats.element.type) : undefined} />
       <StatEntry label="Element Crit Multiplier" value={calculatedStats.elementCritMultiplier} />
-      <StatEntry label="Status" value={calculatedStats.status} />
+      <StatEntry label="Status" value={calculatedStats.status} icon={weaponInfo?.stats.status ? getElementIcon(weaponInfo.stats.status.type) : undefined} />
       <Space h="xs" />
       <Divider my="sm" />
       <Title order={5}>Defense</Title>
       <Space h="xs" />
       <StatEntry label="Defense" value={calculatedStats.defense} />
-      <StatEntry label="Fire Res" value={calculatedStats.fireRes} />
-      <StatEntry label="Water Res" value={calculatedStats.waterRes} />
-      <StatEntry label="Thunder Res" value={calculatedStats.thunderRes} />
-      <StatEntry label="Ice Res" value={calculatedStats.iceRes} />
-      <StatEntry label="Dragon Res" value={calculatedStats.dragonRes} />
+      <StatEntry label="Fire Res" value={calculatedStats.fireRes} icon={getElementIcon('fire')} />
+      <StatEntry label="Water Res" value={calculatedStats.waterRes} icon={getElementIcon('water')} />
+      <StatEntry label="Thunder Res" value={calculatedStats.thunderRes} icon={getElementIcon('thunder')} />
+      <StatEntry label="Ice Res" value={calculatedStats.iceRes} icon={getElementIcon('ice')} />
+      <StatEntry label="Dragon Res" value={calculatedStats.dragonRes} icon={getElementIcon('dragon')} />
       <Space h="xs" />
       <Divider my="sm" />
       <Title order={5}>Sharpness</Title>
@@ -81,11 +83,14 @@ const DisplayStats = ({}: DisplayStatsProps) => {
 
 export default DisplayStats;
 
-const StatEntry = ({ label, value, decimalPlaces, suffix }: { label: string, value: number, decimalPlaces?: number, suffix?: string }) => {
+const StatEntry = ({ label, value, decimalPlaces, suffix, icon }: { label: string, value: number, decimalPlaces?: number, suffix?: string, icon?: string }) => {
   return (
     <StatEntryWrapper>
       <div>{label}</div>
-      <div>{truncateFloat(value, decimalPlaces)}{suffix ?? ''}</div>
+      <StatIconWrapper>
+        {icon && <GameIcon src={icon} size={18} style={{ marginRight: '5px' }} />}
+        <div>{truncateFloat(value, decimalPlaces)}{suffix ?? ''}</div>
+      </StatIconWrapper>
     </StatEntryWrapper>
   );
 };
@@ -94,6 +99,10 @@ const StatEntryWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+`;
+
+const StatIconWrapper = styled.div`
+  display: flex;
 `;
 
 const SkillEntry = ({ name, level, maxLevel }: { name: string, level: number, maxLevel: number }) => {
