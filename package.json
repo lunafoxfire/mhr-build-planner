@@ -1,7 +1,12 @@
 {
   "name": "mhr-build-planner",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/lydianlights/mhr-build-planner.git"
+  },
+  "homepage": "https://mhrbuildplanner.net/",
   "type": "module",
   "scripts": {
     "dev": "vite",
