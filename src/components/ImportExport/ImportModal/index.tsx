@@ -27,6 +27,7 @@ const ImportModal = ({ omImport, ...modalProps }: ImportModalProps) => {
       <Textarea
         ref={textAreaRef as any}
         minRows={6}
+        data-autofocus
       />
       <Space h="md" />
       <Button onClick={handleImportClicked}>

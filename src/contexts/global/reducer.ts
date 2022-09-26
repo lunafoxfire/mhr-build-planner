@@ -105,15 +105,15 @@ export function reducer(state: GlobalState, action: GlobalDispatchAction): Globa
     }
     case 'IMPORT_BUILD': {
       try {
-        const newBuild = JSON.parse(atob(action.encoding));
-        newBuild.id = nanoid();
         const newBuilds = [
           ...state.builds,
-          newBuild,
         ];
+        const newBuild = JSON.parse(atob(action.encoding));
+        newBuild.id = nanoid();
+        const newIndex = newBuilds.push(newBuild) - 1;
         return {
           builds: newBuilds,
-          activeBuildIndex: state.activeBuildIndex,
+          activeBuildIndex: newIndex,
         };
       } catch (e) {
         console.error(e);
