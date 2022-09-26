@@ -13,6 +13,7 @@ export type GlobalDispatchAction =
 | { type: 'DUPLICATE_BUILD' }
 | { type: 'DELETE_BUILD' }
 | { type: 'UPDATE_BUILD', data: BuildState }
+| { type: 'IMPORT_BUILD', encoding: string }
 | { type: 'SET_ACTIVE_BUILD', index: number };
 
 export function getInitialState(): GlobalState {
@@ -20,7 +21,7 @@ export function getInitialState(): GlobalState {
   let initialIndex: number = 0;
 
   try {
-    const buildsJson = window.localStorage.getItem('builds');
+    const buildsJson = atob(window.localStorage.getItem('builds') ?? '');
     if (buildsJson) {
       // TODO: validation
       initialBuilds = JSON.parse(buildsJson);
@@ -101,6 +102,23 @@ export function reducer(state: GlobalState, action: GlobalDispatchAction): Globa
         builds: newBuilds,
         activeBuildIndex: state.activeBuildIndex,
       };
+    }
+    case 'IMPORT_BUILD': {
+      try {
+        const newBuild = JSON.parse(atob(action.encoding));
+        newBuild.id = nanoid();
+        const newBuilds = [
+          ...state.builds,
+          newBuild,
+        ];
+        return {
+          builds: newBuilds,
+          activeBuildIndex: state.activeBuildIndex,
+        };
+      } catch (e) {
+        console.error(e);
+      }
+      return state;
     }
     case 'SET_ACTIVE_BUILD': {
       return {

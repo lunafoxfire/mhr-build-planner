@@ -1,13 +1,17 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import styled from '@emotion/styled';
 import { Button, Group, Space, Tabs } from '@mantine/core';
 import { useGlobalContext } from '@/contexts/global';
 import { BuildState } from '@/contexts/build/types';
 import Builder from '@/containers/Builder';
+import ExportModal from '@/components/ImportExport/ExportModal';
+import ImportModal from '@/components/ImportExport/ImportModal';
 
 export type MainProps = {};
 const Main = ({ }: MainProps) => {
   const { state, dispatch } = useGlobalContext();
+  const [exportModalOpen, setExportModalOpen] = useState(false);
+  const [importModalOpen, setImportModalOpen] = useState(false);
 
   const activeBuild = useMemo<BuildState | null>(() => {
     const build = state.builds[state.activeBuildIndex];
@@ -21,6 +25,10 @@ const Main = ({ }: MainProps) => {
     }
     dispatch({ type: 'SET_ACTIVE_BUILD', index });
   }, [dispatch, state.builds]);
+
+  const handleImportBuild = useCallback((encoding: string) => {
+    dispatch({ type: 'IMPORT_BUILD', encoding });
+  }, [dispatch]);
 
   const renderedTabs = useMemo(() => {
     return state.builds.map((build, index) => (
@@ -44,10 +52,10 @@ const Main = ({ }: MainProps) => {
         >
           Duplicate Build
         </Button>
-        <Button>
+        <Button onClick={() => { setExportModalOpen(true); }}>
           Export Build
         </Button>
-        <Button>
+        <Button onClick={() => { setImportModalOpen(true); }}>
           Import Build
         </Button>
         <Button
@@ -69,7 +77,21 @@ const Main = ({ }: MainProps) => {
         </Tabs.List>
         <Space h="md" />
         {renderedButtons}
-        {activeBuild && (<Builder build={activeBuild} />)}
+        {activeBuild && (
+          <>
+            <Builder build={activeBuild} />
+            <ExportModal
+              opened={exportModalOpen}
+              onClose={() => { setExportModalOpen(false); }}
+              build={activeBuild}
+            />
+            <ImportModal
+              opened={importModalOpen}
+              onClose={() => { setImportModalOpen(false); }}
+              omImport={handleImportBuild}
+            />
+          </>
+        )}
       </Tabs>
     </MainContainer>
   );

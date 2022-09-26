@@ -157,6 +157,7 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
           onChange={(e) => { setSearch(e.currentTarget.value); }}
           icon={<Search size={14} />}
           style={{ width: '350px' }}
+          data-autofocus
         />
         <Select
           value={weaponType}

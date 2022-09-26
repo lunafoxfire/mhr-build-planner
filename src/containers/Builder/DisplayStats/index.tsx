@@ -152,4 +152,8 @@ const SkillWrapper = styled.div`
 const Checkboxbox = styled.div`
   position: relative;
   top: 8px;
+
+  .mantine-Checkbox-input {
+    cursor: pointer;
+  }
 `;

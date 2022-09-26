@@ -27,7 +27,7 @@ export const GlobalContextProvider = ({ children }: GlobalContextProviderProps) 
 
   useEffect(() => {
     try {
-      window.localStorage.setItem('builds', JSON.stringify(state.builds));
+      window.localStorage.setItem('builds', btoa(JSON.stringify(state.builds)));
       window.sessionStorage.setItem('active-build', state.activeBuildIndex.toString());
     } catch (e) {
       console.error(e);

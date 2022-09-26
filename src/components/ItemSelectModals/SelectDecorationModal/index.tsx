@@ -142,6 +142,7 @@ const SelectDecorationModal = ({ rampage, slotSize, onSelectItem, ...modalProps 
           onChange={(e) => { setSearch(e.currentTarget.value); }}
           icon={<Search size={14} />}
           style={{ width: '350px' }}
+          data-autofocus
         />
       </Group>
       <Space h="md" />
