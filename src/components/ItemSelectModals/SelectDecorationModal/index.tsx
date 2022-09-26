@@ -1,9 +1,10 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Group, ModalProps, Space, TextInput } from '@mantine/core';
 import { Search } from 'react-feather';
 import { decorationTable, rampageDecorationTable } from '@/assets/game-data';
 import { Decoration, RampageDecoration } from '@/assets/game-data/types';
 import { getDecorationSlotIcon, stringifySkill } from '@/util/items';
+import { usePrevious } from '@/hooks/usePrevious';
 import SortableTable, { DataColumn } from '@/components/SortableTable';
 import GameIcon from '@/components/GameIcon';
 import { StyledModal, TableWrapper } from '../shared';
@@ -92,8 +93,15 @@ export type SelectDecorationModalProps = {
   slotSize: number,
   onSelectItem: (value: string) => void,
 } & ModalProps;
-const SelectDecorationModal = ({ rampage, slotSize, onSelectItem, ...modalProps }: SelectDecorationModalProps) => {
+const SelectDecorationModal = ({ rampage, slotSize, onSelectItem, opened, ...modalProps }: SelectDecorationModalProps) => {
   const [search, setSearch] = useState<string>('');
+
+  const prevOpened = usePrevious(opened);
+  useEffect(() => {
+    if (!prevOpened && opened) {
+      setSearch('');
+    }
+  }, [opened, prevOpened]);
 
   const renderedTable = useMemo(() => {
     if (rampage) {
@@ -132,6 +140,7 @@ const SelectDecorationModal = ({ rampage, slotSize, onSelectItem, ...modalProps 
     <StyledModal
       title="Select Decoration"
       centered
+      opened={opened}
       {...modalProps}
     >
       <Group>

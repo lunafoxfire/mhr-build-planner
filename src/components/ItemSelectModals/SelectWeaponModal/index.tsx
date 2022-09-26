@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import styled from '@emotion/styled';
 import { Group, ModalProps, Select, Space, TextInput } from '@mantine/core';
 import { Search } from 'react-feather';
@@ -6,6 +6,7 @@ import { weaponTable } from '@/assets/game-data';
 import { Weapon } from '@/assets/game-data/types';
 import { compareElements, compareSharpness, compareSlots, getWeaponsByTypeAndRank, stringifyRank } from '@/util/items';
 import { useBuildContext } from '@/contexts/build';
+import { usePrevious } from '@/hooks/usePrevious';
 import SortableTable, { DataColumn } from '@/components/SortableTable';
 import SharpnessBar from '@/components/SharpnessBar';
 import { ElementDisplay, SlotsDisplay, StyledModal, TableWrapper } from '../shared';
@@ -117,10 +118,17 @@ function getItemKey(item: Weapon) {
 export type SelectWeaponModalProps = {
   onSelectItem: (value: string) => void,
 } & ModalProps;
-const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalProps) => {
+const SelectWeaponModal = ({ onSelectItem, opened, ...modalProps }: SelectWeaponModalProps) => {
   const { build } = useBuildContext();
   const [search, setSearch] = useState<string>('');
   const [weaponType, setWeaponType] = useState<string | null>('GREAT_SWORD');
+
+  const prevOpened = usePrevious(opened);
+  useEffect(() => {
+    if (!prevOpened && opened) {
+      setSearch('');
+    }
+  }, [opened, prevOpened]);
 
   const handleSelectItem = useCallback((item: Weapon) => {
     onSelectItem(item.name);
@@ -147,6 +155,7 @@ const SelectWeaponModal = ({ onSelectItem, ...modalProps }: SelectWeaponModalPro
     <StyledModal
       title="Select Weapon"
       centered
+      opened={opened}
       {...modalProps}
     >
       <Group>
