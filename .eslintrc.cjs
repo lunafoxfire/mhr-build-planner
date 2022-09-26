@@ -35,6 +35,7 @@ module.exports = {
     'multiline-ternary': OFF,
     'react/no-unknown-property': OFF, // handled by typescript
     'react/prop-types': OFF, // handled by typescript
+    'react/no-unescaped-entities': OFF,
     '@typescript-eslint/semi': [ERROR, 'always'],
     '@typescript-eslint/comma-dangle': [ERROR, 'always-multiline'],
     '@typescript-eslint/naming-convention': OFF,
