@@ -7,6 +7,7 @@ const SKILL_OPTIONS = Object.keys(skillTable).sort();
 
 const SLOT_OPTIONS = [
   { value: null, label: '---' },
+  { value: '4', label: '4' },
   { value: '3', label: '3' },
   { value: '2', label: '2' },
   { value: '1', label: '1' },
