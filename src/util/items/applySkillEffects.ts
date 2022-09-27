@@ -1,3 +1,4 @@
+import { cloneDeep } from 'lodash';
 import { WeaponElementType, WeaponStatusType } from '@/assets/game-data/types';
 import { ActiveSkillTable, CalculatedSkill, CalculatedSkills } from '@/contexts/build/types';
 
@@ -55,7 +56,7 @@ const BASE_SKILL_EFFECTS: SkillEffects = {
 };
 
 export function applySkillEffects(skills: CalculatedSkills, activeSkills: ActiveSkillTable): SkillEffects {
-  const currentEffects: SkillEffects = { ...BASE_SKILL_EFFECTS };
+  const currentEffects: SkillEffects = cloneDeep(BASE_SKILL_EFFECTS);
 
   (Object.entries(skills) as Array<[string, CalculatedSkill]>).forEach(([skill, { effectiveLevel }]) => {
     if (activeSkills[skill] == null || activeSkills[skill]) {

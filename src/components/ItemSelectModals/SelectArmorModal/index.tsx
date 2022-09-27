@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback, useMemo, useEffect } from 'react';
 import { Group, ModalProps, Space, TextInput } from '@mantine/core';
 import { Search } from 'react-feather';
 import { armorTable } from '@/assets/game-data';
@@ -6,6 +6,7 @@ import { Armor, ArmorType } from '@/assets/game-data/types';
 import { capitalize } from '@/util/string';
 import { compareSlots, getArmorByTypeAndRank, getArmorScore, getElementIcon, stringifyRank, stringifySkill, stringifySkillList } from '@/util/items';
 import { useBuildContext } from '@/contexts/build';
+import { usePrevious } from '@/hooks/usePrevious';
 import SortableTable, { DataColumn } from '@/components/SortableTable';
 import GameIcon from '@/components/GameIcon';
 import { SlotsDisplay, StyledModal, TableWrapper } from '../shared';
@@ -127,10 +128,16 @@ export type SelectArmorModalProps = {
   armorType: ArmorType,
   onSelectItem: (value: string) => void,
 } & ModalProps;
-const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmorModalProps) => {
+const SelectArmorModal = ({ armorType, onSelectItem, opened, ...modalProps }: SelectArmorModalProps) => {
   const { build } = useBuildContext();
   const [search, setSearch] = useState<string>('');
 
+  const prevOpened = usePrevious(opened);
+  useEffect(() => {
+    if (!prevOpened && opened) {
+      setSearch('');
+    }
+  }, [opened, prevOpened]);
 
   const handleSelectItem = useCallback((item: Armor) => {
     onSelectItem(item.name);
@@ -161,6 +168,7 @@ const SelectArmorModal = ({ armorType, onSelectItem, ...modalProps }: SelectArmo
     <StyledModal
       title="Select Armor"
       centered
+      opened={opened}
       {...modalProps}
     >
       <Group>
