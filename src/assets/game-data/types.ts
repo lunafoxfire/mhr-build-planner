@@ -7,7 +7,6 @@ export type ArmorSkill = {
 };
 
 export type Armor = {
-  id: number,
   name: string,
   href: string,
   rarity: number,
@@ -59,7 +58,6 @@ export type WeaponElement = { type: WeaponElementType, power: number } | null;
 export type WeaponStatus = { type: WeaponStatusType, power: number } | null;
 
 export type Weapon = {
-  id: number,
   name: string,
   href: string,
   type: WeaponType,
@@ -80,7 +78,6 @@ export type Weapon = {
 
 // ==== DECORATIONS ==== //
 export type Decoration = {
-  id: number,
   name: string,
   href: string,
   skill: ArmorSkill,
@@ -90,7 +87,6 @@ export type Decoration = {
 
 // ==== RAMPAGE DECORATIONS ==== //
 export type RampageDecoration = {
-  id: number,
   name: string,
   skill: string,
   size: number,
@@ -104,7 +100,6 @@ export type SkillLevel = {
 };
 
 export type Skill = {
-  id: number,
   name: string,
   href: string,
   description: string,
@@ -114,7 +109,6 @@ export type Skill = {
 
 // ==== RAMPAGE SKILLS ==== //
 export type RampageSkill = {
-  id: number,
   name: string,
   href: string,
   description: string,

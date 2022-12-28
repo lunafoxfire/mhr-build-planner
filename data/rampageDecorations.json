@@ -1,162 +1,135 @@
 [
   {
-    "id": 0,
     "name": "Brutal Jewel 2",
     "skill": "Brutal Strike",
     "size": 2
   },
   {
-    "id": 1,
     "name": "Elembane Jewel 3",
     "skill": "Element Exploit",
     "size": 3
   },
   {
-    "id": 2,
     "name": "Defense Edge Jewel 1",
     "skill": "Defense Grinder I",
     "size": 1
   },
   {
-    "id": 3,
     "name": "Defense Master Jewel 3",
     "skill": "Defense Grinder II",
     "size": 3
   },
   {
-    "id": 4,
     "name": "Raging Jewel 3",
     "skill": "Hellion Mode",
     "size": 3
   },
   {
-    "id": 5,
     "name": "Doot Range Jewel 2",
     "skill": "Maximum Volume",
     "size": 2
   },
   {
-    "id": 6,
     "name": "Switcher Jewel 3",
     "skill": "Phial Switch Boost",
     "size": 3
   },
   {
-    "id": 7,
     "name": "Arc Jewel 2",
     "skill": "Lasting Arc Shot",
     "size": 2
   },
   {
-    "id": 8,
     "name": "Wyrmstake Jewel 3",
     "skill": "Wyrmstake Boost",
     "size": 3
   },
   {
-    "id": 9,
     "name": "Anti-Dragon Jewel 2",
     "skill": "Wyvern Exploit",
     "size": 2
   },
   {
-    "id": 10,
     "name": "Anti-Aerial Jewel 2",
     "skill": "Anti-Aerial Species",
     "size": 2
   },
   {
-    "id": 11,
     "name": "Anti-Aquatic Jewel 2",
     "skill": "Anti-Aquatic Species",
     "size": 2
   },
   {
-    "id": 12,
     "name": "Small Monster Jewel 1",
     "skill": "Small Monster Exploit",
     "size": 1
   },
   {
-    "id": 13,
     "name": "Fireblight Jewel 1",
     "skill": "Fireblight Exploit",
     "size": 1
   },
   {
-    "id": 14,
     "name": "Waterblight Jewel 1",
     "skill": "Waterblight Exploit",
     "size": 1
   },
   {
-    "id": 15,
     "name": "Thunderblight Jewel 1",
     "skill": "Thunderblight Exploit",
     "size": 1
   },
   {
-    "id": 16,
     "name": "Iceblight Jewel 1",
     "skill": "Iceblight Exploit",
     "size": 1
   },
   {
-    "id": 17,
     "name": "Magna Soul Jewel 2",
     "skill": "Magnamalo Soul",
     "size": 2
   },
   {
-    "id": 18,
     "name": "Valstrax Soul Jewel 2",
     "skill": "Valstrax Soul",
     "size": 2
   },
   {
-    "id": 19,
     "name": "Chameleos Soul Jewel 2",
     "skill": "Chameleos Soul",
     "size": 2
   },
   {
-    "id": 20,
     "name": "Daora Soul Jewel 3",
     "skill": "Kushala Daora Soul",
     "size": 3
   },
   {
-    "id": 21,
     "name": "Teostra Soul Jewel 2",
     "skill": "Teostra Soul",
     "size": 2
   },
   {
-    "id": 22,
     "name": "Ibushi Soul Jewel 2",
     "skill": "Ibushi Soul",
     "size": 2
   },
   {
-    "id": 23,
     "name": "Narwa Soul Jewel 2",
     "skill": "Narwa Soul",
     "size": 2
   },
   {
-    "id": 24,
     "name": "Rally Jewel 1",
     "skill": "Buddy Rally",
     "size": 1
   },
   {
-    "id": 25,
     "name": "Spiribird Jewel 1",
     "skill": "Spiribird Doubled",
     "size": 1
   },
   {
-    "id": 26,
     "name": "Fanged Exploit Jewel 2",
     "skill": "Fanged Exploit",
     "size": 2

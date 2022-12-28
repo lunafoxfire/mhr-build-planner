@@ -279,7 +279,7 @@
         "Bazelgeuse Helm X",
         "Damascus Helm X",
         "Kushala Glare X",
-        "Grand Mizuha Cap",
+        "Grand Mizuha Mask",
         "Kaiser Crown X",
         "Arc Helm",
         "Storge Helm",
@@ -296,6 +296,16 @@
         "Lien Headgear",
         "Fiorayne Face",
         "Utsushi Face",
+        "Fall Scarf",
+        "Arlow Face",
+        "Clockwork Helm",
+        "Monocle of Clarity",
+        "Fluffy Fur Hat",
+        "Hinoa Face",
+        "Artian Helm",
+        "Palamask",
+        "Shui Helm",
+        "Dusk Headgear",
         "Archfiend Armor Cerato",
         "Ibushi's Pure Helm",
         "Narwa's Pure Helm",
@@ -310,7 +320,17 @@
         "Pride Helm",
         "Golden Lunehelm",
         "Silver Solhelm",
-        "Lambent Casque"
+        "Lambent Casque",
+        "Qurio Crown",
+        "Onmyo Toukan",
+        "Flaming Espinas Brain",
+        "Risen Mizuha Headdress",
+        "Elfin Crown",
+        "Chaotic Helm",
+        "Nephilim Helm",
+        "Risen Kushala Glare",
+        "Risen Kaiser Horns",
+        "Black Wing Earrings"
       ]
     },
     "BODY": {
@@ -584,6 +604,14 @@
         "Lien Vest",
         "Fiorayne Body",
         "Utsushi Body",
+        "Fall Jacket",
+        "Arlow Body",
+        "Clockwork Mail",
+        "Fluffy Fur Robe",
+        "Hinoa Body",
+        "Artian Mail",
+        "Shui Mail",
+        "Dusk Suit",
         "Archfiend Armor Baulo",
         "Ibushi's Pure Breastplate",
         "Narwa's Pure Breastplate",
@@ -594,7 +622,14 @@
         "Pride Mail",
         "Golden Lunemail",
         "Silver Solmail",
-        "Lambent Hauberk"
+        "Lambent Hauberk",
+        "Onmyo Kariginu",
+        "Flaming Espinas Muscle",
+        "Risen Mizuha Robes",
+        "Chaotic Mail",
+        "Nephilim Mail",
+        "Risen Kushala Iram",
+        "Risen Kaiser Mail"
       ]
     },
     "ARMS": {
@@ -857,6 +892,14 @@
         "Lien Braces",
         "Fiorayne Arms",
         "Utsushi Arms",
+        "Fall Sleeves",
+        "Arlow Arms",
+        "Clockwork Braces",
+        "Fluffy Fur Gloves",
+        "Hinoa Arms",
+        "Artian Braces",
+        "Shui Braces",
+        "Dusk Braces",
         "Archfiend Armor Epine",
         "Ibushi's Pure Pauldrons",
         "Narwa's Pure Pauldrons",
@@ -867,7 +910,14 @@
         "Pride Vambraces",
         "Golden Lunebraces",
         "Silver Solbraces",
-        "Lambent Wristrays"
+        "Lambent Wristrays",
+        "Onmyo Tekkou",
+        "Flaming Espinas Grip",
+        "Risen Mizuha Sleeves",
+        "Chaotic Vambraces",
+        "Nephilim Vambraces",
+        "Risen Kushala Grande",
+        "Risen Kaiser Braces"
       ]
     },
     "WAIST": {
@@ -1132,6 +1182,14 @@
         "Lien Coil",
         "Fiorayne Waist",
         "Utsushi Waist",
+        "Fall Waist",
+        "Arlow Waist",
+        "Clockwork Coil",
+        "Fluffy Fur Belt",
+        "Hinoa Waist",
+        "Artian Coil",
+        "Shui Coil",
+        "Dusk Waist",
         "Archfiend Armor Ura",
         "Ibushi's Pure Fauld",
         "Narwa's Pure Fauld",
@@ -1142,7 +1200,14 @@
         "Pride Coil",
         "Golden Lunecoil",
         "Silver Solcoil",
-        "Lambent Sash"
+        "Lambent Sash",
+        "Onmyo Ateobi",
+        "Flaming Espinas Bowels",
+        "Risen Mizuha Sash",
+        "Chaotic Faulds",
+        "Nephilim Tassets",
+        "Risen Kushala Cocoon",
+        "Risen Kaiser Coil"
       ]
     },
     "LEGS": {
@@ -1412,6 +1477,14 @@
         "Lien Pants",
         "Fiorayne Legs",
         "Utsushi Legs",
+        "Fall Pants",
+        "Arlow Legs",
+        "Clockwork Greaves",
+        "Fluffy Fur Boots",
+        "Hinoa Legs",
+        "Artian Greaves",
+        "Shui Greaves",
+        "Dusk Pants",
         "Archfiend Armor Sceros",
         "Ibushi's Pure Foot",
         "Narwa's Pure Foot",
@@ -1422,7 +1495,14 @@
         "Pride Greaves",
         "Golden Lunegreaves",
         "Silver Solgreaves",
-        "Lambent Gaiters"
+        "Lambent Gaiters",
+        "Onmyo Sashiko",
+        "Flaming Espinas Heel",
+        "Risen Mizuha Gaiters",
+        "Chaotic Greaves",
+        "Nephilim Greaves",
+        "Risen Kushala Crus",
+        "Risen Kaiser Cuisse"
       ]
     }
   },
@@ -1581,6 +1661,7 @@
         "Akanesasu+",
         "Akanesasu Divider",
         "Akanesasu Divider+",
+        "Pure Sword Omurasaki",
         "Carapace Buster",
         "Carapace Buster+",
         "Barroth Smasher",
@@ -1649,6 +1730,7 @@
         "Rosenbrett",
         "Rosenbrett+",
         "Rosenkraft",
+        "Kaktus Kraft",
         "Terracutter+",
         "Valtos Rapier",
         "Valtos Rapier+",
@@ -1681,6 +1763,7 @@
         "Verhängnisstolz",
         "L'Apothéose",
         "L'Origine",
+        "Anfang/Fin",
         "Great Demon Rod+",
         "Great Demon Hot Rod",
         "Demonlord Goldrod",
@@ -1706,7 +1789,9 @@
         "Cat's King",
         "Royal Order's Great Sword",
         "Royal Order's Great Sword+",
-        "Antique Machina GS"
+        "Antique Machina GS",
+        "Lost Code: Asca",
+        "Stuffed Rathalos"
       ]
     },
     "SWORD_AND_SHIELD": {
@@ -1870,6 +1955,7 @@
         "Kurenawi Ougi+",
         "Kurenawi Kunpuu",
         "Kurenawi Kunpuu+",
+        "Pure Silver Fan Hime",
         "Crown of the Protector",
         "Crown of the Protector+",
         "Heavenly King's Sword",
@@ -1908,7 +1994,7 @@
         "Datura Splitter+",
         "Blazing Falchion+",
         "Enspirited Ifrit",
-        "Shining Wyvern Blade",
+        "Platinum Dawn",
         "Nardeglacon",
         "Nardeglacon+",
         "Never Event",
@@ -1933,6 +2019,7 @@
         "Rosenmesser",
         "Rosenmesser+",
         "Rosengedien",
+        "Kaktus Gedeihen",
         "Ragdos Tabar+",
         "Bonebreaker Tabar",
         "Bonebreaker Tabar+",
@@ -1973,6 +2060,7 @@
         "Sieger-Ankh",
         "Le Détecteur",
         "Le Limier",
+        "Lügen/Vérité",
         "Banned Rajang Club+",
         "Cursed Rajang Club",
         "Demonlord Bludgeon",
@@ -1992,7 +2080,9 @@
         "Ninja Master Sword",
         "Royal Order's Sword",
         "Royal Order's Sword+",
-        "Antique Machina SS"
+        "Antique Machina SS",
+        "Lost Code: Carnhan",
+        "Stuffed Zinogre"
       ]
     },
     "DUAL_BLADES": {
@@ -2169,6 +2259,7 @@
         "Evening Dusk+",
         "Dark Aurora",
         "Dark Aurora+",
+        "Pure Blades Tsurugi",
         "Dawnmoon Daggers",
         "Dawnmoon Daggers+",
         "Dawnmoon Disrupters",
@@ -2213,6 +2304,7 @@
         "Rosenzahn",
         "Rosenzahn+",
         "Rosenehrgeiz",
+        "Kaktus Ehrgeiz",
         "Diablos Mashers+",
         "Diablos Smashers",
         "Diablos Smashers+",
@@ -2247,6 +2339,7 @@
         "Aasklauen",
         "Les Apôtres",
         "Le Shangri-La",
+        "Shangri-La/Hades",
         "Suzuka Otakemaru+",
         "Suzuka Akurou",
         "Demonlord Fist",
@@ -2278,7 +2371,9 @@
         "Elder Fugen's Blades+",
         "Royal Order's Rapiers",
         "Royal Order's Rapiers+",
-        "Antique Machina DB"
+        "Antique Machina DB",
+        "Lost Code: Rah",
+        "Stuffed Goss Harag"
       ]
     },
     "LONG_SWORD": {
@@ -2468,6 +2563,7 @@
         "Tamonowo+",
         "Tamonowo Zekkarei",
         "Tamonowo Zekkarei+",
+        "Pure Sword Ichimonji",
         "Darkest Night",
         "Darkest Night+",
         "Avidya Saber",
@@ -2490,6 +2586,7 @@
         "Rosenfader",
         "Rosenfader+",
         "Rosenhimmel",
+        "Kaktus Himmel",
         "Wyvern Blade \"Maple\"+",
         "Wyvern Blade \"Scarlet\"",
         "Wyvern Blade \"Pale\"",
@@ -2557,6 +2654,7 @@
         "Stahlurteil",
         "La Justicière",
         "Le Décalogue",
+        "Chaos/Loi",
         "Great Demon Halberd+",
         "Evil Demon Halberd",
         "Demonlord Halberd",
@@ -2578,7 +2676,9 @@
         "Kamura's Legacy",
         "Royal Order's Claymore",
         "Royal Order's Claymore+",
-        "Antique Machina LS"
+        "Antique Machina LS",
+        "Lost Code: Kiri",
+        "Stuffed Nargacuga"
       ]
     },
     "HAMMER": {
@@ -2741,6 +2841,7 @@
         "Sinter Hammer+",
         "Enlightenment Hammer",
         "Enlightenment Hammer+",
+        "Pure Hammer Mitama",
         "Armored Gogue+",
         "Armored Megagogue",
         "Armored Megagogue+",
@@ -2819,6 +2920,7 @@
         "Rosenhammer",
         "Rosenhammer+",
         "Rosenunwetter",
+        "Kaktus Unwetter",
         "Abominable Buster",
         "Abominable Buster+",
         "Abominable Avalanche",
@@ -2849,6 +2951,7 @@
         "Ächtungsblick",
         "Le Jugement",
         "La Terre",
+        "Vergehen/Naissance",
         "Gargwa Hammer+",
         "Gargegg Hammer",
         "Mane Malice Rajang+",
@@ -2872,7 +2975,9 @@
         "Magic Pumpking",
         "Royal Order's Bludgeon",
         "Royal Order's Bludgeon+",
-        "Antique Machina H"
+        "Antique Machina H",
+        "Lost Code: Mjo",
+        "Stuffed Diablos"
       ]
     },
     "HUNTING_HORN": {
@@ -3027,6 +3132,7 @@
         "Summoning Bell+",
         "Sublime Bell",
         "Sublime Bell+",
+        "Pure Bell Inari",
         "Araknatootle",
         "Araknatootle+",
         "Doomed Bell",
@@ -3077,6 +3183,7 @@
         "Rosengitarre",
         "Rosengitarre+",
         "Rosenseele",
+        "Kaktus Seele",
         "Sandcrier+",
         "Sandscreecher",
         "Sandscreecher+",
@@ -3128,6 +3235,7 @@
         "Trauerklang",
         "La Sépulture",
         "Le Grégorien",
+        "Grimm/Joie",
         "Denden Doomsounder+",
         "Denden Delugesong",
         "Demonlord Djembe",
@@ -3153,7 +3261,9 @@
         "Raccoon Dog Auldhorn",
         "Royal Order's Horn",
         "Royal Order's Horn+",
-        "Antique Machina HH"
+        "Antique Machina HH",
+        "Lost Code: Alos",
+        "Stuffed Tigrex"
       ]
     },
     "LANCE": {
@@ -3312,6 +3422,7 @@
         "Kimi Ga Kiru+",
         "Kimi Ga Kiru Kasa",
         "Kimi Ga Kiru Kasa+",
+        "Pure Spear Osaki",
         "Devta Serpentblade+",
         "Ouroboros Serpentblade",
         "Croaker+",
@@ -3383,6 +3494,7 @@
         "Rosenranze",
         "Rosenranze+",
         "Rosenbegierde",
+        "Kaktus Begierde",
         "Spiral Splash+",
         "Spiral Vortex",
         "Spiral Vortex+",
@@ -3408,6 +3520,7 @@
         "Zornesschild",
         "L'Égide",
         "Le Paladin",
+        "Luzifer/Sage",
         "Great Demon Lance+",
         "Raging Demon Lance",
         "Demonlord Rajang",
@@ -3432,7 +3545,9 @@
         "Elegant Fragrance",
         "Royal Order's Guard",
         "Royal Order's Guard+",
-        "Antique Machina L"
+        "Antique Machina L",
+        "Lost Code: Mia",
+        "Stuffed Malzeno"
       ]
     },
     "GUNLANCE": {
@@ -3590,6 +3705,7 @@
         "Mizumori+",
         "Harae no Toboshi",
         "Harae no Toboshi+",
+        "Pure Gunlance Izuna",
         "Ortlinde+",
         "Great Ortlinde",
         "Great Ortlinde+",
@@ -3597,6 +3713,7 @@
         "Rosenkanone",
         "Rosenkanone+",
         "Rosenherrlich",
+        "Kaktus Herrlich",
         "Crimson Rook+",
         "Etince Chariot",
         "Silver Rook",
@@ -3695,6 +3812,7 @@
         "Hochmutsarm",
         "L'Onde",
         "La Forteresse",
+        "Mauer/Guerre",
         "Great Demon Gunlance+",
         "Dragon Gunlance",
         "Demonlord Gunlance",
@@ -3716,7 +3834,9 @@
         "Dreamsniper",
         "Royal Order's Pledge",
         "Royal Order's Pledge+",
-        "Antique Machina GL"
+        "Antique Machina GL",
+        "Lost Code: Nir",
+        "Stuffed Magnamalo"
       ]
     },
     "SWITCH_AXE": {
@@ -3877,6 +3997,7 @@
         "Parting Slice+",
         "Leave-Taker",
         "Leave-Taker+",
+        "Pure Switch Axe Mikado",
         "Rath Blaze Splitter+",
         "High Rubillion",
         "Rathsplicer",
@@ -3912,6 +4033,7 @@
         "Rosenacanta",
         "Rosenacanta+",
         "Rosenprion",
+        "Kaktusprion",
         "Conqueress II",
         "Conqueress III",
         "Reconqueress",
@@ -3983,6 +4105,7 @@
         "Eisenherz",
         "La Guillotine",
         "La Conclusion",
+        "Frevel/Sursis",
         "Undying Light+",
         "Undying Purity",
         "Demonlord Edge",
@@ -4008,7 +4131,9 @@
         "Dreamcrusher",
         "Royal Order's Axe",
         "Royal Order's Axe+",
-        "Antique Machina SA"
+        "Antique Machina SA",
+        "Lost Code: Labr",
+        "Stuffed Lunagaron"
       ]
     },
     "CHARGE_BLADE": {
@@ -4154,6 +4279,7 @@
         "Rosenrupe",
         "Rosenrupe+",
         "Rosenemolgia",
+        "Kaktusemolgia",
         "Frostrail",
         "Frostrail+",
         "Dreadfeller",
@@ -4191,6 +4317,7 @@
         "Final Fieldblade+",
         "Divine Fieldblade",
         "Divine Fieldblade+",
+        "Pure Axe Omonshiro",
         "Kadachi Otenta+",
         "Thunderclap Otenta",
         "Thunderclap Otenta+",
@@ -4247,6 +4374,7 @@
         "Unheilskraft",
         "L'Oppresseur",
         "Le Salut",
+        "Friede/Désastre",
         "Ikaji Immortal+",
         "Unyielding Honor",
         "Demonlord Blade",
@@ -4270,7 +4398,9 @@
         "Armordraad",
         "Royal Order's Battleaxe",
         "Royal Order's Battleaxe+",
-        "Antique Machina CB"
+        "Antique Machina CB",
+        "Lost Code: Sara",
+        "Stuffed Garangolm"
       ]
     },
     "INSECT_GLAIVE": {
@@ -4425,6 +4555,7 @@
         "Curved Naganagi+",
         "Eventide Kazanagi",
         "Eventide Kazanagi+",
+        "Pure Naginata Sumi",
         "Illusory Frilled Jab+",
         "Nightmare Frilled Jab",
         "Nightmare Frilled Jab+",
@@ -4458,6 +4589,7 @@
         "Rosenstange",
         "Rosenstange+",
         "Rosenspringen",
+        "Kaktusspringen",
         "Dawnmoon Glaive",
         "Dawnmoon Glaive+",
         "Dawnmoon Beambreak",
@@ -4523,6 +4655,7 @@
         "Leumundsbruch",
         "Le Traqueur",
         "Le Miracle",
+        "Wehmut/Merveille",
         "Metalmangler+",
         "Metal Mutilator",
         "Demonlord Cudgel",
@@ -4542,7 +4675,9 @@
         "Poet's Brush Glaive",
         "Royal Order's Glaive",
         "Royal Order's Glaive+",
-        "Antique Machina IG"
+        "Antique Machina IG",
+        "Lost Code: Telth",
+        "Stuffed Rakna-Kadaki"
       ]
     },
     "BOW": {
@@ -4717,6 +4852,7 @@
         "Heaven's Manna+",
         "Elysian Manna",
         "Elysian Manna+",
+        "Pure Bow Kuzunoha",
         "Grand Glowing Oath",
         "Grand Glowing Oath+",
         "Exalted Vow",
@@ -4768,6 +4904,7 @@
         "Rosenbogen",
         "Rosenbogen+",
         "Rosenzichel",
+        "Kaktus Sichel",
         "Dark Filament+",
         "Flamestroke Flam",
         "Hyperion",
@@ -4828,6 +4965,7 @@
         "Untergang",
         "Le Ravisseur",
         "L'Innocence",
+        "Auftauchen/Disparition",
         "Kelbi Deershot",
         "Great Kelbi Deershot",
         "Beastking Thunderbow+",
@@ -4855,7 +4993,9 @@
         "Arachnid Silksong",
         "Royal Order's Bow",
         "Royal Order's Bow+",
-        "Antique Machina B"
+        "Antique Machina B",
+        "Lost Code: Iru",
+        "Stuffed Rajang"
       ]
     },
     "HEAVY_BOWGUN": {
@@ -5000,6 +5140,7 @@
         "Mountainous Roar+",
         "Mountainous Torrent",
         "Mountainous Torrent+",
+        "Pure Cannon Tamamo",
         "Reversal Barrage+",
         "Grand Reversal Barrage",
         "Grand Reversal Barrage+",
@@ -5010,6 +5151,7 @@
         "Rosenkugel",
         "Rosenkugel+",
         "Rosenprima",
+        "Kaktus Prima",
         "Guerrera Herald",
         "Guerrera Herald+",
         "Valía Cannon",
@@ -5033,7 +5175,7 @@
         "Frostmoon Howlitzer+",
         "Egil",
         "Earth Eater+",
-        "Volarevolver",
+        "Gaia Eater",
         "Marino Cannon+",
         "Purple October",
         "Purple October+",
@@ -5093,6 +5235,7 @@
         "Gemetzel Abzug",
         "Le Désastre",
         "Le Déluge",
+        "Ursprung/Mort",
         "Rajang's Rage+",
         "Rajang Cyclone",
         "Demonlord Thunder",
@@ -5119,7 +5262,9 @@
         "Zect Injector",
         "Royal Order's Bowgun",
         "Royal Order's Bowgun+",
-        "Antique Machina HB"
+        "Antique Machina HB",
+        "Lost Code: Jura",
+        "Stuffed Mizutsune"
       ]
     },
     "LIGHT_BOWGUN": {
@@ -5304,6 +5449,7 @@
         "Nifl Mist+",
         "Encroaching Mist",
         "Encroaching Mist+",
+        "Pure Bowgun Yao",
         "Gale Bowgun+",
         "Great Gale Bowgun",
         "Furious Flammenkanone+",
@@ -5316,6 +5462,7 @@
         "Rosengewehr",
         "Rosengewehr+",
         "Rosensiegen",
+        "Kaktus Siegen",
         "Wyvern Chaser+",
         "Dark Hunter",
         "Dark Hunter+",
@@ -5333,12 +5480,12 @@
         "Valtos Gill+",
         "Rathling Phoenix+",
         "Seering Rathling Phoenix",
-        "Silver Spartacus",
+        "Silver Rathling Phoenix",
         "Blizzard Squall",
         "Blizzard Squall+",
         "Tabula Blizzara",
         "Grenade Revolver+",
-        "Gaia Eater",
+        "Volarevolver",
         "Tigrex Wargun+",
         "Great Tigrex Wargun",
         "Great Tigrex Wargun+",
@@ -5356,6 +5503,7 @@
         "Teufelsschleuder",
         "La Lumière",
         "La Vertu",
+        "Fäulnis/Vertu",
         "Ten Thousand Volts+",
         "Ten Million Volts",
         "Demonlord Cannon",
@@ -5377,7 +5525,9 @@
         "Springnight Finshot",
         "Royal Order's Crossbow",
         "Royal Order's Crossbow+",
-        "Antique Machina LB"
+        "Antique Machina LB",
+        "Lost Code: Kera",
+        "Stuffed Khezu"
       ]
     }
   }

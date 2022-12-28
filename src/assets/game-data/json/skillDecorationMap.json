@@ -18,6 +18,11 @@
       "decoName": "Flawless Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Flawless Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Resentment": [
@@ -65,6 +70,11 @@
       "decoName": "Throttle Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Throttle Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Maximum Might": [
@@ -72,6 +82,11 @@
       "decoName": "Mighty Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Mighty Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Critical Element": [
@@ -113,6 +128,11 @@
       "decoName": "Hard Blaze Jewel 3",
       "decoSize": 3,
       "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Blaze Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
     }
   ],
   "Water Attack": [
@@ -130,6 +150,11 @@
       "decoName": "Hard Stream Jewel 3",
       "decoSize": 3,
       "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Stream Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
     }
   ],
   "Ice Attack": [
@@ -147,6 +172,11 @@
       "decoName": "Hard Frost Jewel 3",
       "decoSize": 3,
       "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Frost Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
     }
   ],
   "Thunder Attack": [
@@ -164,6 +194,11 @@
       "decoName": "Hard Bolt Jewel 3",
       "decoSize": 3,
       "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Bolt Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
     }
   ],
   "Dragon Attack": [
@@ -181,6 +216,11 @@
       "decoName": "Hard Dragon Jewel 3",
       "decoSize": 3,
       "skillLevel": 3
+    },
+    {
+      "decoName": "Hard Dragon Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 4
     }
   ],
   "Poison Attack": [
@@ -200,6 +240,11 @@
       "decoName": "Paralyzer Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Paralyzer Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Sleep Attack": [
@@ -207,6 +252,11 @@
       "decoName": "Sleep Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Sleep Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Blast Attack": [
@@ -214,6 +264,11 @@
       "decoName": "Blast Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Blast Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Handicraft": [
@@ -221,6 +276,11 @@
       "decoName": "Handicraft Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Handicraft Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Razor Sharp": [
@@ -381,6 +441,11 @@
       "decoName": "Guardian Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Guardian Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Critical Draw": [
@@ -498,6 +563,11 @@
       "decoName": "Forceshot Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Forceshot Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Pierce Up": [
@@ -505,6 +575,11 @@
       "decoName": "Pierce Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Pierce Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Spread Up": [
@@ -512,6 +587,11 @@
       "decoName": "Spread Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Spread Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Ammo Up": [
@@ -1038,6 +1118,27 @@
       "skillLevel": 1
     }
   ],
+  "Chameleos Blessing": [
+    {
+      "decoName": "Haze Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Kushala Blessing": [
+    {
+      "decoName": "Ironshell Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Teostra Blessing": [
+    {
+      "decoName": "Flamescale Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
   "Wirebug Whisperer": [
     {
       "decoName": "Wirebug Jewel 2",
@@ -1098,9 +1199,35 @@
       "skillLevel": 2
     }
   ],
+  "Blood Rite": [
+    {
+      "decoName": "Bloodening Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
   "Coalescence": [
     {
       "decoName": "Phoenix Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Phoenix Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Sneak Attack": [
+    {
+      "decoName": "Backstab Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Adrenaline Rush": [
+    {
+      "decoName": "Counterattack Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
     }
@@ -1110,6 +1237,11 @@
       "decoName": "Redirection Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Redirection Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Spiribird's Call": [
@@ -1124,6 +1256,18 @@
       "decoName": "Charge Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Charge Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Foray": [
+    {
+      "decoName": "Foray Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
     }
   ],
   "Tune-Up": [
@@ -1131,6 +1275,11 @@
       "decoName": "Foil Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Foil Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Grinder (S)": [
@@ -1138,6 +1287,11 @@
       "decoName": "Polisher Pro Jewel 3",
       "decoSize": 3,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Polisher Pro Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Bladescale Hone": [
@@ -1158,6 +1312,20 @@
     {
       "decoName": "Breath Jewel 3",
       "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Element Exploit": [
+    {
+      "decoName": "Element Exploit Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    }
+  ],
+  "Burst": [
+    {
+      "decoName": "Chain Jewel 2",
+      "decoSize": 2,
       "skillLevel": 1
     }
   ]

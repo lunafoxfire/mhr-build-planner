@@ -1,6 +1,5 @@
 [
   {
-    "id": 0,
     "name": "Mastery Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/422304422",
     "skill": {
@@ -10,7 +9,6 @@
     "size": 2
   },
   {
-    "id": 1,
     "name": "Handicraft Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/229177724",
     "skill": {
@@ -20,7 +18,6 @@
     "size": 3
   },
   {
-    "id": 2,
     "name": "Fate Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1951027710",
     "skill": {
@@ -30,7 +27,6 @@
     "size": 3
   },
   {
-    "id": 3,
     "name": "Hellfire Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1755961030",
     "skill": {
@@ -40,7 +36,6 @@
     "size": 3
   },
   {
-    "id": 4,
     "name": "Leap Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/2026860724",
     "skill": {
@@ -50,7 +45,6 @@
     "size": 3
   },
   {
-    "id": 5,
     "name": "Salvo Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/733228413",
     "skill": {
@@ -60,7 +54,6 @@
     "size": 3
   },
   {
-    "id": 6,
     "name": "Thrift Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/257661234",
     "skill": {
@@ -70,7 +63,6 @@
     "size": 2
   },
   {
-    "id": 7,
     "name": "Razor Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/243411229",
     "skill": {
@@ -80,7 +72,6 @@
     "size": 2
   },
   {
-    "id": 8,
     "name": "Spread Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/762691032",
     "skill": {
@@ -90,7 +81,6 @@
     "size": 3
   },
   {
-    "id": 9,
     "name": "Pierce Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/748441147",
     "skill": {
@@ -100,7 +90,6 @@
     "size": 3
   },
   {
-    "id": 10,
     "name": "Forceshot Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/599465498",
     "skill": {
@@ -110,7 +99,6 @@
     "size": 3
   },
   {
-    "id": 11,
     "name": "Sharp Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/138201299",
     "skill": {
@@ -120,7 +108,6 @@
     "size": 2
   },
   {
-    "id": 12,
     "name": "Blast Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/215451999",
     "skill": {
@@ -130,7 +117,6 @@
     "size": 2
   },
   {
-    "id": 13,
     "name": "Sleep Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/67000766",
     "skill": {
@@ -140,7 +126,6 @@
     "size": 2
   },
   {
-    "id": 14,
     "name": "Paralyzer Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/19196313",
     "skill": {
@@ -150,7 +135,6 @@
     "size": 2
   },
   {
-    "id": 15,
     "name": "Throttle Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/514312899",
     "skill": {
@@ -160,7 +144,6 @@
     "size": 2
   },
   {
-    "id": 16,
     "name": "Crisis Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/289049423",
     "skill": {
@@ -170,7 +153,6 @@
     "size": 2
   },
   {
-    "id": 17,
     "name": "Furor Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/274815918",
     "skill": {
@@ -180,7 +162,6 @@
     "size": 2
   },
   {
-    "id": 18,
     "name": "Flawless Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/395307913",
     "skill": {
@@ -190,7 +171,6 @@
     "size": 2
   },
   {
-    "id": 19,
     "name": "Challenger Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/381074408",
     "skill": {
@@ -200,7 +180,6 @@
     "size": 2
   },
   {
-    "id": 20,
     "name": "Tenderizer Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/500079394",
     "skill": {
@@ -210,7 +189,6 @@
     "size": 2
   },
   {
-    "id": 21,
     "name": "Critical Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/485829389",
     "skill": {
@@ -220,7 +198,6 @@
     "size": 2
   },
   {
-    "id": 22,
     "name": "Capacity Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/776924665",
     "skill": {
@@ -230,7 +207,6 @@
     "size": 3
   },
   {
-    "id": 23,
     "name": "Guardian Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1047302063",
     "skill": {
@@ -240,7 +216,6 @@
     "size": 3
   },
   {
-    "id": 24,
     "name": "Fungiform Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1893605725",
     "skill": {
@@ -250,7 +225,6 @@
     "size": 3
   },
   {
-    "id": 25,
     "name": "Draw Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1061551948",
     "skill": {
@@ -260,7 +234,6 @@
     "size": 3
   },
   {
-    "id": 26,
     "name": "Precise Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/200239249",
     "skill": {
@@ -270,7 +243,6 @@
     "size": 2
   },
   {
-    "id": 27,
     "name": "Crit Element Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/408054401",
     "skill": {
@@ -280,7 +252,6 @@
     "size": 2
   },
   {
-    "id": 28,
     "name": "Artillery Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/657919655",
     "skill": {
@@ -290,7 +261,6 @@
     "size": 2
   },
   {
-    "id": 29,
     "name": "Sprinter Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/808327178",
     "skill": {
@@ -300,7 +270,6 @@
     "size": 2
   },
   {
-    "id": 30,
     "name": "Charger Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/913537140",
     "skill": {
@@ -310,7 +279,6 @@
     "size": 2
   },
   {
-    "id": 31,
     "name": "Mind's Eye Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/152451312",
     "skill": {
@@ -320,7 +288,6 @@
     "size": 2
   },
   {
-    "id": 32,
     "name": "Potential Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/2084266193",
     "skill": {
@@ -330,7 +297,6 @@
     "size": 2
   },
   {
-    "id": 33,
     "name": "Trueshot Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/585215589",
     "skill": {
@@ -340,7 +306,6 @@
     "size": 2
   },
   {
-    "id": 34,
     "name": "Magazine Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/537427524",
     "skill": {
@@ -350,7 +315,6 @@
     "size": 2
   },
   {
-    "id": 35,
     "name": "Shield Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1032544142",
     "skill": {
@@ -360,7 +324,6 @@
     "size": 2
   },
   {
-    "id": 36,
     "name": "Ironwall Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1018294249",
     "skill": {
@@ -370,7 +333,6 @@
     "size": 2
   },
   {
-    "id": 37,
     "name": "Refresh Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/869842888",
     "skill": {
@@ -380,7 +342,6 @@
     "size": 2
   },
   {
-    "id": 38,
     "name": "Enhancer Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/928294933",
     "skill": {
@@ -390,7 +351,6 @@
     "size": 2
   },
   {
-    "id": 39,
     "name": "Mighty Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/528038624",
     "skill": {
@@ -400,7 +360,6 @@
     "size": 2
   },
   {
-    "id": 40,
     "name": "Attack Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/366824395",
     "skill": {
@@ -410,7 +369,6 @@
     "size": 2
   },
   {
-    "id": 41,
     "name": "Expert Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/303299436",
     "skill": {
@@ -420,7 +378,6 @@
     "size": 2
   },
   {
-    "id": 42,
     "name": "Quickswitch Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1875928865",
     "skill": {
@@ -430,7 +387,6 @@
     "size": 2
   },
   {
-    "id": 43,
     "name": "Absorber Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/704220607",
     "skill": {
@@ -440,7 +396,6 @@
     "size": 1
   },
   {
-    "id": 44,
     "name": "Blunt Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/885053622",
     "skill": {
@@ -450,7 +405,6 @@
     "size": 2
   },
   {
-    "id": 45,
     "name": "Quickload Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/790650270",
     "skill": {
@@ -460,7 +414,6 @@
     "size": 1
   },
   {
-    "id": 46,
     "name": "Steadfast Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1132974822",
     "skill": {
@@ -470,7 +423,6 @@
     "size": 1
   },
   {
-    "id": 47,
     "name": "Footing Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1551805557",
     "skill": {
@@ -480,7 +432,6 @@
     "size": 2
   },
   {
-    "id": 48,
     "name": "Earplug Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1389104311",
     "skill": {
@@ -490,7 +441,6 @@
     "size": 3
   },
   {
-    "id": 49,
     "name": "Counter Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1862219520",
     "skill": {
@@ -500,7 +450,6 @@
     "size": 2
   },
   {
-    "id": 50,
     "name": "Bubble Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1565531242",
     "skill": {
@@ -510,7 +459,6 @@
     "size": 2
   },
   {
-    "id": 51,
     "name": "Sniper Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/718470492",
     "skill": {
@@ -520,7 +468,6 @@
     "size": 1
   },
   {
-    "id": 52,
     "name": "Gambit Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/941567853",
     "skill": {
@@ -530,7 +477,6 @@
     "size": 2
   },
   {
-    "id": 53,
     "name": "Jumping Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1594014760",
     "skill": {
@@ -540,7 +486,6 @@
     "size": 2
   },
   {
-    "id": 54,
     "name": "Evasion Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1579764747",
     "skill": {
@@ -550,7 +495,6 @@
     "size": 2
   },
   {
-    "id": 55,
     "name": "Brace Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/2146828439",
     "skill": {
@@ -560,7 +504,6 @@
     "size": 1
   },
   {
-    "id": 56,
     "name": "Sheath Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/988847874",
     "skill": {
@@ -570,7 +513,6 @@
     "size": 2
   },
   {
-    "id": 57,
     "name": "Wind Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1403354196",
     "skill": {
@@ -580,7 +522,6 @@
     "size": 1
   },
   {
-    "id": 58,
     "name": "KO Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1003081507",
     "skill": {
@@ -590,7 +531,6 @@
     "size": 2
   },
   {
-    "id": 59,
     "name": "Friendship Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1921564947",
     "skill": {
@@ -600,7 +540,6 @@
     "size": 2
   },
   {
-    "id": 60,
     "name": "Destroyer Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1237729819",
     "skill": {
@@ -610,7 +549,6 @@
     "size": 2
   },
   {
-    "id": 61,
     "name": "Resistor Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1176146786",
     "skill": {
@@ -620,7 +558,6 @@
     "size": 2
   },
   {
-    "id": 62,
     "name": "Gobbler Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1374346390",
     "skill": {
@@ -630,7 +567,6 @@
     "size": 2
   },
   {
-    "id": 63,
     "name": "Protection Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1432800563",
     "skill": {
@@ -640,7 +576,6 @@
     "size": 2
   },
   {
-    "id": 64,
     "name": "Wall Run Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1814415203",
     "skill": {
@@ -650,7 +585,6 @@
     "size": 2
   },
   {
-    "id": 65,
     "name": "Wirebug Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1665963842",
     "skill": {
@@ -660,7 +594,6 @@
     "size": 2
   },
   {
-    "id": 66,
     "name": "Grinder Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1965261215",
     "skill": {
@@ -670,7 +603,6 @@
     "size": 1
   },
   {
-    "id": 67,
     "name": "Enduring Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1907855730",
     "skill": {
@@ -680,7 +612,6 @@
     "size": 2
   },
   {
-    "id": 68,
     "name": "Recovery Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1460759793",
     "skill": {
@@ -690,7 +621,6 @@
     "size": 1
   },
   {
-    "id": 69,
     "name": "Medicine Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1446526160",
     "skill": {
@@ -700,7 +630,6 @@
     "size": 2
   },
   {
-    "id": 70,
     "name": "Sonorous Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/643686022",
     "skill": {
@@ -710,7 +639,6 @@
     "size": 1
   },
   {
-    "id": 71,
     "name": "Drain Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/614678208",
     "skill": {
@@ -720,7 +648,6 @@
     "size": 1
   },
   {
-    "id": 72,
     "name": "Physique Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/822560811",
     "skill": {
@@ -730,7 +657,6 @@
     "size": 2
   },
   {
-    "id": 73,
     "name": "Venom Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/4438520",
     "skill": {
@@ -740,7 +666,6 @@
     "size": 1
   },
   {
-    "id": 74,
     "name": "Slider Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/629436129",
     "skill": {
@@ -750,7 +675,6 @@
     "size": 1
   },
   {
-    "id": 75,
     "name": "Bomber Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1980035516",
     "skill": {
@@ -760,7 +684,6 @@
     "size": 1
   },
   {
-    "id": 76,
     "name": "Blaze Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/437062215",
     "skill": {
@@ -770,7 +693,6 @@
     "size": 1
   },
   {
-    "id": 77,
     "name": "Stream Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/82213476",
     "skill": {
@@ -780,7 +702,6 @@
     "size": 1
   },
   {
-    "id": 78,
     "name": "Bolt Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/110172730",
     "skill": {
@@ -790,7 +711,6 @@
     "size": 1
   },
   {
-    "id": 79,
     "name": "Frost Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/96446981",
     "skill": {
@@ -800,7 +720,6 @@
     "size": 1
   },
   {
-    "id": 80,
     "name": "Dragon Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/124406235",
     "skill": {
@@ -810,7 +729,6 @@
     "size": 1
   },
   {
-    "id": 81,
     "name": "Defense Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1418566930",
     "skill": {
@@ -820,7 +738,6 @@
     "size": 1
   },
   {
-    "id": 82,
     "name": "Carver Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/2040569941",
     "skill": {
@@ -830,7 +747,6 @@
     "size": 1
   },
   {
-    "id": 83,
     "name": "Rodeo Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1695408169",
     "skill": {
@@ -840,7 +756,6 @@
     "size": 2
   },
   {
-    "id": 84,
     "name": "Hungerless Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/2054819914",
     "skill": {
@@ -850,7 +765,6 @@
     "size": 1
   },
   {
-    "id": 85,
     "name": "Satiated Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1935814960",
     "skill": {
@@ -860,7 +774,6 @@
     "size": 1
   },
   {
-    "id": 86,
     "name": "Muck Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1280901767",
     "skill": {
@@ -870,7 +783,6 @@
     "size": 1
   },
   {
-    "id": 87,
     "name": "Diversion Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1681174536",
     "skill": {
@@ -880,7 +792,6 @@
     "size": 1
   },
   {
-    "id": 88,
     "name": "Dive Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/2069053547",
     "skill": {
@@ -890,7 +801,6 @@
     "size": 1
   },
   {
-    "id": 89,
     "name": "Fortitude Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/2099040502",
     "skill": {
@@ -900,7 +810,6 @@
     "size": 2
   },
   {
-    "id": 90,
     "name": "Geology Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1223496314",
     "skill": {
@@ -910,7 +819,6 @@
     "size": 1
   },
   {
-    "id": 91,
     "name": "Botany Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1309385285",
     "skill": {
@@ -920,7 +828,6 @@
     "size": 1
   },
   {
-    "id": 92,
     "name": "Antiblast Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1295151780",
     "skill": {
@@ -930,7 +837,6 @@
     "size": 1
   },
   {
-    "id": 93,
     "name": "Pep Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1118724801",
     "skill": {
@@ -940,7 +846,6 @@
     "size": 1
   },
   {
-    "id": 94,
     "name": "Antipara Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1104491296",
     "skill": {
@@ -950,7 +855,6 @@
     "size": 1
   },
   {
-    "id": 95,
     "name": "Antidote Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1089716995",
     "skill": {
@@ -960,7 +864,6 @@
     "size": 1
   },
   {
-    "id": 96,
     "name": "Fire Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1507582921",
     "skill": {
@@ -970,7 +873,6 @@
     "size": 1
   },
   {
-    "id": 97,
     "name": "Water Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1522357230",
     "skill": {
@@ -980,7 +882,6 @@
     "size": 1
   },
   {
-    "id": 98,
     "name": "Thunder Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1148187564",
     "skill": {
@@ -990,7 +891,6 @@
     "size": 1
   },
   {
-    "id": 99,
     "name": "Ice Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1536590735",
     "skill": {
@@ -1000,7 +900,6 @@
     "size": 1
   },
   {
-    "id": 100,
     "name": "Dragon Res Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1161896781",
     "skill": {
@@ -1010,7 +909,6 @@
     "size": 1
   },
   {
-    "id": 101,
     "name": "Hard Fire Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1784968836",
     "skill": {
@@ -1020,7 +918,6 @@
     "size": 4
   },
   {
-    "id": 102,
     "name": "Hard Water Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1799202469",
     "skill": {
@@ -1030,7 +927,6 @@
     "size": 4
   },
   {
-    "id": 103,
     "name": "Hard Ice Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/337057370",
     "skill": {
@@ -1040,7 +936,6 @@
     "size": 4
   },
   {
-    "id": 104,
     "name": "Hard Thunder Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/384321147",
     "skill": {
@@ -1050,7 +945,6 @@
     "size": 4
   },
   {
-    "id": 105,
     "name": "Hard Dragon Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/398571032",
     "skill": {
@@ -1060,7 +954,6 @@
     "size": 4
   },
   {
-    "id": 106,
     "name": "Hard Botany Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/469771709",
     "skill": {
@@ -1070,7 +963,6 @@
     "size": 4
   },
   {
-    "id": 107,
     "name": "Hard Geology Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/517576018",
     "skill": {
@@ -1080,7 +972,6 @@
     "size": 4
   },
   {
-    "id": 108,
     "name": "Hard Satiated Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/531809651",
     "skill": {
@@ -1090,7 +981,6 @@
     "size": 4
   },
   {
-    "id": 109,
     "name": "Hard Drain Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/412366096",
     "skill": {
@@ -1100,7 +990,6 @@
     "size": 4
   },
   {
-    "id": 110,
     "name": "Hard Enduring Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/426599729",
     "skill": {
@@ -1110,7 +999,6 @@
     "size": 4
   },
   {
-    "id": 111,
     "name": "Hard Hungerless Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/440849622",
     "skill": {
@@ -1120,7 +1008,6 @@
     "size": 4
   },
   {
-    "id": 112,
     "name": "Blaze Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/454558967",
     "skill": {
@@ -1130,7 +1017,6 @@
     "size": 2
   },
   {
-    "id": 113,
     "name": "Hard Blaze Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/99710100",
     "skill": {
@@ -1140,7 +1026,6 @@
     "size": 3
   },
   {
-    "id": 114,
     "name": "Stream Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/128717994",
     "skill": {
@@ -1150,7 +1035,6 @@
     "size": 2
   },
   {
-    "id": 115,
     "name": "Hard Stream Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/8733771",
     "skill": {
@@ -1160,7 +1044,6 @@
     "size": 3
   },
   {
-    "id": 116,
     "name": "Frost Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/37217289",
     "skill": {
@@ -1170,7 +1053,6 @@
     "size": 2
   },
   {
-    "id": 117,
     "name": "Hard Frost Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/50943022",
     "skill": {
@@ -1180,7 +1062,6 @@
     "size": 3
   },
   {
-    "id": 118,
     "name": "Bolt Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/247196652",
     "skill": {
@@ -1190,7 +1071,6 @@
     "size": 2
   },
   {
-    "id": 119,
     "name": "Hard Bolt Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/261970829",
     "skill": {
@@ -1200,7 +1080,6 @@
     "size": 3
   },
   {
-    "id": 120,
     "name": "Dragon Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/156236611",
     "skill": {
@@ -1210,7 +1089,6 @@
     "size": 2
   },
   {
-    "id": 121,
     "name": "Hard Dragon Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/169945952",
     "skill": {
@@ -1220,7 +1098,6 @@
     "size": 3
   },
   {
-    "id": 122,
     "name": "Defense Jewel+ 2",
     "href": "https://mhrise.kiranico.com/data/decorations/903072550",
     "skill": {
@@ -1230,7 +1107,6 @@
     "size": 2
   },
   {
-    "id": 123,
     "name": "Hard Defense Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/917846727",
     "skill": {
@@ -1240,7 +1116,6 @@
     "size": 3
   },
   {
-    "id": 124,
     "name": "Hard Defense Jewel++ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/932080356",
     "skill": {
@@ -1250,7 +1125,6 @@
     "size": 4
   },
   {
-    "id": 125,
     "name": "Hard Bomber Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/812112517",
     "skill": {
@@ -1260,7 +1134,6 @@
     "size": 4
   },
   {
-    "id": 126,
     "name": "Hard Grinder Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/825821882",
     "skill": {
@@ -1270,7 +1143,6 @@
     "size": 4
   },
   {
-    "id": 127,
     "name": "Medicine Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/840071771",
     "skill": {
@@ -1280,7 +1152,6 @@
     "size": 4
   },
   {
-    "id": 128,
     "name": "Physique Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1022077560",
     "skill": {
@@ -1290,7 +1161,6 @@
     "size": 4
   },
   {
-    "id": 129,
     "name": "Wirebug Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1036851737",
     "skill": {
@@ -1300,7 +1170,6 @@
     "size": 4
   },
   {
-    "id": 130,
     "name": "Hard Wall Run Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1051085374",
     "skill": {
@@ -1310,7 +1179,6 @@
     "size": 4
   },
   {
-    "id": 131,
     "name": "Hard Recovery Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/944826876",
     "skill": {
@@ -1320,7 +1188,6 @@
     "size": 4
   },
   {
-    "id": 132,
     "name": "Protection Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/959076765",
     "skill": {
@@ -1330,7 +1197,6 @@
     "size": 4
   },
   {
-    "id": 133,
     "name": "Gobbler Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/973310386",
     "skill": {
@@ -1340,7 +1206,6 @@
     "size": 4
   },
   {
-    "id": 134,
     "name": "Resistor Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/618985811",
     "skill": {
@@ -1350,7 +1215,6 @@
     "size": 4
   },
   {
-    "id": 135,
     "name": "Hard Friendship Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/647469329",
     "skill": {
@@ -1360,7 +1224,6 @@
     "size": 3
   },
   {
-    "id": 136,
     "name": "Hard Friendship Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/661178678",
     "skill": {
@@ -1370,7 +1233,6 @@
     "size": 4
   },
   {
-    "id": 137,
     "name": "Evasion Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/541210839",
     "skill": {
@@ -1380,7 +1242,6 @@
     "size": 4
   },
   {
-    "id": 138,
     "name": "Gambit Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/752224394",
     "skill": {
@@ -1390,7 +1251,6 @@
     "size": 4
   },
   {
-    "id": 139,
     "name": "Hard Brace Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/766474411",
     "skill": {
@@ -1400,7 +1260,6 @@
     "size": 4
   },
   {
-    "id": 140,
     "name": "Bubble Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/780183624",
     "skill": {
@@ -1410,7 +1269,6 @@
     "size": 4
   },
   {
-    "id": 141,
     "name": "KO Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/794433641",
     "skill": {
@@ -1420,7 +1278,6 @@
     "size": 4
   },
   {
-    "id": 142,
     "name": "Jumping Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/674449422",
     "skill": {
@@ -1430,7 +1287,6 @@
     "size": 4
   },
   {
-    "id": 143,
     "name": "Hard Wind Res Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/689223727",
     "skill": {
@@ -1440,7 +1296,6 @@
     "size": 4
   },
   {
-    "id": 144,
     "name": "Refresh Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1450311587",
     "skill": {
@@ -1450,7 +1305,6 @@
     "size": 4
   },
   {
-    "id": 145,
     "name": "Ironwall Jewel+ 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1464545088",
     "skill": {
@@ -1460,7 +1314,6 @@
     "size": 3
   },
   {
-    "id": 146,
     "name": "Shield Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1345101665",
     "skill": {
@@ -1470,7 +1323,6 @@
     "size": 4
   },
   {
-    "id": 147,
     "name": "Precise Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1359335174",
     "skill": {
@@ -1480,7 +1332,6 @@
     "size": 4
   },
   {
-    "id": 148,
     "name": "Crit Element Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1555066564",
     "skill": {
@@ -1490,7 +1341,6 @@
     "size": 4
   },
   {
-    "id": 149,
     "name": "Charger Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1569316581",
     "skill": {
@@ -1500,7 +1350,6 @@
     "size": 4
   },
   {
-    "id": 150,
     "name": "Sprinter Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1583550106",
     "skill": {
@@ -1510,7 +1359,6 @@
     "size": 4
   },
   {
-    "id": 151,
     "name": "Draw Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1526144633",
     "skill": {
@@ -1520,7 +1368,6 @@
     "size": 4
   },
   {
-    "id": 152,
     "name": "Fungiform Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1539853854",
     "skill": {
@@ -1530,7 +1377,6 @@
     "size": 4
   },
   {
-    "id": 153,
     "name": "Hard Steadfast Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1151450687",
     "skill": {
@@ -1540,7 +1386,6 @@
     "size": 4
   },
   {
-    "id": 154,
     "name": "Mind's Eye Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1074724275",
     "skill": {
@@ -1550,7 +1395,6 @@
     "size": 4
   },
   {
-    "id": 155,
     "name": "Earplug Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1284689174",
     "skill": {
@@ -1560,7 +1404,6 @@
     "size": 4
   },
   {
-    "id": 156,
     "name": "Enhancer Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1299463479",
     "skill": {
@@ -1570,7 +1413,6 @@
     "size": 4
   },
   {
-    "id": 157,
     "name": "Footing Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1240993002",
     "skill": {
@@ -1580,7 +1422,6 @@
     "size": 4
   },
   {
-    "id": 158,
     "name": "Hellfire Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/2130785031",
     "skill": {
@@ -1590,7 +1431,6 @@
     "size": 4
   },
   {
-    "id": 159,
     "name": "Fate Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/2058605253",
     "skill": {
@@ -1600,7 +1440,6 @@
     "size": 4
   },
   {
-    "id": 160,
     "name": "Breath Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1788752151",
     "skill": {
@@ -1610,7 +1449,6 @@
     "size": 3
   },
   {
-    "id": 161,
     "name": "Bladescale Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1669747165",
     "skill": {
@@ -1620,7 +1458,6 @@
     "size": 2
   },
   {
-    "id": 162,
     "name": "Redirection Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1846157744",
     "skill": {
@@ -1630,7 +1467,6 @@
     "size": 3
   },
   {
-    "id": 163,
     "name": "Flywall Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1818198514",
     "skill": {
@@ -1640,7 +1476,6 @@
     "size": 1
   },
   {
-    "id": 164,
     "name": "Mighty Bow Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/340316373",
     "skill": {
@@ -1650,7 +1485,6 @@
     "size": 4
   },
   {
-    "id": 165,
     "name": "Sniper Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/354549962",
     "skill": {
@@ -1660,7 +1494,6 @@
     "size": 4
   },
   {
-    "id": 166,
     "name": "Hard Sniper Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/603773077",
     "skill": {
@@ -1670,7 +1503,6 @@
     "size": 4
   },
   {
-    "id": 167,
     "name": "Quickswitch Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1121987920",
     "skill": {
@@ -1680,7 +1512,6 @@
     "size": 4
   },
   {
-    "id": 168,
     "name": "Magazine Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1327946997",
     "skill": {
@@ -1690,7 +1521,6 @@
     "size": 4
   },
   {
-    "id": 169,
     "name": "Trueshot Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1313696980",
     "skill": {
@@ -1700,7 +1530,6 @@
     "size": 4
   },
   {
-    "id": 170,
     "name": "Artillery Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1136237937",
     "skill": {
@@ -1710,7 +1539,6 @@
     "size": 4
   },
   {
-    "id": 171,
     "name": "Charge Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1640739359",
     "skill": {
@@ -1720,7 +1548,6 @@
     "size": 2
   },
   {
-    "id": 172,
     "name": "Sheath Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/555444468",
     "skill": {
@@ -1730,7 +1557,6 @@
     "size": 4
   },
   {
-    "id": 173,
     "name": "Crisis Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1983822863",
     "skill": {
@@ -1740,7 +1566,6 @@
     "size": 4
   },
   {
-    "id": 174,
     "name": "Destroyer Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/633219440",
     "skill": {
@@ -1750,7 +1575,6 @@
     "size": 4
   },
   {
-    "id": 175,
     "name": "Counter Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/737013708",
     "skill": {
@@ -1760,7 +1584,6 @@
     "size": 4
   },
   {
-    "id": 176,
     "name": "Sharp Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1939600259",
     "skill": {
@@ -1770,7 +1593,6 @@
     "size": 4
   },
   {
-    "id": 177,
     "name": "Hard Venom Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1065335263",
     "skill": {
@@ -1780,7 +1602,6 @@
     "size": 4
   },
   {
-    "id": 178,
     "name": "Razor Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/1180458493",
     "skill": {
@@ -1790,7 +1611,6 @@
     "size": 4
   },
   {
-    "id": 179,
     "name": "Foil Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1699193528",
     "skill": {
@@ -1800,7 +1620,6 @@
     "size": 3
   },
   {
-    "id": 180,
     "name": "Hard Antidote Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/278586937",
     "skill": {
@@ -1810,7 +1629,6 @@
     "size": 4
   },
   {
-    "id": 181,
     "name": "Hard Antipara Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/293361118",
     "skill": {
@@ -1820,7 +1638,6 @@
     "size": 4
   },
   {
-    "id": 182,
     "name": "Hard Pep Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/307594751",
     "skill": {
@@ -1830,7 +1647,6 @@
     "size": 4
   },
   {
-    "id": 183,
     "name": "Hard Antiblast Jewel 4",
     "href": "https://mhrise.kiranico.com/data/decorations/321844636",
     "skill": {
@@ -1840,7 +1656,6 @@
     "size": 4
   },
   {
-    "id": 184,
     "name": "Mastery Jewel+ 4",
     "href": "https://mhrise.kiranico.com/data/decorations/2073363194",
     "skill": {
@@ -1850,7 +1665,6 @@
     "size": 4
   },
   {
-    "id": 185,
     "name": "Spiribird's Call Jewel 1",
     "href": "https://mhrise.kiranico.com/data/decorations/1626489470",
     "skill": {
@@ -1860,7 +1674,6 @@
     "size": 1
   },
   {
-    "id": 186,
     "name": "Polisher Pro Jewel 3",
     "href": "https://mhrise.kiranico.com/data/decorations/1712919129",
     "skill": {
@@ -1870,7 +1683,6 @@
     "size": 3
   },
   {
-    "id": 187,
     "name": "Phoenix Jewel 2",
     "href": "https://mhrise.kiranico.com/data/decorations/1655497276",
     "skill": {
@@ -1878,5 +1690,275 @@
       "level": 1
     },
     "size": 2
+  },
+  {
+    "name": "Paralyzer Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1911116749",
+    "skill": {
+      "name": "Paralysis Attack",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Sleep Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1925350370",
+    "skill": {
+      "name": "Sleep Attack",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Blast Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1255242891",
+    "skill": {
+      "name": "Blast Attack",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Foray Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/1759744337",
+    "skill": {
+      "name": "Foray",
+      "level": 1
+    },
+    "size": 2
+  },
+  {
+    "name": "Mighty Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1407139623",
+    "skill": {
+      "name": "Maximum Might",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Chain Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/1831924115",
+    "skill": {
+      "name": "Burst",
+      "level": 1
+    },
+    "size": 2
+  },
+  {
+    "name": "Phoenix Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/84698884",
+    "skill": {
+      "name": "Coalescence",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Haze Jewel 1",
+    "href": "https://mhrise.kiranico.com/data/decorations/132503333",
+    "skill": {
+      "name": "Chameleos Blessing",
+      "level": 1
+    },
+    "size": 1
+  },
+  {
+    "name": "Forceshot Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/2088575904",
+    "skill": {
+      "name": "Normal/Rapid Up",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Pierce Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/2102825793",
+    "skill": {
+      "name": "Pierce Up",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Spread Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1269476520",
+    "skill": {
+      "name": "Spread Up",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Handicraft Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/2044355364",
+    "skill": {
+      "name": "Handicraft",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Hard Dragon Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/888838913",
+    "skill": {
+      "name": "Dragon Attack",
+      "level": 4
+    },
+    "size": 4
+  },
+  {
+    "name": "Hard Bolt Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/141986722",
+    "skill": {
+      "name": "Thunder Attack",
+      "level": 4
+    },
+    "size": 4
+  },
+  {
+    "name": "Hard Frost Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/232963023",
+    "skill": {
+      "name": "Ice Attack",
+      "level": 4
+    },
+    "size": 4
+  },
+  {
+    "name": "Hard Stream Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/22983784",
+    "skill": {
+      "name": "Water Attack",
+      "level": 4
+    },
+    "size": 4
+  },
+  {
+    "name": "Hard Blaze Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/113943733",
+    "skill": {
+      "name": "Fire Attack",
+      "level": 4
+    },
+    "size": 4
+  },
+  {
+    "name": "Redirection Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/265741852",
+    "skill": {
+      "name": "Redirection",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Flamescale Jewel 1",
+    "href": "https://mhrise.kiranico.com/data/decorations/251508351",
+    "skill": {
+      "name": "Teostra Blessing",
+      "level": 1
+    },
+    "size": 1
+  },
+  {
+    "name": "Throttle Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1998056492",
+    "skill": {
+      "name": "Latent Power",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Ironshell Jewel 1",
+    "href": "https://mhrise.kiranico.com/data/decorations/203703902",
+    "skill": {
+      "name": "Kushala Blessing",
+      "level": 1
+    },
+    "size": 1
+  },
+  {
+    "name": "Flawless Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1684959899",
+    "skill": {
+      "name": "Peak Performance",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Polisher Pro Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/54728377",
+    "skill": {
+      "name": "Grinder (S)",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Charge Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/12519130",
+    "skill": {
+      "name": "Charge Master",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Element Exploit Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/282894472",
+    "skill": {
+      "name": "Element Exploit",
+      "level": 1
+    },
+    "size": 2
+  },
+  {
+    "name": "Backstab Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/311377998",
+    "skill": {
+      "name": "Sneak Attack",
+      "level": 1
+    },
+    "size": 2
+  },
+  {
+    "name": "Counterattack Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/297144489",
+    "skill": {
+      "name": "Adrenaline Rush",
+      "level": 1
+    },
+    "size": 2
+  },
+  {
+    "name": "Guardian Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1598324411",
+    "skill": {
+      "name": "Offensive Guard",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Foil Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/26244859",
+    "skill": {
+      "name": "Tune-Up",
+      "level": 2
+    },
+    "size": 4
+  },
+  {
+    "name": "Bloodening Jewel 3",
+    "href": "https://mhrise.kiranico.com/data/decorations/40478360",
+    "skill": {
+      "name": "Blood Rite",
+      "level": 1
+    },
+    "size": 3
   }
 ]

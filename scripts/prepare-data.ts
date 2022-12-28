@@ -179,11 +179,11 @@ skillData.forEach((skill: any) => {
 
   const skillDecorations: SkillDecorationInfo[] = [];
   Object.entries(decorationTable).forEach(([decoration, decoInfo]) => {
-    if (decoInfo.skill.name === skill.name) {
+    if (decoInfo!.skill.name === skill.name) {
       skillDecorations.push({
         decoName: decoration,
-        decoSize: decoInfo.size,
-        skillLevel: decoInfo.skill.level,
+        decoSize: decoInfo!.size,
+        skillLevel: decoInfo!.skill.level,
       });
     }
   });
