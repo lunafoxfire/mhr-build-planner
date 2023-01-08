@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { Checkbox, Divider, Paper, Space, Title, HoverCard, useMantineTheme } from '@mantine/core';
 import { weaponTable, skillTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
-import { getElementIcon } from '@/util/items';
+import { getElementIcon, stringifySharpness } from '@/util/items';
 import { DEFAULT_ACTIVE_SKILLS } from '@/util/items/defaultActiveSkills';
 import { useBuildContext } from '@/contexts/build';
 import SharpnessBar from '@/components/SharpnessBar';
@@ -79,6 +79,7 @@ const DisplayStats = ({}: DisplayStatsProps) => {
       <StatEntry label="Elemental Multiplier" value={calculatedStats.sharpnessMultipliers.elemental} />
       <Space h="xs" />
       <SharpnessBar height={24} scale={0.5} sharpness={weaponInfo?.sharpness ?? []} maxSharpness={weaponInfo?.maxSharpness ?? []} currentSharpness={calculatedStats.sharpness} />
+      <SharpnessValues><span style={{ marginRight: '10px' }}>Hits: </span>{stringifySharpness(calculatedStats?.sharpness || [])}</SharpnessValues>
     </Paper>
   );
 };
@@ -189,6 +190,10 @@ const SkillLevelList = styled.ul`
 const SkillLevel = styled.li`
   font-size: 14px;
   margin-bottom: 5px;
+`;
+
+const SharpnessValues = styled.div`
+  font-size: 14px;
 `;
 
 const Checkboxbox = styled.div`

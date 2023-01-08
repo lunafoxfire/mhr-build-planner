@@ -125,6 +125,10 @@ export function stringifySkillList(skills: ArmorSkill[]): string {
   return skills.map((skill) => stringifySkill(skill)).join(', ');
 }
 
+export function stringifySharpness(sharpness: number[]) {
+  return `${sharpness[0]} / ${sharpness[1]} / ${sharpness[2]} / ${sharpness[3]} / ${sharpness[4]} / ${sharpness[5]} / ${sharpness[6]}`;
+}
+
 export function compareSlots(a: number[], b: number[]): -1 | 0 | 1 {
   for (let i = 0; i < a.length; i++) {
     const aSize = a[i] || 0;
