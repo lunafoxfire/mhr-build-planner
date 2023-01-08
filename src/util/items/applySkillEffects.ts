@@ -360,6 +360,26 @@ const SKILL_FUNCTION_MAP: SkillFunctionMap = {
     2: (e) => { multiplyAllElements(e, 1.125); },
     3: (e) => { multiplyAllElements(e, 1.15); },
   },
+  'Burst': {
+    1: (e) => { e.attackBonus += 5; boostAllElements(e, 5); },
+    2: (e) => { e.attackBonus += 5; boostAllElements(e, 5); },
+    3: (e) => { e.attackBonus += 5; boostAllElements(e, 5); },
+  },
+  'Buildup Boost': {
+    1: (e) => { e.attackMult *= 1.1; },
+    2: (e) => { e.attackMult *= 1.15; },
+    3: (e) => { e.attackMult *= 1.2; },
+  },
+  'Embolden': {
+    1: (e) => { e.defenseBonus += 10; },
+    2: (e) => { e.defenseBonus += 20; },
+    3: (e) => { e.defenseBonus += 40; },
+  },
+  'Strife': {
+    1: (e) => { e.affinityBonus += 5; multiplyAllElements(e, 1.05); },
+    2: (e) => { e.affinityBonus += 10; multiplyAllElements(e, 1.1); },
+    3: (e) => { e.affinityBonus += 10; multiplyAllElements(e, 1.15); },
+  },
 };
 
 function boostAllResistances(effects: SkillEffects, bonus: number) {

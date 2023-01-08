@@ -23,5 +23,8 @@ export const DEFAULT_ACTIVE_SKILLS: ActiveSkillTable = {
   'Sneak Attack': false,
   'Adrenaline Rush': false,
   'Foray': false,
-  'Element Exploit': false,
+  'Element Exploit': true,
+  'Buildup Boost': true,
+  'Embolden': false,
+  'Strife': false,
 };

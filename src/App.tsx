@@ -19,7 +19,8 @@ function App() {
       <Footer>
         <FooterContent>
           Made with ♥ by <ExternalLink href='https://github.com/lydianlights'>LydianLights</ExternalLink> -
-          Source code available on <ExternalLink href='https://github.com/lydianlights/mhr-build-planner'>Github</ExternalLink>
+          Source code available on <ExternalLink href='https://github.com/lydianlights/mhr-build-planner'>Github</ExternalLink> -
+          Powered by data from <ExternalLink href='https://mhrise.kiranico.com/'>Kiranico</ExternalLink> (thank you!)
         </FooterContent>
       </Footer>
     </ThemedMantineProvider>

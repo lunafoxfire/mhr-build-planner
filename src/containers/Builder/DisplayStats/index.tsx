@@ -4,6 +4,7 @@ import { Checkbox, Divider, Paper, Space, Title, useMantineTheme } from '@mantin
 import { weaponTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
 import { getElementIcon } from '@/util/items';
+import { DEFAULT_ACTIVE_SKILLS } from '@/util/items/defaultActiveSkills';
 import { useBuildContext } from '@/contexts/build';
 import SharpnessBar from '@/components/SharpnessBar';
 import { CalculatedSkill } from '@/contexts/build/types';
@@ -29,9 +30,9 @@ const DisplayStats = ({}: DisplayStatsProps) => {
           <SkillWrapper key={name}>
             <SkillEntry name={name} level={level} maxLevel={maxLevel} />
             <Checkboxbox>
-              {build.activeSkills[name] != null && (
+              {DEFAULT_ACTIVE_SKILLS[name] != null && (
                 <Checkbox
-                  checked={!!build.activeSkills[name]}
+                  checked={build.activeSkills[name] != null ? !!build.activeSkills[name] : !!DEFAULT_ACTIVE_SKILLS[name]}
                   onChange={(e) => { dispatch({ type: 'SET_ACTIVE_SKILL', skill: name, value: e.target.checked }); }}
                 />
               )}

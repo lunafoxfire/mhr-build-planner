@@ -173,7 +173,7 @@ export function reducer(build: BuildState, action: BuildDispatchAction): BuildSt
       };
     }
     case 'SET_ACTIVE_SKILL': {
-      if (build.activeSkills[action.skill] == null) return build;
+      if (DEFAULT_ACTIVE_SKILLS[action.skill] == null) return build;
       const newActiveSkills = {
         ...build.activeSkills,
       };
