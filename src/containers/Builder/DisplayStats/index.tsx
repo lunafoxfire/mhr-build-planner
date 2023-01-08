@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Checkbox, Divider, Paper, Space, Title, useMantineTheme } from '@mantine/core';
-import { weaponTable } from '@/assets/game-data';
+import { Checkbox, Divider, Paper, Space, Title, HoverCard, useMantineTheme } from '@mantine/core';
+import { weaponTable, skillTable } from '@/assets/game-data';
 import { truncateFloat } from '@/util/number';
 import { getElementIcon } from '@/util/items';
 import { DEFAULT_ACTIVE_SKILLS } from '@/util/items/defaultActiveSkills';
@@ -9,6 +9,7 @@ import { useBuildContext } from '@/contexts/build';
 import SharpnessBar from '@/components/SharpnessBar';
 import { CalculatedSkill } from '@/contexts/build/types';
 import GameIcon from '@/components/GameIcon';
+import ExternalLink from '@/components/ExternalLink';
 
 export type DisplayStatsProps = {};
 const DisplayStats = ({}: DisplayStatsProps) => {
@@ -113,6 +114,8 @@ const SkillEntry = ({ name, level, maxLevel }: { name: string, level: number, ma
     : (level === maxLevel) ? theme.colors.success[6]
         : theme.colors.dark[0];
 
+  const skillInfo = skillTable[name];
+
   const barJSX = [];
   for (let i = 1; i <= maxLevel; i++) {
     let markColor = color;
@@ -122,12 +125,27 @@ const SkillEntry = ({ name, level, maxLevel }: { name: string, level: number, ma
     barJSX.push(<StatLevelMark key={Math.random()} color={markColor} />);
   }
   return (
-    <SkillEntryWrapper>
-      <SkillLabel color={color}>{name}</SkillLabel>
-      <StatLevelBar>
-        {barJSX}
-      </StatLevelBar>
-    </SkillEntryWrapper>
+    <HoverCard position='left-start' transition='pop' transitionDuration={100} closeDelay={30} width={450}>
+      <HoverCard.Target>
+        <SkillEntryWrapper>
+          <SkillLabel color={color}>{name}</SkillLabel>
+          <StatLevelBar>
+            {barJSX}
+          </StatLevelBar>
+        </SkillEntryWrapper>
+      </HoverCard.Target>
+      <HoverCard.Dropdown>
+        <ExternalLink href={skillInfo?.href}>{skillInfo?.name}</ExternalLink>
+        <SkillDescription>{skillInfo?.description}</SkillDescription>
+        <SkillLevelList>
+          {skillInfo?.levels.map((level) => (
+            <SkillLevel key={level.level}>
+              <b>Level {level.level}</b>: {level.description}
+            </SkillLevel>
+          ))}
+        </SkillLevelList>
+      </HoverCard.Dropdown>
+    </HoverCard>
   );
 };
 
@@ -157,6 +175,20 @@ const SkillWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`;
+
+const SkillDescription = styled.div`
+  font-size: 14px;
+  font-style: italic;
+`;
+
+const SkillLevelList = styled.ul`
+  margin-left: -25px;
+`;
+
+const SkillLevel = styled.li`
+  font-size: 14px;
+  margin-bottom: 5px;
 `;
 
 const Checkboxbox = styled.div`
