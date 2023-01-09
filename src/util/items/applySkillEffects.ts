@@ -355,6 +355,11 @@ const SKILL_FUNCTION_MAP: SkillFunctionMap = {
     2: (e) => { e.attackBonus += 10; e.affinityBonus += 10; },
     3: (e) => { e.attackBonus += 15; e.affinityBonus += 20; },
   },
+  'Grinder (S)': {
+    1: (e) => { e.attackMult *= 1.1; multiplyAllElements(e, 1.075); },
+    2: (e) => { e.attackMult *= 1.1; multiplyAllElements(e, 1.075); },
+    3: (e) => { e.attackMult *= 1.1; multiplyAllElements(e, 1.075); },
+  },
   'Element Exploit': {
     1: (e) => { multiplyAllElements(e, 1.1); },
     2: (e) => { multiplyAllElements(e, 1.125); },
