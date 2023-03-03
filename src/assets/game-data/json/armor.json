@@ -27848,6 +27848,166 @@
     },
     "skills": []
   },
+  "Lance Gunn Face": {
+    "name": "Lance Gunn Face",
+    "href": "https://mhrise.kiranico.com/data/armors/1375676378",
+    "rarity": 8,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lance Gunn Body": {
+    "name": "Lance Gunn Body",
+    "href": "https://mhrise.kiranico.com/data/armors/1475291098",
+    "rarity": 8,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lance Gunn Arms": {
+    "name": "Lance Gunn Arms",
+    "href": "https://mhrise.kiranico.com/data/armors/1440688090",
+    "rarity": 8,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lance Gunn Waist": {
+    "name": "Lance Gunn Waist",
+    "href": "https://mhrise.kiranico.com/data/armors/734996442",
+    "rarity": 8,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lance Gunn Legs": {
+    "name": "Lance Gunn Legs",
+    "href": "https://mhrise.kiranico.com/data/armors/700393434",
+    "rarity": 8,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Ran Page Face": {
+    "name": "Ran Page Face",
+    "href": "https://mhrise.kiranico.com/data/armors/1389402107",
+    "rarity": 8,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Ran Page Body": {
+    "name": "Ran Page Body",
+    "href": "https://mhrise.kiranico.com/data/armors/1354799099",
+    "rarity": 8,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Ran Page Arms": {
+    "name": "Ran Page Arms",
+    "href": "https://mhrise.kiranico.com/data/armors/1454413819",
+    "rarity": 8,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Ran Page Waist": {
+    "name": "Ran Page Waist",
+    "href": "https://mhrise.kiranico.com/data/armors/1419810811",
+    "rarity": 8,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Ran Page Legs": {
+    "name": "Ran Page Legs",
+    "href": "https://mhrise.kiranico.com/data/armors/714119163",
+    "rarity": 8,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
   "Magmadron Helm": {
     "name": "Magmadron Helm",
     "href": "https://mhrise.kiranico.com/data/armors/1115237306",
@@ -34879,6 +35039,342 @@
     },
     "skills": []
   },
+  "Face Scarf": {
+    "name": "Face Scarf",
+    "href": "https://mhrise.kiranico.com/data/armors/125754639",
+    "rarity": 9,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Marine Headgear": {
+    "name": "Marine Headgear",
+    "href": "https://mhrise.kiranico.com/data/armors/367124287",
+    "rarity": 9,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Marine Vest": {
+    "name": "Marine Vest",
+    "href": "https://mhrise.kiranico.com/data/armors/1808916287",
+    "rarity": 9,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Marine Braces": {
+    "name": "Marine Braces",
+    "href": "https://mhrise.kiranico.com/data/armors/1774313279",
+    "rarity": 9,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Marine Coil": {
+    "name": "Marine Coil",
+    "href": "https://mhrise.kiranico.com/data/armors/1873927999",
+    "rarity": 9,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Marine Pants": {
+    "name": "Marine Pants",
+    "href": "https://mhrise.kiranico.com/data/armors/1839324991",
+    "rarity": 9,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Reflet Headgear": {
+    "name": "Reflet Headgear",
+    "href": "https://mhrise.kiranico.com/data/armors/1795714846",
+    "rarity": 9,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Reflet Mail": {
+    "name": "Reflet Mail",
+    "href": "https://mhrise.kiranico.com/data/armors/1794666270",
+    "rarity": 9,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Reflet Braces": {
+    "name": "Reflet Braces",
+    "href": "https://mhrise.kiranico.com/data/armors/1760063262",
+    "rarity": 9,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Reflet Coil": {
+    "name": "Reflet Coil",
+    "href": "https://mhrise.kiranico.com/data/armors/1859677982",
+    "rarity": 9,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Reflet Pants": {
+    "name": "Reflet Pants",
+    "href": "https://mhrise.kiranico.com/data/armors/1825074974",
+    "rarity": 9,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lennigan Headgear": {
+    "name": "Lennigan Headgear",
+    "href": "https://mhrise.kiranico.com/data/armors/1782005625",
+    "rarity": 9,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lennigan Suit": {
+    "name": "Lennigan Suit",
+    "href": "https://mhrise.kiranico.com/data/armors/1747402617",
+    "rarity": 9,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lennigan Braces": {
+    "name": "Lennigan Braces",
+    "href": "https://mhrise.kiranico.com/data/armors/1847017337",
+    "rarity": 9,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lennigan Coil": {
+    "name": "Lennigan Coil",
+    "href": "https://mhrise.kiranico.com/data/armors/1812414329",
+    "rarity": 9,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Lennigan Pants": {
+    "name": "Lennigan Pants",
+    "href": "https://mhrise.kiranico.com/data/armors/1677148025",
+    "rarity": 9,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Minoto Face": {
+    "name": "Minoto Face",
+    "href": "https://mhrise.kiranico.com/data/armors/914867128",
+    "rarity": 9,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Minoto Body": {
+    "name": "Minoto Body",
+    "href": "https://mhrise.kiranico.com/data/armors/880264120",
+    "rarity": 9,
+    "type": "BODY",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Minoto Arms": {
+    "name": "Minoto Arms",
+    "href": "https://mhrise.kiranico.com/data/armors/174572472",
+    "rarity": 9,
+    "type": "ARMS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Minoto Waist": {
+    "name": "Minoto Waist",
+    "href": "https://mhrise.kiranico.com/data/armors/139969464",
+    "rarity": 9,
+    "type": "WAIST",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Minoto Legs": {
+    "name": "Minoto Legs",
+    "href": "https://mhrise.kiranico.com/data/armors/239584184",
+    "rarity": 9,
+    "type": "LEGS",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
   "Archfiend Armor Cerato": {
     "name": "Archfiend Armor Cerato",
     "href": "https://mhrise.kiranico.com/data/armors/1220532959",
@@ -37844,6 +38340,335 @@
   "Black Wing Earrings": {
     "name": "Black Wing Earrings",
     "href": "https://mhrise.kiranico.com/data/armors/762970380",
+    "rarity": 10,
+    "type": "HEAD",
+    "slots": [],
+    "stats": {
+      "defense": 0,
+      "fireRes": 0,
+      "waterRes": 0,
+      "iceRes": 0,
+      "thunderRes": 0,
+      "dragonRes": 0
+    },
+    "skills": []
+  },
+  "Rimeguard Helm": {
+    "name": "Rimeguard Helm",
+    "href": "https://mhrise.kiranico.com/data/armors/1403635608",
+    "rarity": 10,
+    "type": "HEAD",
+    "slots": [
+      3,
+      1
+    ],
+    "stats": {
+      "defense": 123,
+      "fireRes": -3,
+      "waterRes": 2,
+      "iceRes": 4,
+      "thunderRes": -1,
+      "dragonRes": -1
+    },
+    "skills": [
+      {
+        "name": "Grinder (S)",
+        "level": 3
+      },
+      {
+        "name": "Protective Polish",
+        "level": 1
+      },
+      {
+        "name": "Ammo Up",
+        "level": 3
+      }
+    ]
+  },
+  "Rimeguard Mail": {
+    "name": "Rimeguard Mail",
+    "href": "https://mhrise.kiranico.com/data/armors/1369032600",
+    "rarity": 10,
+    "type": "BODY",
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "stats": {
+      "defense": 123,
+      "fireRes": -3,
+      "waterRes": 2,
+      "iceRes": 4,
+      "thunderRes": -1,
+      "dragonRes": -1
+    },
+    "skills": [
+      {
+        "name": "Frostcraft",
+        "level": 1
+      },
+      {
+        "name": "Quick Sheathe",
+        "level": 3
+      }
+    ]
+  },
+  "Rimeguard Gloves": {
+    "name": "Rimeguard Gloves",
+    "href": "https://mhrise.kiranico.com/data/armors/1468647320",
+    "rarity": 10,
+    "type": "ARMS",
+    "slots": [
+      3,
+      2,
+      1
+    ],
+    "stats": {
+      "defense": 123,
+      "fireRes": -3,
+      "waterRes": 2,
+      "iceRes": 4,
+      "thunderRes": -1,
+      "dragonRes": -1
+    },
+    "skills": [
+      {
+        "name": "Frostcraft",
+        "level": 1
+      },
+      {
+        "name": "Critical Draw",
+        "level": 3
+      }
+    ]
+  },
+  "Rimeguard Coil": {
+    "name": "Rimeguard Coil",
+    "href": "https://mhrise.kiranico.com/data/armors/1434044312",
+    "rarity": 10,
+    "type": "WAIST",
+    "slots": [
+      3,
+      3,
+      2
+    ],
+    "stats": {
+      "defense": 123,
+      "fireRes": -3,
+      "waterRes": 2,
+      "iceRes": 4,
+      "thunderRes": -1,
+      "dragonRes": -1
+    },
+    "skills": [
+      {
+        "name": "Frostcraft",
+        "level": 1
+      },
+      {
+        "name": "Focus",
+        "level": 3
+      }
+    ]
+  },
+  "Rimeguard Greaves": {
+    "name": "Rimeguard Greaves",
+    "href": "https://mhrise.kiranico.com/data/armors/728352664",
+    "rarity": 10,
+    "type": "LEGS",
+    "slots": [
+      4,
+      1
+    ],
+    "stats": {
+      "defense": 123,
+      "fireRes": -3,
+      "waterRes": 2,
+      "iceRes": 4,
+      "thunderRes": -1,
+      "dragonRes": -1
+    },
+    "skills": [
+      {
+        "name": "Ice Attack",
+        "level": 5
+      },
+      {
+        "name": "Critical Element",
+        "level": 3
+      },
+      {
+        "name": "Element Exploit",
+        "level": 1
+      }
+    ]
+  },
+  "Valstrax Helm - Epoch": {
+    "name": "Valstrax Helm - Epoch",
+    "href": "https://mhrise.kiranico.com/data/armors/1552103353",
+    "rarity": 10,
+    "type": "HEAD",
+    "slots": [
+      4,
+      2
+    ],
+    "stats": {
+      "defense": 121,
+      "fireRes": -2,
+      "waterRes": -2,
+      "iceRes": -2,
+      "thunderRes": -2,
+      "dragonRes": 3
+    },
+    "skills": [
+      {
+        "name": "Dragon Conversion",
+        "level": 1
+      },
+      {
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ]
+  },
+  "Valstrax Mail - Epoch": {
+    "name": "Valstrax Mail - Epoch",
+    "href": "https://mhrise.kiranico.com/data/armors/1383282617",
+    "rarity": 10,
+    "type": "BODY",
+    "slots": [
+      4,
+      4
+    ],
+    "stats": {
+      "defense": 121,
+      "fireRes": -2,
+      "waterRes": -2,
+      "iceRes": -2,
+      "thunderRes": -2,
+      "dragonRes": 3
+    },
+    "skills": [
+      {
+        "name": "Dragon Conversion",
+        "level": 1
+      },
+      {
+        "name": "Dragon Resistance",
+        "level": 3
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ]
+  },
+  "Valstrax Braces - Epoch": {
+    "name": "Valstrax Braces - Epoch",
+    "href": "https://mhrise.kiranico.com/data/armors/1348679609",
+    "rarity": 10,
+    "type": "ARMS",
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "stats": {
+      "defense": 121,
+      "fireRes": -2,
+      "waterRes": -2,
+      "iceRes": -2,
+      "thunderRes": -2,
+      "dragonRes": 3
+    },
+    "skills": [
+      {
+        "name": "Critical Boost",
+        "level": 2
+      },
+      {
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ]
+  },
+  "Valstrax Coil - Epoch": {
+    "name": "Valstrax Coil - Epoch",
+    "href": "https://mhrise.kiranico.com/data/armors/1448294329",
+    "rarity": 10,
+    "type": "WAIST",
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "stats": {
+      "defense": 121,
+      "fireRes": -2,
+      "waterRes": -2,
+      "iceRes": -2,
+      "thunderRes": -2,
+      "dragonRes": 3
+    },
+    "skills": [
+      {
+        "name": "Dragon Conversion",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 3
+      },
+      {
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ]
+  },
+  "Valstrax Greaves - Epoch": {
+    "name": "Valstrax Greaves - Epoch",
+    "href": "https://mhrise.kiranico.com/data/armors/1413691321",
+    "rarity": 10,
+    "type": "LEGS",
+    "slots": [
+      4,
+      3
+    ],
+    "stats": {
+      "defense": 121,
+      "fireRes": -2,
+      "waterRes": -2,
+      "iceRes": -2,
+      "thunderRes": -2,
+      "dragonRes": 3
+    },
+    "skills": [
+      {
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "name": "Stun Resistance",
+        "level": 3
+      },
+      {
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ]
+  },
+  "Snowy Cohoot Earmuffs": {
+    "name": "Snowy Cohoot Earmuffs",
+    "href": "https://mhrise.kiranico.com/data/armors/791978178",
     "rarity": 10,
     "type": "HEAD",
     "slots": [],

@@ -2742,5 +2742,43 @@
         "description": "Further increases attack power in accordance with gauge length. Max out attack for an infinite stamina effect"
       }
     ]
+  },
+  {
+    "name": "Frostcraft",
+    "href": "https://mhrise.kiranico.com/data/skills/903072550",
+    "description": "An aura of frost builds when your weapon is sheathed, raising attack. The effect decreases with each melee hit or shot/arrow fired.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect"
+      },
+      {
+        "level": 2,
+        "description": "Extends the Frost Gauge"
+      },
+      {
+        "level": 3,
+        "description": "Extends the Frost Gauge even further"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Conversion",
+    "href": "https://mhrise.kiranico.com/data/skills/917846727",
+    "description": "When using the Red Swap Scroll, all elemental resistance is set to 0 and converted into elemental attack. The Blue Swap Scroll raises elemental resistance.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Activate effect. All elemental resistances +3"
+      },
+      {
+        "level": 2,
+        "description": "All elemental resistances +5. When using the Blue Swap Scroll, resistance buildup increases when continuously attacking"
+      },
+      {
+        "level": 3,
+        "description": "All elemental resistances +10. When using the Red Swap Scroll, the conversion rate for elemental attacks increases"
+      }
+    ]
   }
 ]

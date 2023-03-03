@@ -30,6 +30,11 @@
       "decoName": "Furor Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Furor Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Resuscitate": [
@@ -1050,6 +1055,11 @@
       "decoName": "Potential Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Potential Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Fortify": [
@@ -1139,6 +1149,13 @@
       "skillLevel": 1
     }
   ],
+  "Dragonheart": [
+    {
+      "decoName": "Dragon Spirit Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 1
+    }
+  ],
   "Wirebug Whisperer": [
     {
       "decoName": "Wirebug Jewel 2",
@@ -1218,11 +1235,23 @@
       "skillLevel": 2
     }
   ],
+  "Defiance": [
+    {
+      "decoName": "Hard Cornerstone Jewel 4",
+      "decoSize": 4,
+      "skillLevel": 3
+    }
+  ],
   "Sneak Attack": [
     {
       "decoName": "Backstab Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Backstab Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Adrenaline Rush": [
@@ -1230,6 +1259,11 @@
       "decoName": "Counterattack Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Counterattack Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Redirection": [
@@ -1268,6 +1302,11 @@
       "decoName": "Foray Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Foray Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Tune-Up": [
@@ -1320,11 +1359,42 @@
       "decoName": "Element Exploit Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
+    },
+    {
+      "decoName": "Element Exploit Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
     }
   ],
   "Burst": [
     {
       "decoName": "Chain Jewel 2",
+      "decoSize": 2,
+      "skillLevel": 1
+    },
+    {
+      "decoName": "Chain Jewel+ 4",
+      "decoSize": 4,
+      "skillLevel": 2
+    }
+  ],
+  "Status Trigger": [
+    {
+      "decoName": "Trigger Jewel 3",
+      "decoSize": 3,
+      "skillLevel": 1
+    }
+  ],
+  "Intrepid Heart": [
+    {
+      "decoName": "Intrepid Jewel 1",
+      "decoSize": 1,
+      "skillLevel": 1
+    }
+  ],
+  "Embolden": [
+    {
+      "decoName": "Embolden Jewel 2",
       "decoSize": 2,
       "skillLevel": 1
     }

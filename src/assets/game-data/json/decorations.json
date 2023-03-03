@@ -1960,5 +1960,113 @@
       "level": 1
     },
     "size": 3
+  },
+  "Embolden Jewel 2": {
+    "name": "Embolden Jewel 2",
+    "href": "https://mhrise.kiranico.com/data/decorations/487804973",
+    "skill": {
+      "name": "Embolden",
+      "level": 1
+    },
+    "size": 2
+  },
+  "Furor Jewel+ 4": {
+    "name": "Furor Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1969572974",
+    "skill": {
+      "name": "Resentment",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Dragon Spirit Jewel 4": {
+    "name": "Dragon Spirit Jewel 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/145249853",
+    "skill": {
+      "name": "Dragonheart",
+      "level": 1
+    },
+    "size": 4
+  },
+  "Element Exploit Jewel+ 4": {
+    "name": "Element Exploit Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/159483346",
+    "skill": {
+      "name": "Element Exploit",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Intrepid Jewel 1": {
+    "name": "Intrepid Jewel 1",
+    "href": "https://mhrise.kiranico.com/data/decorations/536119234",
+    "skill": {
+      "name": "Intrepid Heart",
+      "level": 1
+    },
+    "size": 1
+  },
+  "Hard Cornerstone Jewel 4": {
+    "name": "Hard Cornerstone Jewel 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/173733363",
+    "skill": {
+      "name": "Defiance",
+      "level": 3
+    },
+    "size": 4
+  },
+  "Backstab Jewel+ 4": {
+    "name": "Backstab Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/873829809",
+    "skill": {
+      "name": "Sneak Attack",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Foray Jewel+ 4": {
+    "name": "Foray Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/921617750",
+    "skill": {
+      "name": "Foray",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Counterattack Jewel+ 4": {
+    "name": "Counterattack Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/188491152",
+    "skill": {
+      "name": "Adrenaline Rush",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Trigger Jewel 3": {
+    "name": "Trigger Jewel 3",
+    "href": "https://mhrise.kiranico.com/data/decorations/473554956",
+    "skill": {
+      "name": "Status Trigger",
+      "level": 1
+    },
+    "size": 3
+  },
+  "Potential Jewel+ 4": {
+    "name": "Potential Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/1165684188",
+    "skill": {
+      "name": "Heroics",
+      "level": 2
+    },
+    "size": 4
+  },
+  "Chain Jewel+ 4": {
+    "name": "Chain Jewel+ 4",
+    "href": "https://mhrise.kiranico.com/data/decorations/935343479",
+    "skill": {
+      "name": "Burst",
+      "level": 2
+    },
+    "size": 4
   }
 }

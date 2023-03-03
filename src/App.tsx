@@ -22,6 +22,9 @@ function App() {
           Source code available on <ExternalLink href='https://github.com/lydianlights/mhr-build-planner'>Github</ExternalLink> -
           Powered by data from <ExternalLink href='https://mhrise.kiranico.com/'>Kiranico</ExternalLink>
         </FooterContent>
+        <LastUpdateFooter>
+          Updated 2023-03-03
+        </LastUpdateFooter>
       </Footer>
     </ThemedMantineProvider>
   );
@@ -40,4 +43,8 @@ const Footer = styled.div`
 
 const FooterContent = styled.div`
   padding: 10px 20px;
+`;
+
+const LastUpdateFooter = styled.div`
+  font-size: 14px;
 `;

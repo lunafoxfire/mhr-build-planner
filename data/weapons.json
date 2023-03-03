@@ -9179,6 +9179,46 @@
     ]
   },
   {
+    "name": "Winged Seraphyd",
+    "href": "https://mhrise.kiranico.com/data/weapons/148186106",
+    "type": "GREAT_SWORD",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 33
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
+    ]
+  },
+  {
     "name": "Wyvern's Perch I",
     "href": "https://mhrise.kiranico.com/data/weapons/638529389",
     "type": "GREAT_SWORD",
@@ -20233,6 +20273,47 @@
     ]
   },
   {
+    "name": "Noble Ana Palas",
+    "href": "https://mhrise.kiranico.com/data/weapons/8830017",
+    "type": "SWORD_AND_SHIELD",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 24
+      },
+      "status": null
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      30
+    ],
+    "maxSharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      80
+    ]
+  },
+  {
     "name": "Sleepy Shellsword I",
     "href": "https://mhrise.kiranico.com/data/weapons/963338126",
     "type": "SWORD_AND_SHIELD",
@@ -30296,6 +30377,47 @@
     ]
   },
   {
+    "name": "Untouched Hel",
+    "href": "https://mhrise.kiranico.com/data/weapons/186184149",
+    "type": "DUAL_BLADES",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 330,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 22
+      },
+      "status": null
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      30
+    ],
+    "maxSharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      80
+    ]
+  },
+  {
     "name": "Felyne Claws I",
     "href": "https://mhrise.kiranico.com/data/weapons/1023700705",
     "type": "DUAL_BLADES",
@@ -32631,7 +32753,7 @@
     ]
   },
   {
-    "name": "Oppressor's Abyss",
+    "name": "Oppressor's Law",
     "href": "https://mhrise.kiranico.com/data/weapons/1220230938",
     "type": "LONG_SWORD",
     "rarity": 10,
@@ -42192,6 +42314,46 @@
       50,
       50,
       130
+    ]
+  },
+  {
+    "name": "Reverent Elusarca",
+    "href": "https://mhrise.kiranico.com/data/weapons/170988179",
+    "type": "LONG_SWORD",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 330,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 25
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
     ]
   },
   {
@@ -53048,6 +53210,46 @@
     ]
   },
   {
+    "name": "Victorious Northlein",
+    "href": "https://mhrise.kiranico.com/data/weapons/94194848",
+    "type": "HAMMER",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 330,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 26
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
+    ]
+  },
+  {
     "name": "Teddybear I",
     "href": "https://mhrise.kiranico.com/data/weapons/943493039",
     "type": "HAMMER",
@@ -63317,6 +63519,46 @@
       50,
       50,
       130
+    ]
+  },
+  {
+    "name": "Sonorous Eisfyl",
+    "href": "https://mhrise.kiranico.com/data/weapons/513444900",
+    "type": "HUNTING_HORN",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 300,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 23
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
     ]
   },
   {
@@ -73788,6 +74030,47 @@
       50,
       50,
       130
+    ]
+  },
+  {
+    "name": "Knightly Ectis",
+    "href": "https://mhrise.kiranico.com/data/weapons/29619141",
+    "type": "LANCE",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 28
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
     ]
   },
   {
@@ -84564,6 +84847,46 @@
     ]
   },
   {
+    "name": "Vorpal Icefort",
+    "href": "https://mhrise.kiranico.com/data/weapons/906109386",
+    "type": "GUNLANCE",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 27
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
+    ]
+  },
+  {
     "name": "Canyne Cannon I",
     "href": "https://mhrise.kiranico.com/data/weapons/63752403",
     "type": "GUNLANCE",
@@ -95221,6 +95544,46 @@
     ]
   },
   {
+    "name": "Wicked Niddoq",
+    "href": "https://mhrise.kiranico.com/data/weapons/109388794",
+    "type": "SWITCH_AXE",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 29
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
+    ]
+  },
+  {
     "name": "Origami Axe I",
     "href": "https://mhrise.kiranico.com/data/weapons/888449045",
     "type": "SWITCH_AXE",
@@ -105021,6 +105384,46 @@
       50,
       50,
       130
+    ]
+  },
+  {
+    "name": "Regal Daruq",
+    "href": "https://mhrise.kiranico.com/data/weapons/1831615817",
+    "type": "CHARGE_BLADE",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 28
+      },
+      "status": null
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      20
+    ],
+    "maxSharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      30,
+      70
     ]
   },
   {
@@ -115368,6 +115771,46 @@
     ]
   },
   {
+    "name": "Wise Fylos",
+    "href": "https://mhrise.kiranico.com/data/weapons/374611075",
+    "type": "INSECT_GLAIVE",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 21
+      },
+      "status": null
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      30
+    ],
+    "maxSharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      30,
+      80
+    ]
+  },
+  {
     "name": "Deathport Staff I",
     "href": "https://mhrise.kiranico.com/data/weapons/227416074",
     "type": "INSECT_GLAIVE",
@@ -122253,6 +122696,30 @@
     "maxSharpness": []
   },
   {
+    "name": "Alluring Evelia",
+    "href": "https://mhrise.kiranico.com/data/weapons/1054459800",
+    "type": "BOW",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 340,
+      "affinity": 0,
+      "defense": 0,
+      "element": {
+        "type": "ice",
+        "power": 20
+      },
+      "status": null
+    },
+    "sharpness": [],
+    "maxSharpness": []
+  },
+  {
     "name": "Morsel Bowfish I",
     "href": "https://mhrise.kiranico.com/data/weapons/434165942",
     "type": "BOW",
@@ -127456,6 +127923,27 @@
     "stats": {
       "attack": 390,
       "affinity": -15,
+      "defense": 0,
+      "element": null,
+      "status": null
+    },
+    "sharpness": [],
+    "maxSharpness": []
+  },
+  {
+    "name": "Righteous Varka",
+    "href": "https://mhrise.kiranico.com/data/weapons/347073638",
+    "type": "HEAVY_BOWGUN",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 370,
+      "affinity": 0,
       "defense": 0,
       "element": null,
       "status": null
@@ -132733,6 +133221,27 @@
     "stats": {
       "attack": 380,
       "affinity": -15,
+      "defense": 0,
+      "element": null,
+      "status": null
+    },
+    "sharpness": [],
+    "maxSharpness": []
+  },
+  {
+    "name": "Graceful Almaria",
+    "href": "https://mhrise.kiranico.com/data/weapons/289665989",
+    "type": "LIGHT_BOWGUN",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "rampageSlots": [
+      3
+    ],
+    "stats": {
+      "attack": 350,
+      "affinity": 0,
       "defense": 0,
       "element": null,
       "status": null
